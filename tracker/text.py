@@ -1,0 +1,66 @@
+"""Small helpers shared by the board readers."""
+
+import html
+import json
+import re
+import time
+import urllib.error
+import urllib.request
+
+USER_AGENT = "Mozilla/5.0 (compatible; job-tracker; personal job search, one request per board per day)"
+
+RETRY_WAIT = 30  # seconds before trying a board again after a server error
+
+
+def fetch(url, data=None, headers=None, timeout=60):
+    """Download a URL and return its bytes. Pass data (bytes) to POST.
+
+    A server error (HTTP 5xx) or rate limit (429) is often a passing hiccup,
+    so it is tried once more after a short wait before the board counts as failed.
+    """
+    request = urllib.request.Request(url, data=data, headers={"User-Agent": USER_AGENT, **(headers or {})})
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as resp:
+            return resp.read()
+    except urllib.error.HTTPError as error:
+        if error.code < 500 and error.code != 429:
+            raise
+    time.sleep(RETRY_WAIT)
+    with urllib.request.urlopen(request, timeout=timeout) as resp:
+        return resp.read()
+
+
+def get_json(url, body=None):
+    """GET a URL as JSON, or POST body (a dict) as JSON and read the JSON answer."""
+    if body is None:
+        return json.loads(fetch(url, headers={"Accept": "application/json"}))
+    data = json.dumps(body).encode()
+    return json.loads(fetch(url, data=data, headers={"Accept": "application/json", "Content-Type": "application/json"}))
+
+
+def clean(text):
+    """Strip HTML tags and entities and collapse whitespace.
+
+    Greenhouse escapes its HTML once more, so entities are decoded before and after the tags go.
+    """
+    text = html.unescape(text or "")
+    text = re.sub(r"<(br|/p|/li|/h\d)[^>]*>", "\n", text, flags=re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    text = re.sub(r"[ \t\r\f\v]+", " ", text)
+    return re.sub(r"\s*\n\s*", "\n", text).strip()
+
+
+def day(value):
+    """ISO timestamp, epoch milliseconds or 'October 10, 2026' -> 'YYYY-MM-DD'; blank if unknown."""
+    if value in (None, ""):
+        return ""
+    if isinstance(value, (int, float)):
+        return time.strftime("%Y-%m-%d", time.gmtime(value / 1000))
+    match = re.match(r"(\d{4}-\d{2}-\d{2})", str(value))
+    if match:
+        return match.group(1)
+    try:
+        return time.strftime("%Y-%m-%d", time.strptime(str(value).strip(), "%B %d, %Y"))
+    except ValueError:
+        return ""

@@ -1,0 +1,6 @@
+{"jobs": [
+ {"id": "d1", "title": "Hardware Product Manager", "location": "New York, NY", "secondaryLocations": [{"location": "Remote - US"}],
+  "department": "Product", "team": "Robotics", "isRemote": false, "workplaceType": "Hybrid", "publishedAt": "2026-10-13T12:00:00.000+00:00",
+  "jobUrl": "https://jobs.ashbyhq.com/standardbots/d1", "descriptionPlain": "Own the robot arm roadmap.", "isListed": true},
+ {"id": "d2", "title": "Hidden role", "location": "Remote", "isListed": false, "jobUrl": "x", "descriptionPlain": ""}
+]}

@@ -1,0 +1,22 @@
+{
+ "name": "CADDi",
+ "jobs": [
+  {
+   "title": "Senior Product Manager, Procurement",
+   "shortcode": "ABC123",
+   "url": "https://apply.workable.com/j/ABC123",
+   "telecommuting": false,
+   "department": "Product",
+   "published_on": "2026-10-12",
+   "locations": [
+    {
+     "city": "Chicago",
+     "region": "Illinois",
+     "country": "United States"
+    }
+   ],
+   "description": "<p>Sourcing platform for manufacturers.</p>",
+   "requirements": "<p>Master of Business Administration a plus.</p>"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "jobs": [
+  {
+   "id": 7001,
+   "title": "Technical Program Manager, Hardware NPI",
+   "absolute_url": "https://stripe.com/jobs/7001",
+   "location": {
+    "name": "South San Francisco, CA"
+   },
+   "updated_at": "2026-10-12T10:00:00-04:00",
+   "first_published": "2026-10-10T09:00:00-04:00",
+   "departments": [
+    {
+     "name": "Terminal"
+    }
+   ],
+   "content": "&lt;p&gt;Lead &lt;strong&gt;NPI&lt;/strong&gt; programs for Terminal hardware.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;5+ years in hardware program management&lt;/li&gt;&lt;/ul&gt;"
+  },
+  {
+   "id": 7002,
+   "title": "Software Engineer, Payments",
+   "absolute_url": "https://stripe.com/jobs/7002",
+   "location": {
+    "name": "Seattle, WA"
+   },
+   "updated_at": "2026-10-12T10:00:00-04:00",
+   "departments": []
+  },
+  {
+   "id": 7003,
+   "title": "Product Manager, Billing",
+   "absolute_url": "https://stripe.com/jobs/7003",
+   "location": {
+    "name": "Dublin, Ireland"
+   },
+   "updated_at": "2026-10-11T10:00:00-04:00",
+   "departments": []
+  },
+  {
+   "id": 7004,
+   "title": "Director, Product Management",
+   "absolute_url": "https://stripe.com/jobs/7004",
+   "location": {
+    "name": "New York, NY"
+   },
+   "updated_at": "2026-10-11T10:00:00-04:00",
+   "departments": []
+  },
+  {
+   "id": 7005,
+   "title": "Strategy and Business Operations Associate",
+   "absolute_url": "https://stripe.com/jobs/7005",
+   "location": {
+    "name": "Chicago, IL"
+   },
+   "updated_at": "2026-10-12T10:00:00-04:00",
+   "departments": [],
+   "content": "&lt;p&gt;MBA preferred. We will not sponsor visas.&lt;/p&gt;"
+  },
+  {
+   "id": 7006,
+   "title": "Enterprise Sales Manager",
+   "absolute_url": "https://stripe.com/jobs/7006",
+   "location": {
+    "name": "Chicago, IL"
+   },
+   "updated_at": "2026-10-12T10:00:00-04:00",
+   "departments": [],
+   "content": "&lt;p&gt;MBA preferred.&lt;/p&gt;"
+  }
+ ]
+}

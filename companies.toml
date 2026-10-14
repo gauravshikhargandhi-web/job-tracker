@@ -1,0 +1,335 @@
+# My target companies and where each one posts jobs. Built from company-map.xlsx (66 companies, A to Z).
+#
+# board = greenhouse | lever | ashby | workable | smartrecruiters : slug is the name in the board's address,
+#   e.g. job-boards.greenhouse.io/stripe -> slug = "stripe", jobs.ashbyhq.com/openai -> slug = "openai".
+# board = workday : url is the career site address, e.g. https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+# board = amazon : no slug needed.
+# board = "not_yet" : the company's own careers site, which needs its own reader; not read yet.
+#
+# To add a company, add a block. `python -m tracker.find "Company"` tries the usual Greenhouse, Lever and Ashby names.
+# Lines marked "check" are guesses from the company map; the first run's data/summary.csv says whether they work.
+
+[[company]]
+name = "AbbVie"
+board = "smartrecruiters"
+slug = "AbbVie"
+
+[[company]]
+name = "Adobe"
+board = "workday"
+url = "https://adobe.wd5.myworkdayjobs.com/external_experienced"
+
+[[company]]
+name = "Airbnb"
+board = "greenhouse"
+slug = "airbnb"  # check
+
+[[company]]
+name = "ALSO"
+board = "ashby"
+slug = "ridealso"
+
+[[company]]
+name = "Alvarez & Marsal"
+board = "not_yet"
+site = "https://careers.alvarezandmarsal.com"  # Own careers site
+
+[[company]]
+name = "Amazon"
+board = "amazon"
+
+[[company]]
+name = "Apple"
+board = "not_yet"
+site = "https://jobs.apple.com"  # Own careers site
+
+[[company]]
+name = "Applied Intuition"
+board = "greenhouse"
+slug = "appliedintuition"  # check
+
+[[company]]
+name = "Bain"
+board = "not_yet"
+site = "https://careers.bain.com"  # Own careers site
+
+[[company]]
+name = "Bain Capital"
+board = "workday"
+url = "https://baincapital.wd1.myworkdayjobs.com/external_public"
+
+[[company]]
+name = "Base Power"
+board = "ashby"
+slug = "base-power"
+
+[[company]]
+name = "BCG"
+board = "not_yet"
+site = "https://experiencedtalent.bcg.com"  # Eightfold (experiencedtalent.bcg.com)
+
+[[company]]
+name = "bp"
+board = "workday"
+url = "https://bpinternational.wd3.myworkdayjobs.com/bpcareers"
+
+[[company]]
+name = "Broccoli"
+board = "ashby"
+slug = "broccoli"
+
+[[company]]
+name = "Brooks Running"
+board = "lever"
+slug = "brooksrunning"  # check
+
+[[company]]
+name = "CADDi"
+board = "workable"
+slug = "caddi"
+
+[[company]]
+name = "Capital One"
+board = "workday"
+url = "https://capitalone.wd12.myworkdayjobs.com/capital_one"
+
+[[company]]
+name = "Co280"
+board = "not_yet"
+site = "https://www.co280.com"  # Own website (small firm)
+
+[[company]]
+name = "Cox Enterprises"
+board = "workday"
+url = "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1"
+
+[[company]]
+name = "Crowe"
+board = "workday"
+url = "https://crowe.wd12.myworkdayjobs.com/external_careers"
+
+[[company]]
+name = "Deloitte"
+board = "not_yet"
+site = "https://apply.deloitte.com"  # Own careers site (apply.deloitte.com, Avature behind it)
+
+[[company]]
+name = "DoorDash"
+board = "greenhouse"
+slug = "doordashusa"
+
+[[company]]
+name = "Fictiv"
+board = "greenhouse"
+slug = "fictiv"
+
+[[company]]
+name = "Flexport"
+board = "greenhouse"
+slug = "flexport"
+
+[[company]]
+name = "Form Energy"
+board = "ashby"
+slug = "formenergy"
+
+[[company]]
+name = "Formic"
+board = "greenhouse"
+slug = "formic"
+
+[[company]]
+name = "Fortune Brands"
+board = "smartrecruiters"
+slug = "FortuneBrands"
+
+[[company]]
+name = "gener8tor"
+board = "not_yet"
+site = "https://www.gener8tor.com"  # Own website
+
+[[company]]
+name = "Google"
+board = "not_yet"
+site = "https://www.google.com/about/careers/applications/jobs/results"  # Own careers site
+
+[[company]]
+name = "Grainger"
+board = "not_yet"
+site = "https://jobs.grainger.com"  # SuccessFactors (behind jobs.grainger.com)
+
+[[company]]
+name = "IA Collaborative"
+board = "ashby"
+slug = "iacollaborative"
+
+[[company]]
+name = "Intuitive"
+board = "not_yet"
+site = "https://careers.intuitive.com"  # Own careers site (careers.intuitive.com)
+
+[[company]]
+name = "Invenergy"
+board = "workday"
+url = "https://invenergyllc.wd1.myworkdayjobs.com/invenergycareers"
+
+[[company]]
+name = "It's Electric"
+board = "workable"
+slug = "itselectric"
+
+[[company]]
+name = "ITW"
+board = "not_yet"
+site = "https://careers.itw.com"  # Own careers site (careers.itw.com)
+
+[[company]]
+name = "Kraft Heinz"
+board = "not_yet"
+site = "https://jobs.kraftheinz.com"  # Own careers site (jobs.kraftheinz.com)
+
+[[company]]
+name = "LEGO Group"
+board = "workday"
+url = "https://lego.wd103.myworkdayjobs.com/lego_external"
+
+[[company]]
+name = "Lowe's"
+board = "workday"
+url = "https://lowes.wd5.myworkdayjobs.com/lws_external_cs"
+
+[[company]]
+name = "Mars"
+board = "workday"
+url = "https://mars.wd3.myworkdayjobs.com/external"
+
+[[company]]
+name = "McKinsey"
+board = "not_yet"
+site = "https://www.mckinsey.com/careers/search-jobs"  # Own careers site
+
+[[company]]
+name = "mHUB"
+board = "not_yet"
+site = "https://www.mhubchicago.com"  # Job board for Chicago hardware startups, not one company
+
+[[company]]
+name = "Microsoft"
+board = "not_yet"
+site = "https://apply.careers.microsoft.com"  # Own careers site (Eightfold behind it)
+
+[[company]]
+name = "Mutares"
+board = "not_yet"
+site = "https://career.mutares.com"  # Own careers site
+
+[[company]]
+name = "Nestlé"
+board = "not_yet"
+site = "https://www.nestlejobs.com"  # SuccessFactors
+
+[[company]]
+name = "NVIDIA"
+board = "workday"
+url = "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+
+[[company]]
+name = "OpenAI"
+board = "ashby"
+slug = "openai"
+
+[[company]]
+name = "Oura"
+board = "greenhouse"
+slug = "oura"
+
+[[company]]
+name = "Pure Storage"
+board = "greenhouse"
+slug = "purestorage"
+
+[[company]]
+name = "PwC"
+# PwC Strategy& US jobs are on this same site
+board = "workday"
+url = "https://pwc.wd3.myworkdayjobs.com/us_experienced_careers"
+
+[[company]]
+name = "Quince"
+board = "greenhouse"
+slug = "quince"
+
+[[company]]
+name = "Rivian"
+board = "not_yet"
+site = "https://careers.rivian.com"  # iCIMS (behind careers.rivian.com)
+
+[[company]]
+name = "S&C Electric"
+board = "not_yet"
+site = "https://ejia.fa.us6.oraclecloud.com"  # Oracle
+
+[[company]]
+name = "Samsara"
+board = "greenhouse"
+slug = "samsara"  # check
+
+[[company]]
+name = "Slalom"
+board = "not_yet"
+site = "https://jobs.slalom.com"  # Own careers site
+
+[[company]]
+name = "Specter"
+board = "ashby"
+slug = "specter"
+
+[[company]]
+name = "Standard Bots"
+board = "ashby"
+slug = "standardbots"
+
+[[company]]
+name = "Starbucks"
+board = "not_yet"
+site = "https://apply.starbucks.com"  # Eightfold (apply.starbucks.com)
+
+[[company]]
+name = "Stripe"
+board = "greenhouse"
+slug = "stripe"  # check
+
+[[company]]
+name = "Tempus AI"
+board = "workday"
+url = "https://tempus.wd5.myworkdayjobs.com/tempus_careers"
+
+[[company]]
+name = "Tesla"
+board = "not_yet"
+site = "https://www.tesla.com/careers"  # Own careers site (blocks automated reading)
+
+[[company]]
+name = "Tyba"
+board = "ashby"
+slug = "tyba"
+
+[[company]]
+name = "UL Solutions"
+board = "not_yet"
+site = "https://www.ul.com/about/careers"  # Oracle
+
+[[company]]
+name = "Via"
+board = "greenhouse"
+slug = "via"
+
+[[company]]
+name = "WHOOP"
+board = "lever"
+slug = "whoop"
+
+[[company]]
+name = "Zoox"
+board = "lever"
+slug = "zoox"

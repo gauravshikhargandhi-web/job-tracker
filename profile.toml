@@ -1,0 +1,109 @@
+# What counts as a job for me. Edit this file to change what lands in data/matches.csv.
+# Every open job read from the companies in companies.toml is in data/jobs.csv either way.
+#
+# Words ignore case and are written in full, no short forms (MBA is the one exception,
+# because job descriptions write it that way).
+# Title and description words match the start of a word ("manufactur" would catch manufacturing).
+# Drop words and places match whole words only ("India" doesn't catch Indiana).
+
+name = "GaGa"
+
+# A job matches when its title has a word from any of these groups.
+[titles]
+product = [
+  "product manager", "product management", "product lead", "product owner",
+  "associate product manager", "technical product manager", "hardware product manager",
+  "product operations", "product strategy", "product planning",
+]
+program = [
+  "program manager", "program management", "program lead",
+  "technical program manager", "engineering program manager",
+  "new product introduction program manager", "product program manager",
+  "operations program manager", "strategic program manager",
+]
+# Plain "project manager" is left out on purpose: it pulls in many construction and IT jobs.
+project = ["technical project manager", "new product introduction project manager"]
+new_product_and_manufacturing = [
+  "new product introduction", "new product development", "new product", "product development",
+  "product launch", "launch manager", "industrialization",
+  "manufacturing program", "manufacturing operations", "manufacturing engineering manager", "manufacturing strategy",
+  "operational excellence", "continuous improvement manager", "supply chain program",
+]
+sustainability = [
+  "sustainability", "sustainable", "decarbonization", "climate", "carbon", "net zero",
+  "environmental, social and governance", "energy transition", "circular economy", "circularity",
+  "life cycle assessment", "environmental program",
+]
+
+# A job also matches, whatever its title, when its description has one of these.
+[descriptions]
+business_degree = [
+  "MBA preferred", "MBA required", "MBA a plus", "MBA is a plus", "MBA or equivalent", "MBA graduate",
+  "recent MBA", "post-MBA", "MBA program", "MBA class of", "MBA associate", "MBA degree", "MBA strongly preferred",
+  "Master of Business Administration", "business administration", "master's in business",
+  "masters in business", "advanced degree in business",
+  "rotational program", "leadership development program",
+]
+
+[drop]
+# Jobs whose title has any of these are dropped, even when a rule above matched.
+titles = [
+  # not a full-time job
+  "intern", "internship", "co-op", "apprentice", "apprenticeship", "contractor", "temporary", "part-time",
+  # too senior
+  "director", "vice president", "head of", "principal", "staff",
+  # other fields
+  "construction", "property", "clinical", "nurse", "sales", "account manager",
+  # factory floor
+  "technician", "operator", "assembler", "machinist", "maintenance", "production associate",
+  "line lead", "shift supervisor",
+]
+# Jobs whose description has any of these are dropped.
+descriptions = [
+  "security clearance", "top secret", "U.S. citizenship is required", "US citizenship is required",
+  "must be a U.S. citizen", "must be a US citizen",
+]
+# Jobs where every listed place is one of these are dropped (places outside the US).
+places = [
+  "Canada", "Toronto", "Vancouver", "Montreal", "Mexico", "Brazil", "Argentina", "Colombia", "Chile", "Costa Rica",
+  "United Kingdom", "UK", "London", "Ireland", "Dublin", "Germany", "Berlin", "Munich", "France", "Paris",
+  "Netherlands", "Amsterdam", "Spain", "Madrid", "Barcelona", "Italy", "Milan", "Poland", "Warsaw", "Switzerland",
+  "Zurich", "Sweden", "Stockholm", "Denmark", "Billund", "Copenhagen", "Belgium", "Austria", "Czech", "Hungary",
+  "Portugal", "Lisbon", "Israel", "Tel Aviv", "India", "Bangalore", "Bengaluru", "Hyderabad", "Pune", "Mumbai",
+  "Delhi", "Gurgaon", "Gurugram", "Chennai", "China", "Shanghai", "Beijing", "Shenzhen", "Hong Kong", "Taiwan",
+  "Taipei", "Japan", "Tokyo", "Korea", "Seoul", "Singapore", "Malaysia", "Philippines", "Vietnam", "Thailand",
+  "Indonesia", "Australia", "Sydney", "Melbourne", "New Zealand", "Dubai", "United Arab Emirates", "Saudi",
+  "Qatar", "South Africa", "Nigeria", "Kenya", "Egypt", "Turkey", "Istanbul", "Finland", "Norway", "Oslo",
+  "Europe", "Asia", "Pacific", "Latin America",
+]
+
+# Phrases that mean the company won't sponsor a visa. These jobs are kept but marked "No sponsorship".
+[sponsorship]
+none = [
+  "unable to sponsor", "not able to sponsor", "will not sponsor", "does not sponsor", "cannot sponsor",
+  "not offer visa sponsorship", "not provide visa sponsorship", "without sponsorship",
+  "without the need for sponsorship", "no visa sponsorship", "sponsorship is not available",
+  "not eligible for sponsorship", "not sponsor",
+]
+
+# The area column, so jobs in these places are easy to sort to the top.
+[areas]
+Chicago = ["Chicago", "Illinois"]
+"New York" = ["New York", "Brooklyn", "Manhattan", "Jersey City"]
+Seattle = ["Seattle", "Bellevue", "Redmond", "Kirkland"]
+"Bay Area" = ["San Francisco", "Bay Area", "Palo Alto", "Mountain View", "Sunnyvale", "San Jose", "Santa Clara",
+              "Menlo Park", "Redwood City", "San Mateo", "Foster City", "Oakland", "Berkeley", "Fremont",
+              "Cupertino", "South San Francisco", "Emeryville", "Hayward", "Milpitas"]
+Remote = ["Remote"]
+
+# Big career sites (Workday, SmartRecruiters, Amazon) hold thousands of jobs, so they are searched
+# with these words instead of read in full. Their search also looks inside descriptions.
+[search]
+# The description words come first, so a job they find is marked found by them.
+words = [
+  "MBA", "business administration",
+  "product manager", "program manager", "product operations", "new product introduction",
+  "new product development", "manufacturing program", "sustainability", "climate", "decarbonization",
+]
+# Jobs these words found are matched on their description, so their job page is opened to read it.
+description_words = ["MBA", "business administration"]
