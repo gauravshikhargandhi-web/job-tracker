@@ -1,4 +1,32 @@
-{"total": 2, "jobPostings": [
- {"title": "Senior Technical Program Manager - NPI", "externalPath": "/job/US-CA-Santa-Clara/Senior-TPM_JR2001234", "locationsText": "US, CA, Santa Clara", "postedOn": "Posted Today", "bulletFields": ["JR2001234"]},
- {"title": "Principal Program Manager", "externalPath": "/job/US-CA-Santa-Clara/Principal-PM_JR2001235", "locationsText": "2 Locations", "postedOn": "Posted Yesterday", "bulletFields": ["JR2001235"]}
-]}
+{
+ "total": 3,
+ "jobPostings": [
+  {
+   "title": "Senior Technical Program Manager - NPI",
+   "externalPath": "/job/US-CA-Santa-Clara/Senior-TPM_JR2001234",
+   "locationsText": "US, CA, Santa Clara",
+   "postedOn": "Posted Today",
+   "bulletFields": [
+    "JR2001234"
+   ]
+  },
+  {
+   "title": "Principal Program Manager",
+   "externalPath": "/job/US-CA-Santa-Clara/Principal-PM_JR2001235",
+   "locationsText": "2 Locations",
+   "postedOn": "Posted 30+ Days Ago",
+   "bulletFields": [
+    "JR2001235"
+   ]
+  },
+  {
+   "title": "Program Manager, Munich",
+   "externalPath": "/job/DE-Munich/PM_JR3",
+   "locationsText": "Munich, Germany",
+   "postedOn": "Posted Yesterday",
+   "bulletFields": [
+    "JR3"
+   ]
+  }
+ ]
+}

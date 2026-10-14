@@ -6,7 +6,7 @@ API = "https://api.ashbyhq.com/posting-api/job-board/{slug}"
 WORKPLACE = {"Remote": "Remote", "Hybrid": "Hybrid", "OnSite": "On-site"}
 
 
-def collect(company, cfg, queries=None):
+def collect(company, cfg, today=None, since=""):
     data = get_json(API.format(slug=cfg["slug"]))
     return [parse(company, job) for job in data.get("jobs", []) if job.get("isListed", True)]
 

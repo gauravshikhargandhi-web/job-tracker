@@ -5,7 +5,7 @@ from tracker.text import clean, day, get_json
 API = "https://apply.workable.com/api/v1/widget/accounts/{slug}?details=true"
 
 
-def collect(company, cfg, queries=None):
+def collect(company, cfg, today=None, since=""):
     data = get_json(API.format(slug=cfg["slug"]))
     return [parse(company, cfg, job) for job in data.get("jobs", [])]
 
@@ -20,6 +20,7 @@ def parse(company, cfg, job):
         "company": company,
         "title": job.get("title", "").strip(),
         "location": location,
+        "country": "; ".join(sorted({loc.get("country", "") for loc in places if loc.get("country")})),
         "remote": "Remote" if job.get("telecommuting") else "",
         "department": job.get("department", ""),
         "posted": day(job.get("published_on") or job.get("created_at")),

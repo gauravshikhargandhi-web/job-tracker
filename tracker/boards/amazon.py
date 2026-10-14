@@ -1,4 +1,4 @@
-"""amazon.jobs, the public search JSON the site uses, no key. US jobs only, searched per query."""
+"""amazon.jobs, the public search JSON the site uses, no key. US jobs, newest first, read back to a cutoff date."""
 
 import urllib.parse
 
@@ -6,23 +6,23 @@ from tracker.text import clean, day, get_json
 
 API = "https://www.amazon.jobs/en/search.json"
 PAGE = 100
-MAX_PER_QUERY = 500
+MAX_JOBS = 10000
 
 
-def collect(company, cfg, queries=()):
-    seen = {}
-    for query in queries or [""]:
-        offset = 0
-        while offset < MAX_PER_QUERY:
-            params = urllib.parse.urlencode([("base_query", query), ("result_limit", PAGE), ("offset", offset),
-                                             ("sort", "recent"), ("normalized_country_code[]", cfg.get("country", "USA"))])
-            data = get_json(f"{API}?{params}")
-            for job in data.get("jobs") or []:
-                row = parse(company, job)
-                seen.setdefault(row["key"], dict(row, found_by=query))
-            offset += PAGE
-            if offset >= (data.get("hits") or 0):
-                break
+def collect(company, cfg, today, since=""):
+    """Every US job, newest first, stopping once jobs are older than since (YYYY-MM-DD)."""
+    seen, offset = {}, 0
+    while offset < MAX_JOBS:
+        params = urllib.parse.urlencode([("result_limit", PAGE), ("offset", offset), ("sort", "recent"),
+                                         ("normalized_country_code[]", cfg.get("country", "USA"))])
+        data = get_json(f"{API}?{params}")
+        jobs = data.get("jobs") or []
+        rows = [parse(company, job) for job in jobs]
+        for row in rows:
+            seen[row["key"]] = row
+        offset += PAGE
+        if not jobs or offset >= (data.get("hits") or 0) or (since and all(r["posted"] and r["posted"] < since for r in rows)):
+            break
     return list(seen.values())
 
 
@@ -35,6 +35,7 @@ def parse(company, job):
         "company": company,
         "title": job.get("title", "").strip(),
         "location": job.get("normalized_location") or job.get("location", ""),
+        "country": "USA",
         "remote": "",
         "department": job.get("business_category", "") or job.get("job_category", ""),
         "posted": day(job.get("posted_date")),

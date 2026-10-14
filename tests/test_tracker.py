@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from unittest import mock
 
-from tracker import boards, pool, profile, run, text
+from tracker import boards, run, text, us
 from tracker.boards import amazon, ashby, greenhouse, lever, smartrecruiters, workable, workday
 
 HERE = os.path.dirname(__file__)
@@ -27,7 +27,12 @@ def fake_fetch(url, data=None, headers=None, timeout=60):
     if "ashbyhq.com" in url:
         return sample("sample_ashby.json")
     if "myworkdayjobs.com" in url:
-        return sample("sample_workday.json" if url.endswith("/jobs") else "sample_workday_job.json")
+        if url.endswith("/jobs"):
+            return sample("sample_workday.json")
+        if url.endswith("_JR3"):
+            return json.dumps({"jobPostingInfo": {"startDate": "2026-10-13", "location": "Munich",
+                                                  "country": {"descriptor": "Germany"}, "jobDescription": "x"}}).encode()
+        return sample("sample_workday_job.json")
     if "smartrecruiters.com" in url:
         if "/postings/" in url:
             return json.dumps({"jobAd": {"sections": {"jobDescription": {"text": "<p>Own connected devices.</p>"}}}}).encode()
@@ -39,7 +44,8 @@ def fake_fetch(url, data=None, headers=None, timeout=60):
     raise AssertionError(url)
 
 
-PROFILE = profile.load(os.path.join(ROOT, "profile.toml"))
+
+TODAY = datetime.date(2026, 10, 14)
 
 
 class BoardTests(unittest.TestCase):
@@ -49,115 +55,78 @@ class BoardTests(unittest.TestCase):
         self.addCleanup(patcher.stop)
 
     def test_greenhouse(self):
-        rows = greenhouse.collect("Stripe", {"slug": "stripe"})
+        rows = greenhouse.collect("Stripe", {"slug": "stripe"}, TODAY)
         self.assertEqual(len(rows), 6)
         tpm = rows[0]
         self.assertEqual(tpm["key"], "Stripe:gh7001")
         self.assertEqual(tpm["posted"], "2026-10-10")
-        self.assertEqual(tpm["department"], "Terminal")
-        self.assertEqual(boards.describe(tpm), "Lead NPI programs for Terminal hardware.\n5+ years in hardware program management")
-        self.assertEqual(rows[1]["description"], "")
+        self.assertEqual(rows[1]["posted"], "")  # updated_at is not the posting date
+        self.assertEqual(tpm["description"], "Lead NPI programs for Terminal hardware.\n5+ years in hardware program management")
 
     def test_lever(self):
-        (row,) = lever.collect("Zoox", {"slug": "zoox"})
+        (row,) = lever.collect("Zoox", {"slug": "zoox"}, TODAY)
         self.assertEqual(row["location"], "Foster City, CA; Seattle, WA")
-        self.assertEqual(row["remote"], "Hybrid")
         self.assertIn("3+ years of operations", row["description"])
         self.assertEqual(row["posted"], "2025-10-09")
 
     def test_ashby_skips_unlisted(self):
-        (row,) = ashby.collect("Standard Bots", {"slug": "standardbots"})
+        (row,) = ashby.collect("Standard Bots", {"slug": "standardbots"}, TODAY)
         self.assertEqual(row["location"], "New York, NY; Remote - US")
-        self.assertEqual(row["remote"], "Hybrid")
+        self.assertEqual(row["posted"], "2026-10-13")
 
-    def test_workday(self):
+    def test_workday_reads_every_job_and_the_page_gives_the_date(self):
         cfg = {"url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite"}
-        rows = workday.collect("NVIDIA", cfg, ["MBA", "program manager"])
-        self.assertEqual(len(rows), 2)  # the same jobs from two searches are kept once
+        rows = workday.collect("NVIDIA", cfg, TODAY)
+        self.assertEqual([r["posted"] for r in rows], ["2026-10-14", "", "2026-10-13"])
         row = rows[0]
-        self.assertEqual(row["found_by"], "MBA")  # the first word that found it
-        self.assertEqual(row["key"], "NVIDIA:wdJR2001234")
         self.assertEqual(row["link"], "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-TPM_JR2001234")
         self.assertIn("security clearance", boards.describe(row))
+        self.assertEqual(row["location"], "US, CA, Santa Clara; Seattle, WA")
+        self.assertEqual(row["country"], "United States of America")
+
+    def test_workday_posted_text(self):
+        self.assertEqual(workday.posted_on("Posted Today", TODAY), "2026-10-14")
+        self.assertEqual(workday.posted_on("Posted Yesterday", TODAY), "2026-10-13")
+        self.assertEqual(workday.posted_on("Posted 3 Days Ago", TODAY), "2026-10-11")
+        self.assertEqual(workday.posted_on("Posted 30+ Days Ago", TODAY), "")
 
     def test_smartrecruiters(self):
-        (row,) = smartrecruiters.collect("Bosch", {"slug": "BoschGroup"}, ["product manager"])
+        (row,) = smartrecruiters.collect("Bosch", {"slug": "BoschGroup"}, TODAY)
         self.assertEqual(row["location"], "Broadview, IL, US")
         self.assertEqual(boards.describe(row), "Own connected devices.")
 
     def test_workable(self):
-        (row,) = workable.collect("CADDi", {"slug": "caddi"})
-        self.assertEqual(row["location"], "Chicago, Illinois, United States")
+        (row,) = workable.collect("CADDi", {"slug": "caddi"}, TODAY)
+        self.assertEqual(row["country"], "United States")
         self.assertEqual(row["posted"], "2026-10-12")
         self.assertIn("Master of Business Administration", row["description"])
 
     def test_amazon(self):
-        (row,) = amazon.collect("Amazon", {}, ["program manager"])
+        (row,) = amazon.collect("Amazon", {}, TODAY, "2026-10-13")
         self.assertEqual(row["posted"], "2026-10-10")
-        self.assertEqual(row["link"], "https://www.amazon.jobs/en/jobs/3100001/sr-technical-program-manager")
         self.assertIn("Preferred qualifications: MBA", row["description"])
 
 
-class ProfileTests(unittest.TestCase):
-    def row(self, title, location="Chicago, IL", remote=""):
-        return {"title": title, "location": location, "remote": remote}
-
-    def test_titles(self):
-        m = lambda t: profile.title_match(PROFILE, t)
-        self.assertEqual(m("Sr. Technical Program Manager"), "program: technical program manager")
-        self.assertEqual(m("Product Manager, Robotics"), "product: product manager")
-        self.assertEqual(m("Technical Project Manager"), "project: technical project manager")
-        self.assertEqual(m("New Product Introduction Engineer"), "new_product_and_manufacturing: new product introduction")
-        self.assertEqual(m("Manager, Sustainability Strategy"), "sustainability: sustainability")
-        self.assertEqual(m("Climate Partnerships Lead"), "sustainability: climate")
-        self.assertEqual(m("Project Manager"), "")  # plain project manager is left out
-        self.assertEqual(m("Product Marketing Manager"), "")
-        self.assertEqual(m("Software Engineer"), "")
-
-    def test_descriptions(self):
-        m = lambda t: profile.description_match(PROFILE, t)
-        self.assertEqual(m("An MBA preferred, or equivalent."), "business_degree: MBA preferred")
-        self.assertEqual(m("Master of Business Administration a plus"), "business_degree: Master of Business Administration")
-        self.assertEqual(m("Bachelor's in business administration or finance"), "business_degree: business administration")
-        self.assertEqual(m("Bachelor's in engineering"), "")
-
-    def test_drops(self):
-        d = lambda *a: profile.drop_title(PROFILE, self.row(*a))
-        self.assertEqual(d("Director, Product"), "title: director")
-        self.assertEqual(d("Product Manager Intern"), "title: intern")
-        self.assertEqual(d("Production Associate, New Product Introduction"), "title: production associate")
-        self.assertEqual(d("Maintenance Program Manager"), "title: maintenance")
-        self.assertEqual(d("International Program Manager"), "")  # "intern" is a whole word only
-        self.assertEqual(d("Salesforce Product Manager"), "")     # so is "sales"
-        self.assertEqual(d("Product Manager", "Dublin, Ireland"), "location: Dublin, Ireland")
-        self.assertEqual(d("Product Manager", "London; New York, NY"), "")
-        self.assertEqual(d("Product Manager", "Austin, TX; Remote - US"), "")
-        self.assertEqual(d("Product Manager", "3 Locations"), "")  # real places not known yet
-        self.assertEqual(d("Product Manager", "Nashville, Tennessee, USA"), "location: Nashville, Tennessee, USA")
-        self.assertEqual(profile.drop_description(PROFILE, "Requires an active security clearance."),
-                         "description: security clearance")
-        self.assertEqual(profile.sponsorship(PROFILE, "We are unable to sponsor visas."), "No sponsorship")
-        self.assertEqual(profile.sponsorship(PROFILE, "We sponsor H-1B visas."), "")
-
-    def test_area(self):
-        a = lambda *r: profile.area(PROFILE, self.row("x", *r))
-        self.assertEqual(a("Chicago, IL"), "Chicago")
-        self.assertEqual(a("Foster City, CA; Seattle, WA"), "Seattle, Bay Area")
-        self.assertEqual(a("Austin, TX", "Remote"), "Remote")
-        self.assertEqual(a("Austin, TX"), "")
-        self.assertEqual(a("SEA, SF, NYC, CHI"), "Chicago, New York, Seattle, Bay Area")
+class UsTests(unittest.TestCase):
+    def test_places(self):
+        self.assertTrue(us.is_us("Chicago, IL"))
+        self.assertTrue(us.is_us("London; New York, NY"))
+        self.assertTrue(us.is_us("Indianapolis, Indiana"))  # India is not Indiana
+        self.assertTrue(us.is_us("Remote"))
+        self.assertFalse(us.is_us("Dublin, Ireland"))
+        self.assertFalse(us.is_us("Remote - Canada"))
+        self.assertTrue(us.is_us("Anywhere", "United States; Canada"))
+        self.assertFalse(us.is_us("Chicago", "Germany"))
 
 
 class RunTests(unittest.TestCase):
-    """A whole daily run in a scratch folder, with every board answered from the samples."""
+    """Whole daily runs in a scratch folder, with every board answered from the samples."""
 
     def setUp(self):
         self.dir = tempfile.mkdtemp()
         self.addCleanup(shutil.rmtree, self.dir)
-        shutil.copy(os.path.join(ROOT, "profile.toml"), self.dir)
         with open(os.path.join(self.dir, "companies.toml"), "w") as f:
             f.write('[[company]]\nname = "Stripe"\nboard = "greenhouse"\nslug = "stripe"\n\n'
-                    '[[company]]\nname = "Zoox"\nboard = "lever"\nslug = "zoox"\n\n'
                     '[[company]]\nname = "NVIDIA"\nboard = "workday"\nurl = "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"\n\n'
                     '[[company]]\nname = "Apple"\nboard = "not_yet"\nsite = "https://jobs.apple.com"\n\n'
                     '[[company]]\nname = "Broken"\nboard = "greenhouse"\nslug = "broken"\n')
@@ -165,55 +134,39 @@ class RunTests(unittest.TestCase):
         os.chdir(self.dir)
         self.addCleanup(os.chdir, cwd)
 
+    def run_day(self, day, fetch):
+        with mock.patch.object(text, "fetch", fetch), mock.patch("sys.argv", ["run", "--today", day]):
+            run.main()
+        return {r["title"]: r for r in run.load(run.DAY_PATH.format(day=day))}
+
     def fetch(self, url, **kw):
         if "/broken/" in url:
             raise OSError("404")
         return fake_fetch(url, **kw)
 
-    def run_day(self, day, fetch=None):
-        with mock.patch.object(text, "fetch", fetch or self.fetch), mock.patch("sys.argv", ["run", "--today", day]):
-            run.main()
-
-    def test_daily_run(self):
-        self.run_day("2026-10-14")
-        matches = {m["title"]: m for m in pool.load(run.MATCHES_PATH)}
-        self.assertEqual(sorted(matches), ["Product Operations Manager", "Strategy and Business Operations Associate",
-                                           "Technical Program Manager, Hardware NPI"])
-        self.assertEqual(matches["Strategy and Business Operations Associate"]["why"], "business_degree: MBA preferred")
-        self.assertEqual(matches["Strategy and Business Operations Associate"]["sponsor"], "No sponsorship")
-        self.assertEqual(matches["Strategy and Business Operations Associate"]["area"], "Chicago")
-        self.assertEqual(matches["Product Operations Manager"]["sponsor"], "No sponsorship")
-        self.assertEqual(len(pool.load(run.NEW_PATH)), 3)  # on the first day every match is new
-        reasons = {r["title"]: r["filtered_reason"] for r in pool.load(run.FILTERED_PATH)}
-        self.assertEqual(reasons["Senior Technical Program Manager - NPI"], "description: security clearance")
-        self.assertEqual(reasons["Principal Program Manager"], "title: principal")
-        self.assertEqual(reasons["Director, Product Management"], "title: director")
-        self.assertEqual(reasons["Enterprise Sales Manager"], "title: sales")
-        self.assertEqual(reasons["Product Manager, Billing"], "location: Dublin, Ireland")
-        summary = {r["name"]: r for r in pool.load(run.SUMMARY_PATH) if r["section"] == "company"}
-        self.assertIn("failed today", summary["Broken"]["note"])
+    def test_daily_runs(self):
+        saved = self.run_day("2026-10-14", self.fetch)
+        # NVIDIA: posted today, US. The 30+ days job and the Munich job are left out. Stripe has nothing that recent.
+        self.assertEqual(list(saved), ["Senior Technical Program Manager - NPI"])
+        self.assertIn("security clearance", saved["Senior Technical Program Manager - NPI"]["description"])
+        summary = {r["company"]: r for r in run.load(run.SUMMARY_PATH)}
+        self.assertEqual(summary["Stripe"]["open_jobs"], "6")
+        self.assertEqual(summary["Broken"]["note"], "Failed today")
         self.assertIn("no reader built yet", summary["Apple"]["note"])
 
-        # The next day: nothing is new, Workday job pages are not opened again,
-        # and a match that closed moves to the archive.
-        opened = []
-        gone = json.loads(sample("sample_greenhouse.json"))
-        gone["jobs"] = gone["jobs"][1:]
+        # Next day: a new Stripe job with no posting date counts as new because it was not there yesterday.
+        board = json.loads(sample("sample_greenhouse.json"))
+        board["jobs"].append({"id": 7010, "title": "Climate Program Lead", "absolute_url": "https://stripe.com/jobs/7010",
+                              "location": {"name": "Seattle, WA"}, "departments": [], "content": "New role."})
 
         def next_day(url, **kw):
-            if "/wday/cxs/" in url and not url.endswith("/jobs"):
-                opened.append(url)
             if "/stripe/jobs" in url:
-                return json.dumps(gone).encode()
+                return json.dumps(board).encode()
             return self.fetch(url, **kw)
 
-        self.run_day("2026-10-15", next_day)
-        self.assertEqual(opened, [])
-        self.assertEqual(pool.load(run.NEW_PATH), [])
-        self.assertEqual(sorted(m["title"] for m in pool.load(run.MATCHES_PATH)),
-                         ["Product Operations Manager", "Strategy and Business Operations Associate"])
-        archived = pool.load(run.ARCHIVE_PATH.format(year=2026))
-        self.assertEqual([a["title"] for a in archived], ["Technical Program Manager, Hardware NPI"])
+        saved = self.run_day("2026-10-15", next_day)
+        self.assertEqual(list(saved), ["Climate Program Lead"])
+        self.assertEqual(saved["Climate Program Lead"]["first_seen"], "2026-10-15")
 
 
 if __name__ == "__main__":

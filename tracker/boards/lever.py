@@ -6,7 +6,7 @@ API = "https://api.lever.co/v0/postings/{slug}?mode=json"
 WORKPLACE = {"remote": "Remote", "hybrid": "Hybrid", "onsite": "On-site", "on-site": "On-site"}
 
 
-def collect(company, cfg, queries=None):
+def collect(company, cfg, today=None, since=""):
     return [parse(company, job) for job in get_json(API.format(slug=cfg["slug"]))]
 
 
@@ -19,6 +19,7 @@ def parse(company, job):
         "company": company,
         "title": job.get("text", "").strip(),
         "location": "; ".join(p for p in places if p),
+        "country": job.get("country") or "",
         "remote": WORKPLACE.get((job.get("workplaceType") or "").lower(), ""),
         "department": cats.get("team", "") or cats.get("department", ""),
         "posted": day(job.get("createdAt")),

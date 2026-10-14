@@ -5,7 +5,7 @@ from tracker.text import clean, day, get_json
 API = "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs"
 
 
-def collect(company, cfg, queries=None):
+def collect(company, cfg, today=None, since=""):
     data = get_json(API.format(slug=cfg["slug"]) + "?content=true")
     return [parse(company, cfg, job) for job in data.get("jobs", [])]
 
@@ -19,7 +19,7 @@ def parse(company, cfg, job):
         "location": (job.get("location") or {}).get("name", ""),
         "remote": "",
         "department": departments,
-        "posted": day(job.get("first_published") or job.get("updated_at")),
+        "posted": day(job.get("first_published")),  # updated_at is not the posting date
         "link": job.get("absolute_url", ""),
         "board": "greenhouse",
         "detail": API.format(slug=cfg["slug"]) + f"/{job['id']}",

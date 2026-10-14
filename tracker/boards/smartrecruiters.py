@@ -1,4 +1,4 @@
-"""SmartRecruiters career sites (jobs.smartrecruiters.com/<slug>), public JSON, no key."""
+"""SmartRecruiters career sites (jobs.smartrecruiters.com/<slug>), public JSON, no key. Every US job is read."""
 
 import urllib.parse
 
@@ -6,22 +6,21 @@ from tracker.text import clean, day, get_json
 
 API = "https://api.smartrecruiters.com/v1/companies/{slug}/postings"
 PAGE = 100
-MAX_PER_QUERY = 300
+MAX_JOBS = 20000
 
 
-def collect(company, cfg, queries=()):
-    seen = {}
-    for query in queries or [""]:
-        offset = 0
-        while offset < MAX_PER_QUERY:
-            params = urllib.parse.urlencode({"q": query, "limit": PAGE, "offset": offset, "country": cfg.get("country", "us")})
-            data = get_json(API.format(slug=cfg["slug"]) + "?" + params)
-            for job in data.get("content") or []:
-                row = parse(company, cfg, job)
-                seen.setdefault(row["key"], dict(row, found_by=query))
-            offset += PAGE
-            if offset >= (data.get("totalFound") or 0):
-                break
+def collect(company, cfg, today=None, since=""):
+    seen, offset = {}, 0
+    while offset < MAX_JOBS:
+        params = urllib.parse.urlencode({"limit": PAGE, "offset": offset, "country": cfg.get("country", "us")})
+        data = get_json(API.format(slug=cfg["slug"]) + "?" + params)
+        jobs = data.get("content") or []
+        for job in jobs:
+            row = parse(company, cfg, job)
+            seen[row["key"]] = row
+        offset += PAGE
+        if not jobs or offset >= (data.get("totalFound") or 0):
+            break
     return list(seen.values())
 
 
@@ -33,6 +32,7 @@ def parse(company, cfg, job):
         "company": company,
         "title": job.get("name", "").strip(),
         "location": place,
+        "country": loc.get("country", ""),
         "remote": "Remote" if loc.get("remote") else ("Hybrid" if loc.get("hybrid") else ""),
         "department": (job.get("department") or {}).get("label", ""),
         "posted": day(job.get("releasedDate")),

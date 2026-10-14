@@ -1,10 +1,8 @@
-# What counts as a job for me. Edit this file to change what lands in data/matches.csv.
-# Every open job read from the companies in companies.toml is in data/jobs.csv either way.
+# What counts as a job for me. Not used by the daily data run, which saves every new US job:
+# the daily Claude report (to be built) reads this file to decide which of the day's jobs to show me.
 #
-# Words ignore case and are written in full, no short forms (MBA is the one exception,
+# Words are written in full, no short forms (MBA is the one exception,
 # because job descriptions write it that way).
-# Title and description words match the start of a word ("manufactur" would catch manufacturing).
-# Drop words and places match whole words only ("India" doesn't catch Indiana).
 
 name = "GaGa"
 
@@ -91,10 +89,8 @@ none = [
   "not eligible for sponsorship", "not sponsor",
 ]
 
-# The area column. With keep_only_areas = true, jobs outside these areas are dropped
-# (set it to false to keep every US job and just tag the area).
+# Places I'd most like to work.
 [areas]
-keep_only_areas = true
 Chicago = ["Chicago", "CHI"]
 "New York" = ["New York", "New-York", "NYC", "Brooklyn", "Manhattan", "Jersey City"]
 Seattle = ["Seattle", "SEA", "Bellevue", "Redmond", "Kirkland"]
@@ -102,15 +98,3 @@ Seattle = ["Seattle", "SEA", "Bellevue", "Redmond", "Kirkland"]
               "Menlo Park", "Redwood City", "San Mateo", "Foster City", "Oakland", "Berkeley", "Fremont",
               "Cupertino", "South San Francisco", "Emeryville", "Hayward", "Milpitas"]
 Remote = ["Remote"]
-
-# Big career sites (Workday, SmartRecruiters, Amazon) hold thousands of jobs, so they are searched
-# with these words instead of read in full. Their search also looks inside descriptions.
-[search]
-# The description words come first, so a job they find is marked found by them.
-words = [
-  "MBA", "business administration",
-  "product manager", "program manager", "product operations", "new product introduction",
-  "new product development", "manufacturing program", "sustainability", "climate", "decarbonization",
-]
-# Jobs these words found are matched on their description, so their job page is opened to read it.
-description_words = ["MBA", "business administration"]

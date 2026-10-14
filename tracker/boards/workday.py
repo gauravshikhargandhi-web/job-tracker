@@ -1,16 +1,16 @@
 """Workday career sites (<tenant>.wdN.myworkdayjobs.com/<site>), the JSON the site itself uses, no key.
 
-Workday sites hold thousands of jobs, so the board is searched once per
-word in profile.toml [search] words rather than read in full. The job
-description is read later, only for jobs that match the profile.
+The list is read in full. It only says "Posted Today" or "Posted 3 Days Ago", so that gives a
+first date; the job's own page then gives the exact posting date, the places and the description.
 """
 
+import datetime
 import re
 
-from tracker.text import clean, get_json
+from tracker.text import clean, day, get_json
 
 PAGE = 20          # Workday's largest page size
-MAX_PER_QUERY = 200
+MAX_JOBS = 20000   # a safety stop; no target company has this many
 
 
 def api_base(url):
@@ -22,24 +22,36 @@ def api_base(url):
     return f"{host}/wday/cxs/{tenant}/{site}", f"{host}/{site}"
 
 
-def collect(company, cfg, queries=()):
+def collect(company, cfg, today, since=""):
     api, site = api_base(cfg["url"])
-    seen = {}
-    for query in queries or [""]:
-        offset = 0
-        while offset < MAX_PER_QUERY:
-            data = get_json(f"{api}/jobs", {"appliedFacets": {}, "limit": PAGE, "offset": offset, "searchText": query})
-            postings = data.get("jobPostings") or []
-            for job in postings:
-                row = parse(company, api, site, job)
-                seen.setdefault(row["key"], dict(row, found_by=query))
-            offset += PAGE
-            if len(postings) < PAGE or offset >= (data.get("total") or 0):
-                break
+    seen, offset, total = {}, 0, None
+    while offset < MAX_JOBS:
+        data = get_json(f"{api}/jobs", {"appliedFacets": {}, "limit": PAGE, "offset": offset, "searchText": ""})
+        postings = data.get("jobPostings") or []
+        total = data.get("total") or total or 0  # Workday gives the total on the first page only
+        for job in postings:
+            row = parse(company, api, site, job, today)
+            seen[row["key"]] = row
+        offset += PAGE
+        if not postings or offset >= total:
+            break
     return list(seen.values())
 
 
-def parse(company, api, site, job):
+def posted_on(text, today):
+    """'Posted Today' -> today, 'Posted 3 Days Ago' -> 3 days back, '30+ Days Ago' -> blank."""
+    text = (text or "").lower()
+    if "today" in text:
+        return today.isoformat()
+    if "yesterday" in text:
+        return (today - datetime.timedelta(days=1)).isoformat()
+    match = re.search(r"(\d+)(\+?) days? ago", text)
+    if match and not match.group(2):
+        return (today - datetime.timedelta(days=int(match.group(1)))).isoformat()
+    return ""
+
+
+def parse(company, api, site, job, today):
     path = job.get("externalPath", "")
     job_id = (job.get("bulletFields") or [path.rsplit("_", 1)[-1]])[0]
     return {
@@ -48,8 +60,7 @@ def parse(company, api, site, job):
         "title": job.get("title", "").strip(),
         "location": job.get("locationsText", ""),
         "remote": job.get("remoteType", ""),
-        "department": "",
-        "posted": "",   # Workday only says "Posted 3 Days Ago"; first_seen covers it
+        "posted": posted_on(job.get("postedOn"), today),
         "link": site + path,
         "board": "workday",
         "detail": api + path,
@@ -57,11 +68,11 @@ def parse(company, api, site, job):
 
 
 def describe(row):
-    """The description; also swaps a list summary like "3 Locations" for the real places."""
+    """The description; also fills in the exact posting date, the real places and the country."""
     info = get_json(row["detail"]).get("jobPostingInfo") or {}
-    places = [info.get("location", "")] + list(info.get("additionalLocations") or [])
-    places = [p for p in places if p]
+    row["posted"] = day(info.get("startDate")) or row["posted"]
+    places = [p for p in [info.get("location", "")] + list(info.get("additionalLocations") or []) if p]
     if places:
-        country = (info.get("country") or {}).get("descriptor", "")
-        row["location"] = "; ".join(places) + (f" ({country})" if country and len(places) == 1 else "")
+        row["location"] = "; ".join(places)
+    row["country"] = (info.get("country") or {}).get("descriptor", "")
     return clean(info.get("jobDescription", ""))

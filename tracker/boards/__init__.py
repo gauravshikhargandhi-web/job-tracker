@@ -1,4 +1,4 @@
-"""One reader per job-board type. Each has collect(company, cfg, search_words) -> rows,
+"""One reader per job-board type. Each has collect(company, cfg, today) -> every open job,
 and describe(row) -> job description when the list doesn't include it."""
 
 from tracker.boards import amazon, ashby, greenhouse, lever, smartrecruiters, workable, workday

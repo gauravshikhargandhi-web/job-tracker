@@ -1,1 +1,13 @@
-{"jobPostingInfo": {"jobDescription": "<p>Drive NPI for data center systems. Requires an active security clearance.</p>"}}
+{
+ "jobPostingInfo": {
+  "jobDescription": "<p>Drive NPI for data center systems. Requires an active security clearance.</p>",
+  "startDate": "2026-10-14",
+  "location": "US, CA, Santa Clara",
+  "additionalLocations": [
+   "Seattle, WA"
+  ],
+  "country": {
+   "descriptor": "United States of America"
+  }
+ }
+}
