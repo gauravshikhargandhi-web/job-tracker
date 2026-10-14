@@ -1,0 +1,76 @@
+section,name,board,open_jobs,matches,new_today,note
+run,Last refresh,,,,,2026-10-14
+total,All companies,,11157,1324,1324,"65 companies, 565 dropped by a rule"
+company,AbbVie,smartrecruiters,760,16,16,
+company,Adobe,workday,150,14,14,
+company,Airbnb,greenhouse,165,14,14,
+company,ALSO,ashby,42,1,1,
+company,Alvarez & Marsal,not_yet,0,0,0,Own careers site; no reader built yet
+company,Amazon,amazon,2536,930,930,
+company,Apple,not_yet,0,0,0,Own careers site; no reader built yet
+company,Applied Intuition,greenhouse,0,0,0,Board failed today; showing yesterday's jobs
+company,Bain,not_yet,0,0,0,Own careers site; no reader built yet
+company,Bain Capital,workday,26,1,1,
+company,Base Power,ashby,188,5,5,
+company,BCG,not_yet,0,0,0,Own careers site; no reader built yet
+company,bp,workday,173,0,0,
+company,Broccoli,ashby,34,2,2,
+company,Brooks Running,lever,37,4,4,
+company,CADDi,workable,23,1,1,
+company,Capital One,workday,561,35,35,
+company,Co280,not_yet,0,0,0,Own careers site; no reader built yet
+company,Cox Enterprises,workday,348,3,3,
+company,Crowe,workday,86,0,0,
+company,Deloitte,not_yet,0,0,0,Own careers site; no reader built yet
+company,DoorDash,greenhouse,458,17,17,
+company,Fictiv,greenhouse,93,6,6,
+company,Flexport,greenhouse,206,5,5,
+company,Form Energy,ashby,209,10,10,
+company,Formic,greenhouse,40,0,0,
+company,Fortune Brands,smartrecruiters,95,2,2,
+company,gener8tor,not_yet,0,0,0,Own careers site; no reader built yet
+company,Google,not_yet,0,0,0,Own careers site; no reader built yet
+company,Grainger,not_yet,0,0,0,Own careers site; no reader built yet
+company,IA Collaborative,ashby,0,0,0,Board failed today; showing yesterday's jobs
+company,Intuitive,not_yet,0,0,0,Own careers site; no reader built yet
+company,Invenergy,workday,98,0,0,
+company,It's Electric,workable,3,0,0,
+company,ITW,not_yet,0,0,0,Own careers site; no reader built yet
+company,Kraft Heinz,not_yet,0,0,0,Own careers site; no reader built yet
+company,LEGO Group,workday,40,1,1,
+company,Lowe's,workday,669,4,4,
+company,Mars,workday,519,8,8,
+company,McKinsey,not_yet,0,0,0,Own careers site; no reader built yet
+company,mHUB,not_yet,0,0,0,Own careers site; no reader built yet
+company,Microsoft,not_yet,0,0,0,Own careers site; no reader built yet
+company,Mutares,not_yet,0,0,0,Own careers site; no reader built yet
+company,Nestlé,not_yet,0,0,0,Own careers site; no reader built yet
+company,NVIDIA,workday,296,69,69,
+company,OpenAI,ashby,805,56,56,
+company,Oura,greenhouse,77,6,6,
+company,Pure Storage,greenhouse,380,20,20,
+company,PwC,workday,310,7,7,
+company,Quince,greenhouse,150,1,1,
+company,Rivian,not_yet,0,0,0,Own careers site; no reader built yet
+company,S&C Electric,not_yet,0,0,0,Own careers site; no reader built yet
+company,Samsara,greenhouse,256,8,8,
+company,Slalom,not_yet,0,0,0,Own careers site; no reader built yet
+company,Specter,ashby,37,0,0,
+company,Standard Bots,ashby,39,5,5,
+company,Starbucks,not_yet,0,0,0,Own careers site; no reader built yet
+company,Stripe,greenhouse,727,46,46,
+company,Tempus AI,workday,105,3,3,
+company,Tesla,not_yet,0,0,0,Own careers site; no reader built yet
+company,Tyba,ashby,6,0,0,
+company,UL Solutions,not_yet,0,0,0,Own careers site; no reader built yet
+company,Via,greenhouse,173,4,4,
+company,WHOOP,lever,0,0,0,No jobs read; check the board name in companies.toml
+company,Zoox,lever,237,20,20,
+matched by,program,,,507,,
+matched by,product,,,389,,
+matched by,business_degree,,,354,,
+matched by,new_product_and_manufacturing,,,38,,
+matched by,sustainability,,,36,,
+dropped by,title,,,403,,
+dropped by,description,,,88,,
+dropped by,location,,,74,,
