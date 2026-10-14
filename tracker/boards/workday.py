@@ -57,5 +57,11 @@ def parse(company, api, site, job):
 
 
 def describe(row):
+    """The description; also swaps a list summary like "3 Locations" for the real places."""
     info = get_json(row["detail"]).get("jobPostingInfo") or {}
+    places = [info.get("location", "")] + list(info.get("additionalLocations") or [])
+    places = [p for p in places if p]
+    if places:
+        country = (info.get("country") or {}).get("descriptor", "")
+        row["location"] = "; ".join(places) + (f" ({country})" if country and len(places) == 1 else "")
     return clean(info.get("jobDescription", ""))

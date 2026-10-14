@@ -74,7 +74,12 @@ places = [
   "Taipei", "Japan", "Tokyo", "Korea", "Seoul", "Singapore", "Malaysia", "Philippines", "Vietnam", "Thailand",
   "Indonesia", "Australia", "Sydney", "Melbourne", "New Zealand", "Dubai", "United Arab Emirates", "Saudi",
   "Qatar", "South Africa", "Nigeria", "Kenya", "Egypt", "Turkey", "Istanbul", "Finland", "Norway", "Oslo",
-  "Europe", "Asia", "Pacific", "Latin America",
+  "Europe", "Asia", "Pacific", "Latin America", "Romania", "Bucharest", "Finland", "Helsinki", "Palestine",
+  "Greece", "Ukraine", "Serbia", "Bulgaria", "Estonia", "Lithuania", "Latvia", "Slovakia", "Croatia", "Peru",
+  "Uruguay", "Pakistan", "Bangladesh", "Sri Lanka", "Morocco", "Ghana", "Luxembourg", "Scotland", "Edinburgh",
+  "Cambridge, UK", "Belfast", "Krakow", "Prague", "Budapest", "Vienna", "Hamburg", "Frankfurt", "Rotterdam",
+  "BRA", "FRA", "MEX", "GBR", "DEU", "CAN", "IRL", "ESP", "NLD", "POL", "CHN", "SGP", "AUS", "ISR", "JPN",
+  "ITA", "CRI", "ROU", "HUN", "CZE", "KOR", "TWN", "PHL", "ARE", "SAU",
 ]
 
 # Phrases that mean the company won't sponsor a visa. These jobs are kept but marked "No sponsorship".
@@ -86,12 +91,14 @@ none = [
   "not eligible for sponsorship", "not sponsor",
 ]
 
-# The area column, so jobs in these places are easy to sort to the top.
+# The area column. With keep_only_areas = true, jobs outside these areas are dropped
+# (set it to false to keep every US job and just tag the area).
 [areas]
-Chicago = ["Chicago", "Illinois"]
-"New York" = ["New York", "Brooklyn", "Manhattan", "Jersey City"]
-Seattle = ["Seattle", "Bellevue", "Redmond", "Kirkland"]
-"Bay Area" = ["San Francisco", "Bay Area", "Palo Alto", "Mountain View", "Sunnyvale", "San Jose", "Santa Clara",
+keep_only_areas = true
+Chicago = ["Chicago", "CHI"]
+"New York" = ["New York", "New-York", "NYC", "Brooklyn", "Manhattan", "Jersey City"]
+Seattle = ["Seattle", "SEA", "Bellevue", "Redmond", "Kirkland"]
+"Bay Area" = ["San Francisco", "SF", "Bay Area", "Palo Alto", "Mountain View", "Sunnyvale", "San Jose", "Santa Clara",
               "Menlo Park", "Redwood City", "San Mateo", "Foster City", "Oakland", "Berkeley", "Fremont",
               "Cupertino", "South San Francisco", "Emeryville", "Hayward", "Milpitas"]
 Remote = ["Remote"]

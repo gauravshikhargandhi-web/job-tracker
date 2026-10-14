@@ -131,7 +131,9 @@ class ProfileTests(unittest.TestCase):
         self.assertEqual(d("Salesforce Product Manager"), "")     # so is "sales"
         self.assertEqual(d("Product Manager", "Dublin, Ireland"), "location: Dublin, Ireland")
         self.assertEqual(d("Product Manager", "London; New York, NY"), "")
-        self.assertEqual(d("Product Manager", "Indianapolis, Indiana"), "")  # India is not Indiana
+        self.assertEqual(d("Product Manager", "Austin, TX; Remote - US"), "")
+        self.assertEqual(d("Product Manager", "3 Locations"), "")  # real places not known yet
+        self.assertEqual(d("Product Manager", "Nashville, Tennessee, USA"), "location: Nashville, Tennessee, USA")
         self.assertEqual(profile.drop_description(PROFILE, "Requires an active security clearance."),
                          "description: security clearance")
         self.assertEqual(profile.sponsorship(PROFILE, "We are unable to sponsor visas."), "No sponsorship")
@@ -143,6 +145,7 @@ class ProfileTests(unittest.TestCase):
         self.assertEqual(a("Foster City, CA; Seattle, WA"), "Seattle, Bay Area")
         self.assertEqual(a("Austin, TX", "Remote"), "Remote")
         self.assertEqual(a("Austin, TX"), "")
+        self.assertEqual(a("SEA, SF, NYC, CHI"), "Chicago, New York, Seattle, Bay Area")
 
 
 class RunTests(unittest.TestCase):

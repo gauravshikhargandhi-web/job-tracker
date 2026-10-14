@@ -9,6 +9,7 @@ import collections
 import csv
 import datetime
 import os
+import re
 import tomllib
 
 from tracker import boards, pool, profile
@@ -128,7 +129,9 @@ def check(prof, row, text):
 
 def needs_description(prof, row):
     """A job whose description wasn't in the list and could change whether it matches."""
-    if row.get("description_read") or not row.get("detail"):
+    if not row.get("detail"):
+        return False
+    if row.get("description_read") and not re.fullmatch(r"\d+ Locations", row.get("location", "")):
         return False
     if profile.title_match(prof, row["title"]):
         return not profile.drop_title(prof, row)  # check clearance, citizenship and sponsorship

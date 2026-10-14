@@ -14,7 +14,9 @@ def load(path="profile.toml"):
     prof["_drop_descriptions"] = _words(drop.get("descriptions", []))
     prof["_drop_places"] = _words(drop.get("places", []), whole=True)
     prof["_no_sponsorship"] = _words(prof.get("sponsorship", {}).get("none", []))
-    prof["_areas"] = {area: _words(words, whole=True) for area, words in prof.get("areas", {}).items()}
+    areas = prof.get("areas", {})
+    prof["_keep_only_areas"] = areas.pop("keep_only_areas", False)
+    prof["_areas"] = {area: _words(words, whole=True) for area, words in areas.items()}
     return prof
 
 
@@ -53,6 +55,10 @@ def drop_title(prof, row):
     # A job listed in several places is dropped only when every place is outside the US.
     places = [p for p in re.split(r";|\|| / | or ", row.get("location", "")) if p.strip()]
     if prof["_drop_places"] and places and all(prof["_drop_places"].search(p) for p in places):
+        return f"location: {row['location']}"
+    # Only drop for being outside the areas once the real places are known (not "3 Locations").
+    known = places and not re.fullmatch(r"\d+ Locations", row.get("location", ""))
+    if prof["_keep_only_areas"] and known and not area(prof, row):
         return f"location: {row['location']}"
     return ""
 

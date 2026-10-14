@@ -2,6 +2,7 @@
 
 import csv
 import os
+import re
 
 from tracker.schema import CHECK_FIELDS, JOB_FIELDS
 
@@ -42,6 +43,8 @@ def merge(previous, company, fresh, today):
         row["first_seen"] = old.get("first_seen") or stamp
         row["last_seen"] = stamp
         row["found_by"] = row.get("found_by") or old.get("found_by", "")
+        if re.fullmatch(r"\d+ Locations", row.get("location", "")) and old.get("location"):
+            row["location"] = old["location"]  # the real places, read from the job page before
         for field in CHECK_FIELDS:
             row.setdefault(field, old.get(field, ""))
     return kept + fresh
