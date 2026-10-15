@@ -229,11 +229,6 @@ board = "not_yet"
 site = "https://www.nestlejobs.com"  # SuccessFactors
 
 [[company]]
-name = "NVIDIA"
-board = "workday"
-url = "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
-
-[[company]]
 name = "OpenAI"
 board = "ashby"
 slug = "openai"
