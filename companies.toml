@@ -38,6 +38,16 @@ site = "https://careers.alvarezandmarsal.com"  # Own careers site
 [[company]]
 name = "Amazon"
 board = "amazon"
+# Only program, product, operations program, new product and sustainability roles (GaGa, 2026-10-15).
+# Amazon titles use short forms (Sr. TPM, PM-T), so those are listed too. Whole words only.
+titles = [
+  "technical program manager", "TPM", "program manager", "program management", "program lead",
+  "operations program manager", "OPM",
+  "product manager", "product management", "PMT", "PM-T", "product lead",
+  "new product introduction", "NPI", "product launch", "launch manager",
+  "sustainability", "sustainable", "climate", "carbon", "decarbonization", "net zero", "renewable", "energy transition",
+  "circular economy", "environmental, social and governance", "ESG",
+]
 
 [[company]]
 name = "Apple"

@@ -10,6 +10,7 @@ import argparse
 import csv
 import datetime
 import os
+import re
 import tomllib
 
 from tracker import boards
@@ -66,7 +67,8 @@ def main():
             continue
         # Some companies are narrowed to certain roles in companies.toml (titles = [...]).
         if cfg.get("titles"):
-            rows = [r for r in rows if any(t.lower() in r["title"].lower() for t in cfg["titles"])]
+            wanted = re.compile(r"(?<!\w)(?:" + "|".join(re.escape(t) for t in cfg["titles"]) + r")(?!\w)", re.I)
+            rows = [r for r in rows if wanted.search(r["title"])]
 
         first_time = name not in known_companies
         retry, kept = set(), 0
