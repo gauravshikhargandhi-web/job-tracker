@@ -1,59 +1,45 @@
-"""Avature career sites (Deloitte, Bain), the site's public RSS feed, no key.
+"""Avature career sites (Deloitte, Bain), the site's own search pages, no key.
 
-The feed lists jobs 20 at a time with their posting date but no place or description, so each new job's
-page is opened; its job details (schema.org JobPosting) give the description and places.
-companies.toml: feed = "https://apply.deloitte.com/en_US/careers/SearchJobs/feed/", offset = "jobOffset".
+The search page lists jobs 10 at a time, newest first, with no date, place or description, so each job's
+page is opened; its job details (schema.org JobPosting) give the posting date, places and description.
+Reading stops at the first page whose jobs were all posted before yesterday.
+companies.toml: list = "https://apply.deloitte.com/en_US/careers/SearchJobs", words = "job"
+(the word the site puts before Sort and Offset in its addresses: jobSort, jobOffset; Bain uses folder).
 """
 
-import email.utils
 import json
 import re
 
 from tracker.text import clean, get_text
 
-PAGE = 20
-MAX_PAGES = 500
+PAGE = 10
+MAX_PAGES = 100
+LINK = re.compile(r'<a href="(https?://[^"]+/(?:JobDetail|FolderDetail)/[^"]+/(\d+))"[^>]*>\s*([^<]*?)\s*</a>')
 
 
 def collect(company, cfg, today=None, since=""):
-    rows, offset = {}, 0
-    for _ in range(MAX_PAGES):
-        sep = "&" if "?" in cfg["feed"] else "?"
-        feed = get_text(f"{cfg['feed']}{sep}{cfg.get('offset', 'jobOffset')}={offset}", browser=True)
-        page = [parse(company, item) for item in re.findall(r"<item>(.*?)</item>", feed, re.S)]
-        fresh = [r for r in page if r["key"] not in rows]
-        for row in fresh:
-            rows[row["key"]] = row
-        offset += PAGE
-        if not fresh:  # past the last page, or the site ignores the offset
+    rows, word = {}, cfg.get("words", "job")
+    for page_no in range(MAX_PAGES):
+        sep = "&" if "?" in cfg["list"] else "?"
+        listing = get_text(f"{cfg['list']}{sep}{word}Sort=postingDate&{word}RecordsPerPage={PAGE}"
+                           f"&{word}Offset={page_no * PAGE}", browser=True)
+        page = []
+        for link, job_id, title in LINK.findall(listing):
+            key = f"{company}:av{job_id}"
+            if key in rows or not title:
+                continue
+            row = {"key": key, "company": company, "title": clean(title), "location": "", "country": "",
+                   "remote": "", "department": "", "posted": "", "link": link, "board": "avature", "detail": link}
+            row["description"] = describe(row)
+            rows[key] = row
+            page.append(row)
+        if not page or (since and all(r["posted"] and r["posted"] < since for r in page)):
             break
     return list(rows.values())
 
 
-def _tag(xml, name):
-    m = re.search(rf"<{name}>(.*?)</{name}>", xml, re.S)
-    return re.sub(r"^<!\[CDATA\[|\]\]>$", "", m.group(1).strip()) if m else ""
-
-
-def parse(company, item):
-    link = _tag(item, "link")
-    stamp = email.utils.parsedate_to_datetime(_tag(item, "pubDate")) if _tag(item, "pubDate") else None
-    return {
-        "key": f"{company}:av{link.rstrip('/').rsplit('/', 1)[-1]}",
-        "company": company,
-        "title": clean(_tag(item, "title")),
-        "location": "",
-        "remote": "",
-        "department": "",
-        "posted": stamp.date().isoformat() if stamp else "",
-        "link": link,
-        "board": "avature",
-        "detail": link,
-    }
-
-
 def describe(row):
-    """Reads the job page's JobPosting details; also fills in the places and country."""
+    """Reads the job page's JobPosting details; also fills in the posting date, places and country."""
     page = get_text(row["detail"], browser=True)
     for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', page, re.S):
         try:
@@ -68,5 +54,6 @@ def describe(row):
                                         for a in addresses if isinstance(a, dict)).strip("; ")
             row["country"] = "; ".join(sorted({str(a.get("addressCountry") or "") for a in addresses
                                                if isinstance(a, dict) and a.get("addressCountry")}))
+            row["posted"] = str(data.get("datePosted") or "")[:10]
             return clean(data.get("description", ""))
     return ""

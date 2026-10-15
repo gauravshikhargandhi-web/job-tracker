@@ -1,8 +1,1 @@
-nestle-p2 https://jobdetails.nestle.com/search/?q=&locationsearch=United%20States&sortColumn=referencedate&sortDirection=desc&startrow=10
-nestle-p2b https://jobdetails.nestle.com/search/?q=&locationsearch=United+States&sortColumn=referencedate&sortDirection=desc&startrow=10
-nestle-job https://jobdetails.nestle.com/job/St_-Louis-Senior-Project-Engineering-Manager-%28End-to-End-Project-Manager%29-MO-63102/1437729033/
-deloitte-list2 https://apply.deloitte.com/en_US/careers/SearchJobs?jobRecordsPerPage=10&jobSort=postingDate&jobOffset=10
-deloitte-list3 https://apply.deloitte.com/en_US/careers/SearchJobs?jobRecordsPerPage=50&jobSort=postingDate&jobOffset=0
-bain-list https://careers.bain.com/jobs/SearchJobs?folderRecordsPerPage=10&folderSort=postingDate
-bain-list2 https://careers.bain.com/jobs/SearchJobs?folderRecordsPerPage=10&folderSort=postingDate&folderOffset=10
-bain-plain https://careers.bain.com/jobs/SearchJobs
+nestle-p3 https://jobdetails.nestle.com/search/?q=&locationsearch=United%20States&sortColumn=referencedate&sortDirection=desc&startrow=20

@@ -45,16 +45,19 @@ TEAMTAILOR = """<rss><channel><item><title>Operations Manager</title><link>https
 <guid>601</guid><pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate><description><![CDATA[<p>Turn around companies.</p>]]></description>
 <tt:locations><tt:location><tt:city>Chicago</tt:city><tt:country>United States</tt:country></tt:location></tt:locations>
 </item></channel></rss>"""
-AVATURE = """<rss><channel>
-<item><title>Strategy Consultant</title><link>https://apply.deloitte.com/careers/JobDetail/Strategy/701</link>
-<pubDate>Wed, 14 Oct 2026 10:00:00 GMT</pubDate></item>
-<item><title>Analyst</title><link>https://apply.deloitte.com/careers/JobDetail/Analyst/702</link>
-<pubDate>Thu, 01 Oct 2026 10:00:00 GMT</pubDate></item>
-</channel></rss>"""
-AVATURE_JOB = ('<script type="application/ld+json">' + json.dumps({
-    "@type": "JobPosting", "description": "<p>Shape client strategy.</p>",
-    "jobLocation": [{"address": {"addressLocality": "Chicago", "addressRegion": "IL", "addressCountry": "US"}}]})
-    + "</script>")
+AVATURE_PAGES = {
+    0: '<h3><a href="https://apply.deloitte.com/en_US/careers/JobDetail/Strategy/701" class="link"> Strategy Consultant </a></h3>'
+       '<a href="https://apply.deloitte.com/en_US/careers/JobDetail/Strategy/701" class="button"><span>Apply</span></a>',
+    10: '<h3><a href="https://apply.deloitte.com/en_US/careers/JobDetail/Analyst/702" class="link"> Analyst </a></h3>',
+    20: '<h3><a href="https://apply.deloitte.com/en_US/careers/JobDetail/Older/703" class="link"> Older </a></h3>',
+}
+
+
+def avature_job(posted):
+    return ('<script type="application/ld+json">' + json.dumps({
+        "@type": "JobPosting", "description": "<p>Shape client strategy.</p>", "datePosted": posted,
+        "jobLocation": [{"address": {"addressLocality": "Chicago", "addressRegion": "IL", "addressCountry": "US"}}]})
+        + "</script>")
 SUCCESSFACTORS = """<table><tr class="data-row"><td><a href="/job/St-Louis-Project-Manager-MO/801/" class="jobTitle-link">Project Manager</a>
 <span class="jobLocation"> St. Louis, MO, US, 63102 </span><span class="jobDate"> Oct 15, 2026 </span></td></tr></table>"""
 SUCCESSFACTORS_JOB = '<div><span class="jobdescription"><p>Lead plant projects.</p></span>\n</div>'
@@ -81,10 +84,10 @@ def fake_fetch(url, data=None, headers=None, timeout=60):
         return (GOOGLE_PAGE if "page=1&" in url or url.endswith("page=1") else "<html></html>").encode()
     elif "jobs.rss" in url:
         return TEAMTAILOR.encode()
-    elif "SearchJobs/feed" in url:
-        return AVATURE.encode()  # the same two jobs on every page: paging stops when nothing fresh comes back
+    elif "SearchJobs" in url:
+        return AVATURE_PAGES[int(url.rsplit("jobOffset=", 1)[1])].encode()
     elif "JobDetail" in url:
-        return AVATURE_JOB.encode()
+        return avature_job("2026-10-14" if url.endswith("701") else "2026-10-01").encode()
     elif "nestle.com/search" in url:
         return (SUCCESSFACTORS if "startrow=0" in url else "<table></table>").encode()
     elif "nestle.com/job/" in url:
@@ -135,11 +138,12 @@ class OwnSiteTests(unittest.TestCase):
         self.assertEqual((row["posted"], row["location"]), ("2026-10-14", "Chicago, United States"))
         self.assertEqual(row["description"], "Turn around companies.")
 
-    def test_avature_stops_paging_when_nothing_new_comes_back(self):
-        rows = avature.collect("Deloitte", {"feed": "https://apply.deloitte.com/en_US/careers/SearchJobs/feed/"},
+    def test_avature_reads_back_to_yesterday(self):
+        rows = avature.collect("Deloitte", {"list": "https://apply.deloitte.com/en_US/careers/SearchJobs", "words": "job"},
                                TODAY, SINCE)
-        self.assertEqual([r["posted"] for r in rows], ["2026-10-14", "2026-10-01"])
-        self.assertEqual(avature.describe(rows[0]), "Shape client strategy.")
+        self.assertEqual([(r["title"], r["posted"]) for r in rows], [("Strategy Consultant", "2026-10-14"),
+                                                                       ("Analyst", "2026-10-01")])
+        self.assertEqual(rows[0]["description"], "Shape client strategy.")
         self.assertEqual((rows[0]["location"], rows[0]["country"]), ("Chicago, IL", "US"))
 
     def test_successfactors(self):

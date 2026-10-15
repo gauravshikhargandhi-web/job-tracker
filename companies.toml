@@ -7,7 +7,7 @@
 # board = eightfold | eightfold_v2 : host and domain, e.g. host = "apply.careers.microsoft.com", domain = "microsoft.com".
 # board = jibe | teamtailor | successfactors : host, e.g. host = "careers.rivian.com".
 # board = oracle : host and site (the siteNumber in the careers address).
-# board = avature : feed (the SearchJobs/feed/ address) and offset (the paging word the site uses).
+# board = avature : list (the SearchJobs address) and words (job or folder, the word the site puts before Sort and Offset).
 # titles = ["..."] : keep only jobs whose title has one of these (search = "..." also narrows a Workday site's list).
 # board = "not_yet" : the company's own careers site, which needs its own reader; not read yet.
 #
@@ -60,8 +60,8 @@ board = "apple"
 [[company]]
 name = "Bain"
 board = "avature"
-feed = "https://careers.bain.com/jobs/SearchJobs/feed/"
-offset = "folderOffset"
+list = "https://careers.bain.com/jobs/SearchJobs"
+words = "folder"
 
 [[company]]
 name = "Bain Capital"
@@ -120,8 +120,8 @@ url = "https://crowe.wd12.myworkdayjobs.com/external_careers"
 [[company]]
 name = "Deloitte"
 board = "avature"
-feed = "https://apply.deloitte.com/en_US/careers/SearchJobs/feed/"
-offset = "jobOffset"
+list = "https://apply.deloitte.com/en_US/careers/SearchJobs"
+words = "job"
 
 [[company]]
 name = "DoorDash"
