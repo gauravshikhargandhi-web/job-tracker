@@ -64,6 +64,9 @@ def main():
             print(f"{name}: FAILED (no jobs returned)")
             failed.append(name)
             continue
+        # Some companies are narrowed to certain roles in companies.toml (titles = [...]).
+        if cfg.get("titles"):
+            rows = [r for r in rows if any(t.lower() in r["title"].lower() for t in cfg["titles"])]
 
         first_time = name not in known_companies
         retry, kept = set(), 0

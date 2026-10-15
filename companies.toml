@@ -4,6 +4,7 @@
 #   e.g. job-boards.greenhouse.io/stripe -> slug = "stripe", jobs.ashbyhq.com/openai -> slug = "openai".
 # board = workday : url is the career site address, e.g. https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
 # board = amazon : no slug needed.
+# titles = ["..."] : keep only jobs whose title has one of these (search = "..." also narrows a Workday site's list).
 # board = "not_yet" : the company's own careers site, which needs its own reader; not read yet.
 #
 # To add a company, add a block. `python -m tracker.find "Company"` tries the usual Greenhouse, Lever and Ashby names.
@@ -91,6 +92,9 @@ slug = "caddi"
 [[company]]
 name = "Capital One"
 board = "workday"
+# Only business manager roles at Capital One (GaGa, 2026-10-15)
+search = "business manager"
+titles = ["business manager"]
 url = "https://capitalone.wd12.myworkdayjobs.com/capital_one"
 
 [[company]]

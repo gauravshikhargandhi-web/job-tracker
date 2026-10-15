@@ -1,6 +1,6 @@
 """Workday career sites (<tenant>.wdN.myworkdayjobs.com/<site>), the JSON the site itself uses, no key.
 
-The list is read in full. It only says "Posted Today" or "Posted 3 Days Ago", so that gives a
+The list is read in full, or only the jobs a company's `search` words find when companies.toml sets them. It only says "Posted Today" or "Posted 3 Days Ago", so that gives a
 first date; the job's own page then gives the exact posting date, the places and the description.
 """
 
@@ -26,7 +26,8 @@ def collect(company, cfg, today, since=""):
     api, site = api_base(cfg["url"])
     seen, offset, total = {}, 0, None
     while offset < MAX_JOBS:
-        data = get_json(f"{api}/jobs", {"appliedFacets": {}, "limit": PAGE, "offset": offset, "searchText": ""})
+        data = get_json(f"{api}/jobs", {"appliedFacets": {}, "limit": PAGE, "offset": offset,
+                                       "searchText": cfg.get("search", "")})
         postings = data.get("jobPostings") or []
         total = data.get("total") or total or 0  # Workday gives the total on the first page only
         for job in postings:

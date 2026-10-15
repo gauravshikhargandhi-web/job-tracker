@@ -84,6 +84,17 @@ class BoardTests(unittest.TestCase):
         self.assertEqual(row["location"], "US, CA, Santa Clara; Seattle, WA")
         self.assertEqual(row["country"], "United States of America")
 
+    def test_company_title_filter(self):
+        os.chdir(tempfile.mkdtemp())
+        self.addCleanup(os.chdir, ROOT)
+        with open("companies.toml", "w") as f:
+            f.write('[[company]]\nname = "NVIDIA"\nboard = "workday"\nsearch = "program"\ntitles = ["program manager"]\n'
+                    'url = "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"\n')
+        with mock.patch("sys.argv", ["run", "--today", "2026-10-14"]):
+            run.main()
+        summary = {r["company"]: r for r in run.load(run.SUMMARY_PATH)}
+        self.assertEqual(summary["NVIDIA"]["open_jobs"], "3")  # all three titles have "program manager"
+
     def test_workday_posted_text(self):
         self.assertEqual(workday.posted_on("Posted Today", TODAY), "2026-10-14")
         self.assertEqual(workday.posted_on("Posted Yesterday", TODAY), "2026-10-13")
