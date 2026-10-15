@@ -55,11 +55,6 @@ board = "not_yet"
 site = "https://jobs.apple.com"  # Own careers site
 
 [[company]]
-name = "Applied Intuition"
-board = "greenhouse"
-slug = "appliedintuition"  # check
-
-[[company]]
 name = "Bain"
 board = "not_yet"
 site = "https://careers.bain.com"  # Own careers site
@@ -171,11 +166,6 @@ site = "https://www.google.com/about/careers/applications/jobs/results"  # Own c
 name = "Grainger"
 board = "not_yet"
 site = "https://jobs.grainger.com"  # SuccessFactors (behind jobs.grainger.com)
-
-[[company]]
-name = "IA Collaborative"
-board = "ashby"
-slug = "iacollaborative"
 
 [[company]]
 name = "Intuitive"
@@ -327,11 +317,6 @@ site = "https://www.ul.com/about/careers"  # Oracle
 name = "Via"
 board = "greenhouse"
 slug = "via"
-
-[[company]]
-name = "WHOOP"
-board = "lever"
-slug = "whoop"
 
 [[company]]
 name = "Zoox"
