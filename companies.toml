@@ -5,9 +5,8 @@
 # board = workday : url is the career site address, e.g. https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
 # board = amazon | apple | google : no slug needed.
 # board = eightfold | eightfold_v2 : host and domain, e.g. host = "apply.careers.microsoft.com", domain = "microsoft.com".
-# board = jibe | teamtailor | successfactors : host, e.g. host = "careers.rivian.com".
+# board = jibe | teamtailor : host, e.g. host = "careers.rivian.com".
 # board = oracle : host and site (the siteNumber in the careers address).
-# board = avature : list (the SearchJobs address) and words (job or folder, the word the site puts before Sort and Offset).
 # titles = ["..."] : keep only jobs whose title has one of these (search = "..." also narrows a Workday site's list).
 # board = "not_yet" : the company's own careers site, which needs its own reader; not read yet.
 #
@@ -56,13 +55,6 @@ titles = [
 [[company]]
 name = "Apple"
 board = "apple"
-
-[[company]]
-name = "Bain"
-board = "avature"
-list = "https://careers.bain.com/jobs/SearchJobs"
-words = "folder"
-newest_first = false  # the site ignores the date sort
 
 [[company]]
 name = "Bain Capital"
@@ -117,12 +109,6 @@ url = "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1"
 name = "Crowe"
 board = "workday"
 url = "https://crowe.wd12.myworkdayjobs.com/external_careers"
-
-[[company]]
-name = "Deloitte"
-board = "avature"
-list = "https://apply.deloitte.com/en_US/careers/SearchJobs"
-words = "job"
 
 [[company]]
 name = "DoorDash"
@@ -214,11 +200,6 @@ domain = "microsoft.com"
 name = "Mutares"
 board = "teamtailor"
 host = "career.mutares.com"
-
-[[company]]
-name = "Nestlé"
-board = "successfactors"
-host = "jobdetails.nestle.com"
 
 [[company]]
 name = "OpenAI"

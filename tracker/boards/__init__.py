@@ -1,8 +1,8 @@
 """One reader per job-board type. Each has collect(company, cfg, today) -> every open job,
 and describe(row) -> job description when the list doesn't include it."""
 
-from tracker.boards import (amazon, apple, ashby, avature, eightfold, eightfold_v2, google, greenhouse, jibe, lever,
-                            oracle, smartrecruiters, successfactors, teamtailor, workable, workday)
+from tracker.boards import (amazon, apple, ashby, eightfold, eightfold_v2, google, greenhouse, jibe, lever,
+                            oracle, smartrecruiters, teamtailor, workable, workday)
 
 READERS = {
     "greenhouse": greenhouse,
@@ -18,9 +18,7 @@ READERS = {
     "eightfold_v2": eightfold_v2,
     "jibe": jibe,
     "oracle": oracle,
-    "avature": avature,
     "teamtailor": teamtailor,
-    "successfactors": successfactors,
 }
 
 

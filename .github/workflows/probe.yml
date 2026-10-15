@@ -16,7 +16,6 @@ jobs:
         with:
           python-version: "3.12"
       - run: python tools/probe.py tools/probe_urls.txt probe_out
-      - run: SAVE_ANSWERS=probe_out/answers python tools/try_reader.py Nestlé Bain > probe_out/try_reader.txt 2>&1 || true
       - name: Save the answers to the probe branch
         run: |
           git config user.name "github-actions[bot]"
