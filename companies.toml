@@ -208,11 +208,6 @@ board = "workday"
 url = "https://lego.wd103.myworkdayjobs.com/lego_external"
 
 [[company]]
-name = "Lowe's"
-board = "workday"
-url = "https://lowes.wd5.myworkdayjobs.com/lws_external_cs"
-
-[[company]]
 name = "Mars"
 board = "workday"
 url = "https://mars.wd3.myworkdayjobs.com/external"
