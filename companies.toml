@@ -62,6 +62,7 @@ name = "Bain"
 board = "avature"
 list = "https://careers.bain.com/jobs/SearchJobs"
 words = "folder"
+newest_first = false  # the site ignores the date sort
 
 [[company]]
 name = "Bain Capital"

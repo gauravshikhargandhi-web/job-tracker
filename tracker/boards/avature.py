@@ -5,6 +5,8 @@ page is opened; its job details (schema.org JobPosting) give the posting date, p
 Reading stops at the first page whose jobs were all posted before yesterday.
 companies.toml: list = "https://apply.deloitte.com/en_US/careers/SearchJobs", words = "job"
 (the word the site puts before Sort and Offset in its addresses: jobSort, jobOffset; Bain uses folder).
+Some sites ignore the date sort (Bain sorts by title): newest_first = false reads every page of the list,
+and only the pages of jobs not seen before are opened, by the daily run.
 """
 
 import json
@@ -18,7 +20,7 @@ LINK = re.compile(r'<a href="(https?://[^"]+/(?:JobDetail|FolderDetail)/[^"]+/(\
 
 
 def collect(company, cfg, today=None, since=""):
-    rows, word = {}, cfg.get("words", "job")
+    rows, word, newest_first = {}, cfg.get("words", "job"), cfg.get("newest_first", True)
     for page_no in range(MAX_PAGES):
         sep = "&" if "?" in cfg["list"] else "?"
         listing = get_text(f"{cfg['list']}{sep}{word}Sort=postingDate&{word}RecordsPerPage={PAGE}"
@@ -30,10 +32,11 @@ def collect(company, cfg, today=None, since=""):
                 continue
             row = {"key": key, "company": company, "title": clean(title), "location": "", "country": "",
                    "remote": "", "department": "", "posted": "", "link": link, "board": "avature", "detail": link}
-            row["description"] = describe(row)
+            if newest_first:
+                row["description"] = describe(row)
             rows[key] = row
             page.append(row)
-        if not page or (since and all(r["posted"] and r["posted"] < since for r in page)):
+        if not page or (newest_first and since and all(r["posted"] and r["posted"] < since for r in page)):
             break
     return list(rows.values())
 
@@ -55,5 +58,18 @@ def describe(row):
             row["country"] = "; ".join(sorted({str(a.get("addressCountry") or "") for a in addresses
                                                if isinstance(a, dict) and a.get("addressCountry")}))
             row["posted"] = str(data.get("datePosted") or "")[:10]
-            return clean(data.get("description", ""))
-    return ""
+            if data.get("description"):
+                return clean(data["description"])
+    # Bain's details give only the date; the page's own fields give the places and description.
+    fields, text = {}, []
+    for block in re.findall(r'<div class="article__content__view__field[ "][^>]*>(.*?)</div>\s*</div>', page, re.S):
+        label = re.search(r'__label">(.*?)</div>', block, re.S)
+        value = re.search(r'__value">(.*)', block, re.S)
+        value = clean(value.group(1)) if value else ""
+        if label:
+            fields[clean(label.group(1))] = value
+        elif value:
+            text.append(value)
+    if fields.get("Location(s)") and not row.get("location"):
+        row["location"] = fields["Location(s)"]
+    return "\n".join(text)

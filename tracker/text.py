@@ -72,7 +72,9 @@ def day(value):
 
 
 def get_text(url, browser=False):
-    return fetch(url, headers=BROWSER if browser else None).decode("utf-8", "replace")
+    headers = {**BROWSER, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+               "Accept-Language": "en-US,en;q=0.9"} if browser else None
+    return fetch(url, headers=headers).decode("utf-8", "replace")
 
 
 def seconds_day(value):

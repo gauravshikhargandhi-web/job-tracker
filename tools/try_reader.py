@@ -5,6 +5,7 @@
 
 import collections
 import datetime
+import os
 import sys
 import tomllib
 
@@ -12,11 +13,19 @@ sys.path.insert(0, ".")
 from tracker import boards, text  # noqa: E402
 
 real_fetch = text.fetch
+SAVE = os.environ.get("SAVE_ANSWERS")  # a folder to keep every answer in, for a closer look
+answers = 0
 
 
 def logged_fetch(url, *args, **kwargs):
+    global answers
     body = real_fetch(url, *args, **kwargs)
     print(f"  {len(body):>8} bytes  {url[:160]}")
+    if SAVE:
+        os.makedirs(SAVE, exist_ok=True)
+        with open(os.path.join(SAVE, f"{answers:03d}.txt"), "wb") as f:
+            f.write(body)
+    answers += 1
     return body
 
 
