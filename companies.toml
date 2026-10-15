@@ -103,11 +103,6 @@ titles = ["business manager"]
 url = "https://capitalone.wd12.myworkdayjobs.com/capital_one"
 
 [[company]]
-name = "Co280"
-board = "not_yet"
-site = "https://www.co280.com"  # Own website (small firm)
-
-[[company]]
 name = "Cox Enterprises"
 board = "workday"
 url = "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1"
@@ -153,19 +148,9 @@ board = "smartrecruiters"
 slug = "FortuneBrands"
 
 [[company]]
-name = "gener8tor"
-board = "not_yet"
-site = "https://www.gener8tor.com"  # Own website
-
-[[company]]
 name = "Google"
 board = "not_yet"
 site = "https://www.google.com/about/careers/applications/jobs/results"  # Own careers site
-
-[[company]]
-name = "Grainger"
-board = "not_yet"
-site = "https://jobs.grainger.com"  # SuccessFactors (behind jobs.grainger.com)
 
 [[company]]
 name = "Intuitive"
@@ -267,11 +252,6 @@ site = "https://ejia.fa.us6.oraclecloud.com"  # Oracle
 name = "Samsara"
 board = "greenhouse"
 slug = "samsara"  # check
-
-[[company]]
-name = "Slalom"
-board = "not_yet"
-site = "https://jobs.slalom.com"  # Own careers site
 
 [[company]]
 name = "Specter"
