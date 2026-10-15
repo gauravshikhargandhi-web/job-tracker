@@ -2,7 +2,7 @@
 
     python tools/probe.py tools/probe_urls.txt probe_out
 
-Saves each answer's status, final address, headers and the first 800,000 characters.
+Saves each answer's status, final address, headers and the first 5,000,000 characters.
 """
 
 import json
@@ -40,7 +40,7 @@ def main(listing, out):
             row.update(status=str(e))
         row["length"] = len(text)
         path = f"{out}/{n:02d}-{name}.txt"
-        open(path, "w").write(text[:800000])
+        open(path, "w").write(text[:5000000])
         row["file"] = path
         results.append(row)
         print(row)
