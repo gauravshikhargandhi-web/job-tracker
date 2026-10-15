@@ -3,7 +3,11 @@
 # board = greenhouse | lever | ashby | workable | smartrecruiters : slug is the name in the board's address,
 #   e.g. job-boards.greenhouse.io/stripe -> slug = "stripe", jobs.ashbyhq.com/openai -> slug = "openai".
 # board = workday : url is the career site address, e.g. https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
-# board = amazon : no slug needed.
+# board = amazon | apple | google : no slug needed.
+# board = eightfold | eightfold_v2 : host and domain, e.g. host = "apply.careers.microsoft.com", domain = "microsoft.com".
+# board = jibe | teamtailor | successfactors : host, e.g. host = "careers.rivian.com".
+# board = oracle : host and site (the siteNumber in the careers address).
+# board = avature : feed (the SearchJobs/feed/ address) and offset (the paging word the site uses).
 # titles = ["..."] : keep only jobs whose title has one of these (search = "..." also narrows a Workday site's list).
 # board = "not_yet" : the company's own careers site, which needs its own reader; not read yet.
 #
@@ -33,7 +37,7 @@ slug = "ridealso"
 [[company]]
 name = "Alvarez & Marsal"
 board = "not_yet"
-site = "https://careers.alvarezandmarsal.com"  # Own careers site
+site = "https://careers.alvarezandmarsal.com"  # Not read: the site blocks automated reading (Cloudflare check)
 
 [[company]]
 name = "Amazon"
@@ -51,13 +55,13 @@ titles = [
 
 [[company]]
 name = "Apple"
-board = "not_yet"
-site = "https://jobs.apple.com"  # Own careers site
+board = "apple"
 
 [[company]]
 name = "Bain"
-board = "not_yet"
-site = "https://careers.bain.com"  # Own careers site
+board = "avature"
+feed = "https://careers.bain.com/jobs/SearchJobs/feed/"
+offset = "folderOffset"
 
 [[company]]
 name = "Bain Capital"
@@ -71,8 +75,9 @@ slug = "base-power"
 
 [[company]]
 name = "BCG"
-board = "not_yet"
-site = "https://experiencedtalent.bcg.com"  # Eightfold (experiencedtalent.bcg.com)
+board = "eightfold_v2"
+host = "experiencedtalent.bcg.com"
+domain = "bcg.com"
 
 [[company]]
 name = "bp"
@@ -114,8 +119,9 @@ url = "https://crowe.wd12.myworkdayjobs.com/external_careers"
 
 [[company]]
 name = "Deloitte"
-board = "not_yet"
-site = "https://apply.deloitte.com"  # Own careers site (apply.deloitte.com, Avature behind it)
+board = "avature"
+feed = "https://apply.deloitte.com/en_US/careers/SearchJobs/feed/"
+offset = "jobOffset"
 
 [[company]]
 name = "DoorDash"
@@ -149,13 +155,12 @@ slug = "FortuneBrands"
 
 [[company]]
 name = "Google"
-board = "not_yet"
-site = "https://www.google.com/about/careers/applications/jobs/results"  # Own careers site
+board = "google"
 
 [[company]]
 name = "Intuitive"
-board = "not_yet"
-site = "https://careers.intuitive.com"  # Own careers site (careers.intuitive.com)
+board = "smartrecruiters"
+slug = "Intuitive"
 
 [[company]]
 name = "Invenergy"
@@ -169,13 +174,14 @@ slug = "itselectric"
 
 [[company]]
 name = "ITW"
-board = "not_yet"
-site = "https://careers.itw.com"  # Own careers site (careers.itw.com)
+board = "workday"
+url = "https://itw.wd5.myworkdayjobs.com/External"
 
 [[company]]
 name = "Kraft Heinz"
-board = "not_yet"
-site = "https://jobs.kraftheinz.com"  # Own careers site (jobs.kraftheinz.com)
+board = "eightfold"
+host = "kraftheinz.eightfold.ai"
+domain = "kraftheinz.com"
 
 [[company]]
 name = "LEGO Group"
@@ -190,27 +196,28 @@ url = "https://mars.wd3.myworkdayjobs.com/external"
 [[company]]
 name = "McKinsey"
 board = "not_yet"
-site = "https://www.mckinsey.com/careers/search-jobs"  # Own careers site
+site = "https://www.mckinsey.com/careers/search-jobs"  # Not read: the site doesn't answer GitHub's servers and its job feed is empty
 
 [[company]]
 name = "mHUB"
 board = "not_yet"
-site = "https://www.mhubchicago.com"  # Job board for Chicago hardware startups, not one company
+site = "https://www.mhubchicago.com"  # Not read: a small page of its own, not a job board
 
 [[company]]
 name = "Microsoft"
-board = "not_yet"
-site = "https://apply.careers.microsoft.com"  # Own careers site (Eightfold behind it)
+board = "eightfold"
+host = "apply.careers.microsoft.com"
+domain = "microsoft.com"
 
 [[company]]
 name = "Mutares"
-board = "not_yet"
-site = "https://career.mutares.com"  # Own careers site
+board = "teamtailor"
+host = "career.mutares.com"
 
 [[company]]
 name = "Nestlé"
-board = "not_yet"
-site = "https://www.nestlejobs.com"  # SuccessFactors
+board = "successfactors"
+host = "jobdetails.nestle.com"
 
 [[company]]
 name = "OpenAI"
@@ -240,13 +247,14 @@ slug = "quince"
 
 [[company]]
 name = "Rivian"
-board = "not_yet"
-site = "https://careers.rivian.com"  # iCIMS (behind careers.rivian.com)
+board = "jibe"
+host = "careers.rivian.com"
 
 [[company]]
 name = "S&C Electric"
-board = "not_yet"
-site = "https://ejia.fa.us6.oraclecloud.com"  # Oracle
+board = "oracle"
+host = "ejia.fa.us6.oraclecloud.com"
+site = "CX_1001"
 
 [[company]]
 name = "Samsara"
@@ -265,8 +273,9 @@ slug = "standardbots"
 
 [[company]]
 name = "Starbucks"
-board = "not_yet"
-site = "https://apply.starbucks.com"  # Eightfold (apply.starbucks.com)
+board = "eightfold"
+host = "apply.starbucks.com"
+domain = "starbucks.com"
 
 [[company]]
 name = "Stripe"
@@ -281,7 +290,7 @@ url = "https://tempus.wd5.myworkdayjobs.com/tempus_careers"
 [[company]]
 name = "Tesla"
 board = "not_yet"
-site = "https://www.tesla.com/careers"  # Own careers site (blocks automated reading)
+site = "https://www.tesla.com/careers"  # Not read: the site blocks automated reading
 
 [[company]]
 name = "Tyba"
@@ -290,8 +299,9 @@ slug = "tyba"
 
 [[company]]
 name = "UL Solutions"
-board = "not_yet"
-site = "https://www.ul.com/about/careers"  # Oracle
+board = "oracle"
+host = "fa-eups-saasfaprod1.fa.ocs.oraclecloud.com"
+site = "ULSolutionsCareers"
 
 [[company]]
 name = "Via"

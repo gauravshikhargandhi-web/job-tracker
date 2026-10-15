@@ -9,6 +9,10 @@ import urllib.request
 
 USER_AGENT = "Mozilla/5.0 (compatible; job-tracker; personal job search, one request per board per day)"
 
+# A few career sites only answer browsers.
+BROWSER = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) "
+                         "Chrome/126 Safari/537.36"}
+
 RETRY_WAIT = 30  # seconds before trying a board again after a server error
 
 
@@ -30,12 +34,13 @@ def fetch(url, data=None, headers=None, timeout=60):
         return resp.read()
 
 
-def get_json(url, body=None):
+def get_json(url, body=None, browser=False):
     """GET a URL as JSON, or POST body (a dict) as JSON and read the JSON answer."""
+    headers = {**(BROWSER if browser else {}), "Accept": "application/json"}
     if body is None:
-        return json.loads(fetch(url, headers={"Accept": "application/json"}))
+        return json.loads(fetch(url, headers=headers))
     data = json.dumps(body).encode()
-    return json.loads(fetch(url, data=data, headers={"Accept": "application/json", "Content-Type": "application/json"}))
+    return json.loads(fetch(url, data=data, headers={**headers, "Content-Type": "application/json"}))
 
 
 def clean(text):
@@ -64,3 +69,12 @@ def day(value):
         return time.strftime("%Y-%m-%d", time.strptime(str(value).strip(), "%B %d, %Y"))
     except ValueError:
         return ""
+
+
+def get_text(url, browser=False):
+    return fetch(url, headers=BROWSER if browser else None).decode("utf-8", "replace")
+
+
+def seconds_day(value):
+    """Epoch seconds -> 'YYYY-MM-DD'."""
+    return time.strftime("%Y-%m-%d", time.gmtime(int(value))) if value else ""

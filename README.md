@@ -28,8 +28,10 @@ Nothing is filtered by role here. A daily Claude report (to be built) reads the 
 | --- | --- |
 | Greenhouse, Lever, Ashby, Workable | The board's public list, every job with its description |
 | Workday, SmartRecruiters | The whole list; the pages of new jobs are opened for the description (and, on Workday, the exact date) |
-| amazon.jobs | US jobs newest first, read back to yesterday |
-| Own careers sites (`board = "not_yet"`) | Not read yet; each needs its own reader |
+| amazon.jobs, Apple, Google, Microsoft, Starbucks, Kraft Heinz (Eightfold), S&C Electric, UL Solutions (Oracle), Nestlé (SuccessFactors) | Newest first, read back to yesterday; new jobs' pages opened for the description |
+| BCG (Eightfold), Rivian (Jibe), Mutares (Teamtailor) | The site's own job list, descriptions included |
+| Deloitte, Bain (Avature) | The site's job feed, every page; new jobs' pages give the description and places |
+| Alvarez & Marsal, McKinsey, Tesla, mHUB (`board = "not_yet"`) | Not read: their sites block automated reading or aren't job boards |
 
 If one board fails on a given day, the others still update. The run only shows as failed (and GitHub emails you) once a board has failed 3 days in a row.
 
