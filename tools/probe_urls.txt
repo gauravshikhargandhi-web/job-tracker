@@ -1,34 +1,31 @@
-microsoft https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&start=0&num=5&location=United%20States&sort_by=timestamp
-microsoft-pcsx https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=&location=United%20States&start=0&sort_by=timestamp
-starbucks https://apply.starbucks.com/api/apply/v2/jobs?domain=starbucks.com&start=0&num=5&location=United%20States&sort_by=timestamp
-starbucks-pcsx https://apply.starbucks.com/api/pcsx/search?domain=starbucks.com&query=&location=United%20States&start=0&sort_by=timestamp
-bcg https://bcg.eightfold.ai/api/apply/v2/jobs?domain=bcg.com&start=0&num=5&location=United%20States&sort_by=timestamp
-bcg-site https://experiencedtalent.bcg.com/api/apply/v2/jobs?domain=bcg.com&start=0&num=5&sort_by=timestamp
-bcg-pcsx https://experiencedtalent.bcg.com/api/pcsx/search?domain=bcg.com&query=&start=0&sort_by=timestamp
-kraftheinz https://careers.kraftheinz.com/api/apply/v2/jobs?domain=kraftheinz.com&start=0&num=5&sort_by=timestamp
-kraftheinz-pcsx https://careers.kraftheinz.com/api/pcsx/search?domain=kraftheinz.com&query=&start=0&sort_by=timestamp
-kraftheinz-home https://careers.kraftheinz.com/
-rivian https://careers.rivian.com/api/jobs?page=1&sortBy=posted_date&descending=true&internal=false
-sandc https://ejia.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_1001,sortBy=POSTING_DATES_DESC,limit=5
-ul-home https://www.ul.com/about/careers
-ul-jobs https://www.ul.com/about/careers/jobs
-apple-html https://jobs.apple.com/en-us/search?sort=newest&location=united-states-USA
-apple-api POST https://jobs.apple.com/api/v1/search {"query":"","filters":{"locations":["postLocation-USA"]},"page":1,"locale":"en-us","sort":"newest","format":{"longDate":"MMMM D, YYYY","mediumDate":"MMM D, YYYY"}}
+ms-detail https://apply.careers.microsoft.com/api/pcsx/position_details?position_id=1970393557025706&domain=microsoft.com&hl=en
+ms-page2 https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=&location=United%20States&start=10&sort_by=timestamp
+sbx-detail https://apply.starbucks.com/api/pcsx/position_details?position_id=481081216912&domain=starbucks.com&hl=en
+bcg https://experiencedtalent.bcg.com/api/apply/v2/jobs?domain=bcg.com&start=0&num=10&location=United%20States&sort_by=timestamp
+apple-detail https://jobs.apple.com/api/v1/jobDetails/PIPE-114438158
+apple-detail2 https://jobs.apple.com/api/role/detail/114438158
+apple-page2 POST https://jobs.apple.com/api/v1/search {"query":"","filters":{"locations":["postLocation-USA"]},"page":2,"locale":"en-us","sort":"newest"}
 google https://www.google.com/about/careers/applications/jobs/results?location=United%20States&sort_by=date
-intuitive-sr https://api.smartrecruiters.com/v1/companies/Intuitive/postings?limit=2
-intuitive-sr2 https://api.smartrecruiters.com/v1/companies/IntuitiveSurgical/postings?limit=2
-intuitive-home https://careers.intuitive.com/en/jobs/
-itw-search https://careers.itw.com/us/en/search-results
-itw-wd POST https://itw.wd5.myworkdayjobs.com/wday/cxs/itw/ITW/jobs {"appliedFacets":{},"limit":2,"offset":0,"searchText":""}
-nestle-rss https://jobdetails.nestle.com/services/rss/job/?locale=en_US&keywords=
-nestle-search https://jobdetails.nestle.com/search/?q=&locationsearch=United%20States&sortColumn=referencedate&sortDirection=desc
-deloitte https://apply.deloitte.com/careers/SearchJobs?jobRecordsPerPage=10&jobSort=postingDate
-bain https://careers.bain.com/jobs/SearchJobs
-mckinsey-avature https://jobs.mckinsey.com/careers/SearchJobs
-mckinsey-site https://www.mckinsey.com/careers/search-jobs
-am-rss https://careers.alvarezandmarsal.com/jobs.rss
-am-jobs https://careers.alvarezandmarsal.com/jobs
-mutares https://career.mutares.com/
-mhub https://www.mhubchicago.com/jobs
-mhub2 https://jobs.mhubchicago.com/
-tesla https://www.tesla.com/cua-api/apps/careers/state
+itw-widgets POST https://careers.itw.com/widgets {"lang":"en_us","deviceType":"desktop","country":"us","pageName":"search-results","ddoKey":"refineSearch","sortBy":"Most recent","subsearch":"","from":0,"jobs":true,"counts":true,"all_fields":["country"],"size":10,"clearAll":false,"jdsource":"facets","isSliderEnable":false,"pageId":"page20","siteType":"external","keywords":"","global":true,"selected_fields":{"country":["United States"]},"refNum":"ITWITWUS","sort":{"order":"desc","field":"postedDate"}}
+itw-sorted https://careers.itw.com/us/en/search-results?s=1&from=0
+itw-job https://careers.itw.com/us/en/job/JR10426/Sr-Product-Manager
+nestle-search https://jobdetails.nestle.com/search/?q=&locationsearch=United%20States&sortColumn=referencedate&sortDirection=desc&startrow=0
+nestle-rss-us https://jobdetails.nestle.com/services/rss/job/?locale=en_US&keywords=&location=United%20States
+deloitte-feed https://apply.deloitte.com/en_US/careers/SearchJobs/feed/?jobRecordsPerPage=10
+deloitte-full https://apply.deloitte.com/en_US/careers/SearchJobs?jobRecordsPerPage=10&jobSort=postingDate
+bain-feed https://careers.bain.com/jobs/SearchJobs/feed/?folderRecordsPerPage=10
+bain-detail https://careers.bain.com/jobs/FolderDetail/Practice-Consultant-Strategy-Transformation/108792
+mck-feed https://jobs.mckinsey.com/careers/SearchJobs/feed/
+mck-home https://jobs.mckinsey.com/careers
+mck-site https://www.mckinsey.com/careers/search-jobs
+mutares-rss https://career.mutares.com/jobs.rss
+am-tt https://alvarezandmarsal.teamtailor.com/jobs.rss
+am-tt2 https://alvarezmarsal.teamtailor.com/jobs.rss
+kh-jobs https://careers.kraftheinzcompany.com/jobs
+kh-api https://careers.kraftheinzcompany.com/api/jobs?page=1&sortBy=posted_date&descending=true
+kh-ef https://kraftheinz.eightfold.ai/api/pcsx/search?domain=kraftheinz.com&query=&start=0&sort_by=timestamp
+kh-wd POST https://kraftheinz.wd1.myworkdayjobs.com/wday/cxs/kraftheinz/KraftHeinz_Careers/jobs {"appliedFacets":{},"limit":2,"offset":0,"searchText":""}
+ul-careers https://www.ul.com/careers?_format=markdown
+mhub https://mhub.org/careers
+rivian-p2 https://careers.rivian.com/api/jobs?page=2&sortBy=posted_date&descending=true&internal=false&limit=100
+sandc-detail https://ejia.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails?expand=all&onlyData=true&finder=ById;Id=%22107343%22,siteNumber=CX_1001
