@@ -1,13 +1,8 @@
-google https://www.google.com/about/careers/applications/jobs/results?location=United%20States&sort_by=date
-apple-page2 POST https://jobs.apple.com/api/v1/search {"query":"","filters":{"locations":["postLocation-USA"]},"page":2,"locale":"en-us","sort":"newest","format":{"longDate":"MMMM D, YYYY","mediumDate":"MMM D, YYYY"}}
-itw-widgets POST https://careers.itw.com/widgets {"lang":"en_us","deviceType":"desktop","country":"us","pageName":"search-results","ddoKey":"refineSearch","sortBy":"Most recent","subsearch":"","from":0,"jobs":true,"counts":true,"all_fields":["country"],"size":10,"clearAll":false,"jdsource":"facets","isSliderEnable":false,"pageId":"page20","siteType":"external","keywords":"","global":true,"selected_fields":{"country":["United States of America"]},"refNum":"ITWITWUS","sort":{"order":"desc","field":"postedDate"}}
-itw-detail POST https://careers.itw.com/widgets {"lang":"en_us","deviceType":"desktop","country":"us","pageName":"job","ddoKey":"jobDetail","jobId":"JR10426","refNum":"ITWITWUS","siteType":"external"}
-deloitte-feed100 https://apply.deloitte.com/en_US/careers/SearchJobs/feed/?jobRecordsPerPage=100&jobOffset=0
-deloitte-feed-sort https://apply.deloitte.com/en_US/careers/SearchJobs/feed/?jobRecordsPerPage=20&sortBy=postingDate&sortOrder=desc
-deloitte-detail https://apply.deloitte.com/careers/JobDetail/Manager-Transfer-Pricing/360763
-bain-feed100 https://careers.bain.com/jobs/SearchJobs/feed/?folderRecordsPerPage=100&folderOffset=0
-ul-oracle https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=ULSolutionsCareers,sortBy=POSTING_DATES_DESC,limit=5
-ul-oracle-cx1 https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_1,sortBy=POSTING_DATES_DESC,limit=5
-mck-api https://mckapi.mckinsey.com/api/jobsearch?pageSize=5&start=1
-mck-site https://www.mckinsey.com/careers/search-jobs
-kh-ef-us https://kraftheinz.eightfold.ai/api/pcsx/search?domain=kraftheinz.com&query=&location=United%20States&start=0&sort_by=timestamp
+nestle-p2 https://jobdetails.nestle.com/search/?q=&locationsearch=United%20States&sortColumn=referencedate&sortDirection=desc&startrow=10
+nestle-p2b https://jobdetails.nestle.com/search/?q=&locationsearch=United+States&sortColumn=referencedate&sortDirection=desc&startrow=10
+nestle-job https://jobdetails.nestle.com/job/St_-Louis-Senior-Project-Engineering-Manager-%28End-to-End-Project-Manager%29-MO-63102/1437729033/
+deloitte-list2 https://apply.deloitte.com/en_US/careers/SearchJobs?jobRecordsPerPage=10&jobSort=postingDate&jobOffset=10
+deloitte-list3 https://apply.deloitte.com/en_US/careers/SearchJobs?jobRecordsPerPage=50&jobSort=postingDate&jobOffset=0
+bain-list https://careers.bain.com/jobs/SearchJobs?folderRecordsPerPage=10&folderSort=postingDate
+bain-list2 https://careers.bain.com/jobs/SearchJobs?folderRecordsPerPage=10&folderSort=postingDate&folderOffset=10
+bain-plain https://careers.bain.com/jobs/SearchJobs
