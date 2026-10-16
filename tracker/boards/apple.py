@@ -3,10 +3,13 @@
 Each new job's page is opened for its full description.
 """
 
+import time
+
 from tracker.text import clean, day, get_json
 
 SEARCH = "https://jobs.apple.com/api/v1/search"
 MAX_PAGES = 300
+RETRY_WAIT = 20
 
 
 def _post(page):
@@ -19,6 +22,9 @@ def collect(company, cfg, today=None, since=""):
     rows = {}
     for page_no in range(1, MAX_PAGES + 1):
         res = _post(page_no).get("res") or {}
+        if page_no == 1 and not res.get("searchResults"):
+            time.sleep(RETRY_WAIT)  # the search sometimes answers with no jobs at all; asking again usually works
+            res = _post(page_no).get("res") or {}
         page = [parse(company, j) for j in res.get("searchResults") or []]
         for row in page:
             rows[row["key"]] = row

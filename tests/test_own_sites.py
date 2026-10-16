@@ -74,7 +74,8 @@ def fake_fetch(url, data=None, headers=None, timeout=60):
 
 class OwnSiteTests(unittest.TestCase):
     def setUp(self):
-        for patcher in (mock.patch.object(text, "fetch", fake_fetch), mock.patch.object(eightfold, "PAUSE", 0)):
+        for patcher in (mock.patch.object(text, "fetch", fake_fetch), mock.patch.object(eightfold, "PAUSE", 0),
+                        mock.patch.object(apple, "RETRY_WAIT", 0)):
             patcher.start()
             self.addCleanup(patcher.stop)
 
@@ -83,6 +84,20 @@ class OwnSiteTests(unittest.TestCase):
                                  TODAY, SINCE)
         self.assertEqual([(r["posted"], r["country"]) for r in rows], [("2026-10-15", "US"), ("2026-10-01", "outside the US")])
         self.assertEqual(eightfold.describe(rows[0]), "Ship Surface devices.")
+
+    def test_eightfold_keeps_jobs_read_before_a_rate_limit(self):
+        import io
+        import urllib.error
+
+        def limited(url, data=None, headers=None, timeout=60):
+            if "start=0" in url:  # a first page of a longer list
+                return json.dumps({"data": {**EIGHTFOLD["data"], "count": 50}}).encode()
+            raise urllib.error.HTTPError(url, 429, "Too Many Requests", {}, io.BytesIO())
+
+        with mock.patch.object(text, "fetch", limited):
+            rows = eightfold.collect("Microsoft", {"host": "apply.careers.microsoft.com", "domain": "microsoft.com"},
+                                     TODAY, "2026-09-01")
+        self.assertEqual(len(rows), 2)
 
     def test_eightfold_v2(self):
         (row,) = eightfold_v2.collect("BCG", {"host": "experiencedtalent.bcg.com", "domain": "bcg.com"}, TODAY, SINCE)

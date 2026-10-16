@@ -5,6 +5,7 @@ companies.toml: host = "apply.careers.microsoft.com", domain = "microsoft.com".
 """
 
 import time
+import urllib.error
 import urllib.parse
 
 from tracker.text import clean, get_json, seconds_day
@@ -18,7 +19,15 @@ def collect(company, cfg, today=None, since=""):
     for _ in range(MAX_PAGES):
         params = urllib.parse.urlencode({"domain": cfg["domain"], "query": "", "location": cfg.get("location", "United States"),
                                          "start": start, "sort_by": "timestamp"})
-        data = get_json(f"https://{cfg['host']}/api/pcsx/search?{params}", browser=True)["data"]
+        try:
+            data = get_json(f"https://{cfg['host']}/api/pcsx/search?{params}", browser=True)["data"]
+        except urllib.error.HTTPError as error:
+            # Microsoft's site cuts off readers from shared servers after a few pages (429). The pages come
+            # newest first, so keep the jobs already read rather than losing the whole day.
+            if error.code != 429 or not rows:
+                raise
+            print(f"{company}: the site stopped answering after {len(rows)} jobs (too many requests); keeping those")
+            break
         time.sleep(PAUSE)
         page = [parse(company, cfg, p) for p in data.get("positions") or []]
         for row in page:
