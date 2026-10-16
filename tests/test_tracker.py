@@ -178,6 +178,14 @@ class RunTests(unittest.TestCase):
         saved = self.run_day("2026-10-15", next_day)
         self.assertEqual(list(saved), ["Climate Program Lead"])
         self.assertEqual(saved["Climate Program Lead"]["first_seen"], "2026-10-15")
+        recent = [r["title"] for r in run.load(run.RECENT_PATH)]
+        self.assertEqual(sorted(recent), ["Climate Program Lead", "Senior Technical Program Manager - NPI"])
+
+        # Three days later the 14 October file is deleted, and its job is not saved again.
+        with self.assertRaises(SystemExit):  # the broken board has now failed 3 days in a row
+            self.run_day("2026-10-17", next_day)
+        self.assertFalse(os.path.exists(run.DAY_PATH.format(day="2026-10-14")))
+        self.assertEqual([r["title"] for r in run.load(run.RECENT_PATH)], ["Climate Program Lead"])
 
 
 if __name__ == "__main__":

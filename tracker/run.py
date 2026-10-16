@@ -17,6 +17,8 @@ from tracker import boards
 from tracker.us import is_us
 
 DAY_PATH = "data/jobs/{day}.csv"  # the new US jobs found that day, with full descriptions
+RECENT_PATH = "data/recent.csv"   # every job from the last KEEP_DAYS daily files, for the daily report
+KEEP_DAYS = 3                     # daily files older than this are deleted (GaGa, 2026-10-16)
 KNOWN_PATH = "data/known.csv"     # every job ever seen, so each job is saved once
 SUMMARY_PATH = "data/summary.csv"
 STREAK_PATH = "data/failures.csv"
@@ -105,6 +107,7 @@ def main():
         print(f"{name}: {len(rows)} open jobs, {kept} new US jobs from the last 24 hours")
 
     save(day_path, saved.values(), JOB_FIELDS)
+    save(RECENT_PATH, keep_recent(today), JOB_FIELDS)
     save(KNOWN_PATH, known.values(), KNOWN_FIELDS)
     streaks = update_streaks(STREAK_PATH, failed)
     save_summary(SUMMARY_PATH, stamp, companies, counts, failed, streaks)
@@ -120,6 +123,22 @@ def is_new(row, since, first_time):
     if row["posted"]:
         return row["posted"] >= since
     return row["board"] != "workday" and not first_time
+
+
+def keep_recent(today):
+    """Deletes daily files older than KEEP_DAYS days and returns the jobs in the rest.
+    known.csv keeps every job's key, so a deleted job is not saved again."""
+    oldest = (today - datetime.timedelta(days=KEEP_DAYS - 1)).isoformat()
+    folder = os.path.dirname(DAY_PATH)
+    rows = []
+    for name in sorted(os.listdir(folder)):
+        if not name.endswith(".csv"):
+            continue
+        if name[:-4] < oldest:
+            os.remove(os.path.join(folder, name))
+        else:
+            rows += load(os.path.join(folder, name))
+    return rows
 
 
 def load(path):

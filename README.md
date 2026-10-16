@@ -6,7 +6,8 @@ Every day at 12:00 UTC a GitHub job:
 
 1. reads every open job on each company's public job board (no login, no keyword search),
 2. keeps the US jobs posted in the last 24 hours (today or yesterday by the site's own date),
-3. saves them with their full descriptions to `data/jobs/YYYY-MM-DD.csv`.
+3. saves them with their full descriptions to `data/jobs/YYYY-MM-DD.csv`,
+4. collects the last 3 days of jobs in `data/recent.csv` and deletes daily files older than that.
 
 Nothing is filtered by role here. A daily Claude report (to be built) reads the day's file and picks what fits, using [`profile.toml`](profile.toml).
 
@@ -14,7 +15,8 @@ Nothing is filtered by role here. A daily Claude report (to be built) reads the 
 
 | File | What it holds |
 | --- | --- |
-| `data/jobs/YYYY-MM-DD.csv` | That day's new US jobs: company, title, location, posted date, link and full description |
+| `data/jobs/YYYY-MM-DD.csv` | That day's new US jobs: company, title, location, posted date, link and full description. Kept for 3 days |
+| `data/recent.csv` | All jobs from the last 3 days' files, which the daily report reads |
 | [`data/known.csv`](data/known.csv) | Every job ever seen, so each job is saved once |
 | [`data/summary.csv`](data/summary.csv) | Today's counts per company, and which boards failed |
 | [`companies.toml`](companies.toml) | The companies and where each posts jobs |
