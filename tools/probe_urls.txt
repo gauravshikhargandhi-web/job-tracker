@@ -1,1 +1,2 @@
-nestle-p3 https://jobdetails.nestle.com/search/?q=&locationsearch=United%20States&sortColumn=referencedate&sortDirection=desc&startrow=20
+apple-search POST https://jobs.apple.com/api/v1/search {"query":"","filters":{"locations":["postLocation-USA"]},"page":1,"locale":"en-us","sort":"newest","format":{"longDate":"MMMM D, YYYY","mediumDate":"MMM D, YYYY"}}
+apple-page https://jobs.apple.com/en-us/search?location=united-states-USA&sort=newest

@@ -4,11 +4,13 @@ Read newest first, 10 jobs a request, stopping once jobs are older than the cuto
 companies.toml: host = "apply.careers.microsoft.com", domain = "microsoft.com".
 """
 
+import time
 import urllib.parse
 
 from tracker.text import clean, get_json, seconds_day
 
 MAX_PAGES = 300
+PAUSE = 1  # seconds between requests; Microsoft's site turns away fast readers (429)
 
 
 def collect(company, cfg, today=None, since=""):
@@ -17,6 +19,7 @@ def collect(company, cfg, today=None, since=""):
         params = urllib.parse.urlencode({"domain": cfg["domain"], "query": "", "location": cfg.get("location", "United States"),
                                          "start": start, "sort_by": "timestamp"})
         data = get_json(f"https://{cfg['host']}/api/pcsx/search?{params}", browser=True)["data"]
+        time.sleep(PAUSE)
         page = [parse(company, cfg, p) for p in data.get("positions") or []]
         for row in page:
             rows[row["key"]] = row
@@ -45,4 +48,5 @@ def parse(company, cfg, p):
 
 
 def describe(row):
+    time.sleep(PAUSE)
     return clean(get_json(row["detail"], browser=True)["data"].get("jobDescription", ""))

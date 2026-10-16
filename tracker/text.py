@@ -14,24 +14,29 @@ BROWSER = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebK
                          "Chrome/126 Safari/537.36"}
 
 RETRY_WAIT = 30  # seconds before trying a board again after a server error
+RATE_LIMIT_WAITS = [30, 60, 120]  # a site that says "too many requests" (429) gets three more tries, slower each time
 
 
 def fetch(url, data=None, headers=None, timeout=60):
     """Download a URL and return its bytes. Pass data (bytes) to POST.
 
-    A server error (HTTP 5xx) or rate limit (429) is often a passing hiccup,
-    so it is tried once more after a short wait before the board counts as failed.
+    A server error (HTTP 5xx) is often a passing hiccup, so it is tried once more after a short wait.
+    A rate limit (429) is tried up to three more times, waiting longer each time.
     """
     request = urllib.request.Request(url, data=data, headers={"User-Agent": USER_AGENT, **(headers or {})})
-    try:
-        with urllib.request.urlopen(request, timeout=timeout) as resp:
-            return resp.read()
-    except urllib.error.HTTPError as error:
-        if error.code < 500 and error.code != 429:
-            raise
-    time.sleep(RETRY_WAIT)
-    with urllib.request.urlopen(request, timeout=timeout) as resp:
-        return resp.read()
+    waits = [RETRY_WAIT]
+    for attempt in range(len(RATE_LIMIT_WAITS) + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as resp:
+                return resp.read()
+        except urllib.error.HTTPError as error:
+            if error.code == 429:
+                waits = RATE_LIMIT_WAITS
+            elif error.code < 500:
+                raise
+            if attempt >= len(waits):
+                raise
+            time.sleep(waits[attempt])
 
 
 def get_json(url, body=None, browser=False):

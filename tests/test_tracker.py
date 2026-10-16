@@ -48,6 +48,24 @@ def fake_fetch(url, data=None, headers=None, timeout=60):
 TODAY = datetime.date(2026, 10, 14)
 
 
+class FetchTests(unittest.TestCase):
+    def test_rate_limit_is_tried_again_slower(self):
+        import io
+        import urllib.error
+        answers = [urllib.error.HTTPError("u", 429, "Too Many Requests", {}, io.BytesIO()) for _ in range(2)]
+        answers.append(io.BytesIO(b"ok"))
+
+        def urlopen(request, timeout=60):
+            answer = answers.pop(0)
+            if isinstance(answer, Exception):
+                raise answer
+            return answer
+
+        with mock.patch("urllib.request.urlopen", urlopen), mock.patch("time.sleep") as sleep:
+            self.assertEqual(text.fetch("https://example.com"), b"ok")
+        self.assertEqual([c.args[0] for c in sleep.call_args_list], [30, 60])
+
+
 class BoardTests(unittest.TestCase):
     def setUp(self):
         patcher = mock.patch.object(text, "fetch", fake_fetch)

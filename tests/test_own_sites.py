@@ -74,9 +74,9 @@ def fake_fetch(url, data=None, headers=None, timeout=60):
 
 class OwnSiteTests(unittest.TestCase):
     def setUp(self):
-        patcher = mock.patch.object(text, "fetch", fake_fetch)
-        patcher.start()
-        self.addCleanup(patcher.stop)
+        for patcher in (mock.patch.object(text, "fetch", fake_fetch), mock.patch.object(eightfold, "PAUSE", 0)):
+            patcher.start()
+            self.addCleanup(patcher.stop)
 
     def test_eightfold(self):
         rows = eightfold.collect("Microsoft", {"host": "apply.careers.microsoft.com", "domain": "microsoft.com"},
