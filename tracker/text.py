@@ -14,14 +14,14 @@ BROWSER = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebK
                          "Chrome/126 Safari/537.36"}
 
 RETRY_WAIT = 30  # seconds before trying a board again after a server error
-RATE_LIMIT_WAITS = [30, 60, 120]  # a site that says "too many requests" (429) gets three more tries, slower each time
+RATE_LIMIT_WAITS = [30]  # a site that says "too many requests" (429) gets one more try; longer waits did not help
 
 
 def fetch(url, data=None, headers=None, timeout=60):
     """Download a URL and return its bytes. Pass data (bytes) to POST.
 
     A server error (HTTP 5xx) is often a passing hiccup, so it is tried once more after a short wait.
-    A rate limit (429) is tried up to three more times, waiting longer each time.
+    A rate limit (429) is tried once more too.
     """
     request = urllib.request.Request(url, data=data, headers={"User-Agent": USER_AGENT, **(headers or {})})
     waits = [RETRY_WAIT]

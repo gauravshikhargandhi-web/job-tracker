@@ -20,8 +20,8 @@ jobs:
       - name: Read the job boards
         run: python -m tracker.run
       - name: Save the updated data
-        # Runs even if one board failed, so the others' updates are kept.
-        if: success() || failure()
+        # Runs even if a board failed or the run timed out, so the jobs already read are kept.
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

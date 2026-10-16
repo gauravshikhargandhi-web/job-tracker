@@ -52,7 +52,7 @@ class FetchTests(unittest.TestCase):
     def test_rate_limit_is_tried_again_slower(self):
         import io
         import urllib.error
-        answers = [urllib.error.HTTPError("u", 429, "Too Many Requests", {}, io.BytesIO()) for _ in range(2)]
+        answers = [urllib.error.HTTPError("u", 429, "Too Many Requests", {}, io.BytesIO())]
         answers.append(io.BytesIO(b"ok"))
 
         def urlopen(request, timeout=60):
@@ -63,7 +63,7 @@ class FetchTests(unittest.TestCase):
 
         with mock.patch("urllib.request.urlopen", urlopen), mock.patch("time.sleep") as sleep:
             self.assertEqual(text.fetch("https://example.com"), b"ok")
-        self.assertEqual([c.args[0] for c in sleep.call_args_list], [30, 60])
+        self.assertEqual([c.args[0] for c in sleep.call_args_list], [30])
 
 
 class BoardTests(unittest.TestCase):

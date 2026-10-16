@@ -73,12 +73,12 @@ def main():
             rows = [r for r in rows if wanted.search(r["title"])]
 
         first_time = name not in known_companies
-        retry, kept = set(), 0
+        retry, kept, limited = set(), 0, False
         for row in rows:
             if row["key"] in known or row["key"] in saved or not is_new(row, since, first_time):
                 continue
             if not row.get("description") and row.get("detail"):
-                if opened >= MAX_PAGES_OPENED:
+                if opened >= MAX_PAGES_OPENED or limited:
                     retry.add(row["key"])
                     continue
                 try:
@@ -87,6 +87,8 @@ def main():
                 except Exception as exc:
                     print(f"{name}: could not open {row['title']} ({exc}); tried again next run")
                     retry.add(row["key"])
+                    # A site that says "too many requests" stops answering for a while: open its other jobs next run.
+                    limited = getattr(exc, "code", None) == 429
                     continue
             # The job page can correct the date (Workday) and the places.
             if row["posted"] and row["posted"] < since:
