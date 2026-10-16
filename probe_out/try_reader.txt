@@ -1,0 +1,10 @@
+== Kraft Heinz (eightfold)
+     11628 bytes  https://kraftheinz.eightfold.ai/api/pcsx/search?domain=kraftheinz.com&query=&location=United+States&start=0&sort_by=timestamp
+     11435 bytes  https://kraftheinz.eightfold.ai/api/pcsx/search?domain=kraftheinz.com&query=&location=United+States&start=10&sort_by=timestamp
+     11598 bytes  https://kraftheinz.eightfold.ai/api/pcsx/search?domain=kraftheinz.com&query=&location=United+States&start=20&sort_by=timestamp
+30 jobs; posted dates: [('2026-10-12', 6), ('2026-10-13', 2), ('2026-10-14', 6), ('2026-10-15', 9), ('2026-10-16', 7)]
+  2026-10-16 | HR Process Lead | Lowville Plant, New York, United States  | US | 0 characters
+  2026-10-16 | Customer Planning Manager, Walmart | Rogers Sales, Arkansas, United States of | US | 0 characters
+  2026-10-16 | 3rd Shift Skilled Machine Operator Jelly Departmen | HPC - Mason Factory, Ohio, United States | US | 0 characters
+  2026-10-16 | Senior Manager, IT - SAP Finance & Global Tax Solu | Chicago/Aon Center, Illinois, United Sta | US | 0 characters
+  2026-10-16 | Lead, R&D - Operating Model Excellence Lead | Glenview R&D Center, Illinois, United St | US | 0 characters
