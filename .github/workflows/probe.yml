@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: python tools/probe.py tools/probe_urls.txt probe_out
-      - run: python tools/try_reader.py Apple Microsoft > probe_out/try_reader.txt 2>&1 || true
+      - run: python tools/try_reader.py Kraft\ Heinz > probe_out/try_reader.txt 2>&1 || true
       - name: Save the answers to the probe branch
         run: |
           git config user.name "github-actions[bot]"
