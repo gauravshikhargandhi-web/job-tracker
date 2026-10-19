@@ -93,6 +93,7 @@ AbbVie:sr3743990015032576,AbbVie,Associate Border Security Analyst II,2026-09-02
 AbbVie:sr3743990015032706,AbbVie,Associate Border Security Analyst II,2026-09-02,2026-10-14
 AbbVie:sr3743990015032746,AbbVie,Associate Border Security Analyst II,2026-09-02,2026-10-14
 AbbVie:sr3743990015310464,AbbVie,Associate Brand Manager II,2026-09-16,2026-10-14
+AbbVie:sr3743990016215066,AbbVie,Associate Cloud Engineer I,2026-10-19,2026-10-19
 AbbVie:sr3743990016155186,AbbVie,"Associate Data Reviewer, QC",2026-10-15,2026-10-16
 AbbVie:sr3743990016070676,AbbVie,Associate Data Scientist I,2026-10-12,2026-10-14
 AbbVie:sr3743990015185516,AbbVie,"Associate DevSecOps Engineer, Platform and Tooling",2026-09-10,2026-10-14
@@ -114,6 +115,7 @@ AbbVie:sr3743990016173946,AbbVie,"Associate Director, AMI Curricula",2026-10-16,
 AbbVie:sr3743990016191716,AbbVie,"Associate Director, AMI Curricula",2026-10-16,2026-10-16
 AbbVie:sr3743990016200176,AbbVie,"Associate Director, AMI Curricula",2026-10-17,2026-10-17
 AbbVie:sr3743990016208726,AbbVie,"Associate Director, AMI Curricula",2026-10-18,2026-10-18
+AbbVie:sr3743990016220336,AbbVie,"Associate Director, AMI Curricula",2026-10-19,2026-10-19
 AbbVie:sr3743990015687906,AbbVie,"Associate Director, APS Strategy & Marketing - Oncology",2026-09-25,2026-10-14
 AbbVie:sr3743990014345946,AbbVie,"Associate Director, Analytics Products",2026-07-29,2026-10-14
 AbbVie:sr3743990016098302,AbbVie,"Associate Director, Brand Marketing",2026-10-13,2026-10-14
@@ -217,6 +219,10 @@ AbbVie:sr3743990015876276,AbbVie,"Associate Director, Regulatory Affairs Adverti
 AbbVie:sr3743990015876386,AbbVie,"Associate Director, Regulatory Affairs Advertising & Promotion - Oncology",2026-10-02,2026-10-14
 AbbVie:sr3743990015876426,AbbVie,"Associate Director, Regulatory Affairs Advertising & Promotion - Oncology",2026-10-02,2026-10-14
 AbbVie:sr3743990015876466,AbbVie,"Associate Director, Regulatory Affairs Advertising & Promotion - Oncology",2026-10-02,2026-10-14
+AbbVie:sr3743990016212734,AbbVie,"Associate Director, Regulatory Affairs US Advertising and Promotion - Immunology",2026-10-18,2026-10-19
+AbbVie:sr3743990016212816,AbbVie,"Associate Director, Regulatory Affairs US Advertising and Promotion - Immunology",2026-10-18,2026-10-19
+AbbVie:sr3743990016212896,AbbVie,"Associate Director, Regulatory Affairs US Advertising and Promotion - Immunology",2026-10-18,2026-10-19
+AbbVie:sr3743990016212936,AbbVie,"Associate Director, Regulatory Affairs US Advertising and Promotion - Immunology",2026-10-18,2026-10-19
 AbbVie:sr3743990015214926,AbbVie,"Associate Director, Statistics",2026-09-11,2026-10-14
 AbbVie:sr3743990015215016,AbbVie,"Associate Director, Statistics",2026-09-11,2026-10-14
 AbbVie:sr3743990015871416,AbbVie,"Associate Director, Strategic Planning and Operations Aesthetics PCS",2026-10-02,2026-10-14
@@ -990,6 +996,9 @@ AbbVie:sr3743990016200116,AbbVie,"Scientific Director, Medical Affairs - Parkins
 AbbVie:sr3743990016208606,AbbVie,"Scientific Director, Medical Affairs - Parkinson's Disease",2026-10-18,2026-10-18
 AbbVie:sr3743990016208636,AbbVie,"Scientific Director, Medical Affairs - Parkinson's Disease",2026-10-18,2026-10-18
 AbbVie:sr3743990016208656,AbbVie,"Scientific Director, Medical Affairs - Parkinson's Disease",2026-10-18,2026-10-18
+AbbVie:sr3743990016220236,AbbVie,"Scientific Director, Medical Affairs - Parkinson's Disease",2026-10-19,2026-10-19
+AbbVie:sr3743990016220256,AbbVie,"Scientific Director, Medical Affairs - Parkinson's Disease",2026-10-19,2026-10-19
+AbbVie:sr3743990016220276,AbbVie,"Scientific Director, Medical Affairs - Parkinson's Disease",2026-10-19,2026-10-19
 AbbVie:sr3743990016116206,AbbVie,"Scientific Director, Precision Medicine - Immunology",2026-10-14,2026-10-14
 AbbVie:sr3743990014609206,AbbVie,Scientific Technical Engineer - PDS&T CMC,2026-08-14,2026-10-14
 AbbVie:sr3743990014609376,AbbVie,"Scientific Technical Lead, Early Stage PDST CMC",2026-08-14,2026-10-14
@@ -1306,6 +1315,7 @@ AbbVie:sr3743990016068697,AbbVie,"Specialty Representative, Parkinson's Disease 
 AbbVie:sr3743990015766700,AbbVie,"Specialty Representative, Psychiatry - Abilene, TX",2026-09-29,2026-10-14
 AbbVie:sr3743990016083520,AbbVie,"Specialty Representative, Psychiatry - Bloomfield Hills, MI",2026-10-13,2026-10-14
 AbbVie:sr3743990016051416,AbbVie,"Specialty Representative, Psychiatry - Brockton, MA/South Shore, MA",2026-10-12,2026-10-14
+AbbVie:sr3743990016211246,AbbVie,"Specialty Representative, Psychiatry - Brockton, MA/South Shore, MA",2026-10-18,2026-10-19
 AbbVie:sr3743990016095396,AbbVie,"Specialty Representative, Psychiatry - Bucks County, PA",2026-10-13,2026-10-14
 AbbVie:sr3743990015874596,AbbVie,"Specialty Representative, Psychiatry - Carmel, IN",2026-10-02,2026-10-14
 AbbVie:sr3743990015611966,AbbVie,"Specialty Representative, Psychiatry - Cincinnati North, OH",2026-09-23,2026-10-14
@@ -1412,9 +1422,12 @@ Adobe:wdR172064,Adobe,2027 Intern - Applied and Research Scientist/Engineer,2026
 Adobe:wdR171828,Adobe,"2027 Intern - Digital Strategy Analyst, Strategic Advisory",2026-09-18,2026-10-14
 Adobe:wdR171856,Adobe,2027 Intern - Enterprise Architecture Analyst,2026-09-18,2026-10-14
 Adobe:wdR171519,Adobe,2027 Intern - Machine Learning Engineer,2026-10-01,2026-10-14
+Adobe:wdR173016,Adobe,2027 Intern - Research PhD Intern,2026-10-19,2026-10-19
 Adobe:wdR171869,Adobe,2027 Intern - Sales Velocity Analyst,2026-09-18,2026-10-14
 Adobe:wdR171666,Adobe,2027 Intern - Software Engineer,2026-09-18,2026-10-14
 Adobe:wdR171696,Adobe,2027 Intern - Solutions Consulting Analyst,2026-09-18,2026-10-14
+Adobe:wdR173015,Adobe,2027 Intern- Software Engineer,2026-10-19,2026-10-19
+Adobe:wdR173018,Adobe,2027 Intern- Software Engineer,2026-10-19,2026-10-19
 Adobe:wdR172471,Adobe,2027 MBA Intern - Corporate Strategy,2026-10-06,2026-10-14
 Adobe:wdR172261,Adobe,2027 MBA Intern – Product Manager,2026-09-30,2026-10-14
 Adobe:wdR172262,Adobe,2027 MBA Intern – Product Marketing Manager,2026-09-30,2026-10-14
@@ -1533,6 +1546,7 @@ Adobe:wdR171091,Adobe,Information Security Analyst,2026-09-18,2026-10-14
 Adobe:wdR170721,Adobe,Intellectual Property Attorney,2026-09-18,2026-10-14
 Adobe:wdR171192,Adobe,LOA & Benefits Program Manager US & Canada,2026-09-18,2026-10-14
 Adobe:wdR165641,Adobe,"Lead Forward Deployed Engineer, Creative AI",2026-09-18,2026-10-14
+Adobe:wdR172305,Adobe,Legal Contracting AI Intelligence Program Manager,2026-10-19,2026-10-19
 Adobe:wdR171930,Adobe,Legal Counsel,2026-09-18,2026-10-14
 Adobe:wdR171537,Adobe,Legal Counsel - Adobe Acrobat,2026-09-18,2026-10-14
 Adobe:wdR169572,Adobe,M&A Finance Integration Lead,2026-09-18,2026-10-14
@@ -1700,6 +1714,7 @@ Adobe:wdR168179,Adobe,"Sr Manager, Adobe Ventures",2026-09-18,2026-10-14
 Adobe:wdR171954,Adobe,"Sr Manager, Integrated Security Operations",2026-09-21,2026-10-14
 Adobe:wdR170600,Adobe,"Sr Staff Machine Learning Engineer, Adobe Firefly Services",2026-10-15,2026-10-16
 Adobe:wdR169720,Adobe,Sr. AI Strategist,2026-09-18,2026-10-14
+Adobe:wdR172284,Adobe,Sr. Compensation Business Partner,2026-10-19,2026-10-19
 Adobe:wdR172283,Adobe,"Sr. Director, AI, Data Science & Engineering",2026-10-06,2026-10-14
 Adobe:wdR170842,Adobe,"Sr. Director, Engineering - Digital Video & Audio (DVA)",2026-09-18,2026-10-14
 Adobe:wdR171564,Adobe,"Sr. Director, Engineering, Adobe Intelligence Platform",2026-09-18,2026-10-14
@@ -1795,6 +1810,7 @@ Airbnb:gh8272923,Airbnb,"Market Manager, Spain (Hotels)",2026-10-13,2026-10-14
 Airbnb:gh8271903,Airbnb,"Market Manager, UK (Hotels)",2026-10-12,2026-10-14
 Airbnb:gh8189374,Airbnb,"Mobile Software Engineer, Tech Foundations",2026-09-09,2026-10-14
 Airbnb:gh8108673,Airbnb,"NextStay Fellow, Tech Ops & Programs",2026-09-17,2026-10-14
+Airbnb:gh8299386,Airbnb,"Office Manager, China",2026-10-18,2026-10-19
 Airbnb:gh8074955,Airbnb,"Operations Engineer, BizTech",2026-07-20,2026-10-14
 Airbnb:gh8083137,Airbnb,"Operations Engineer, Tech Foundations",2026-07-24,2026-10-14
 Airbnb:gh8075714,Airbnb,"Payments Partnerships Manager, Host Payouts",2026-07-21,2026-10-14
@@ -7557,6 +7573,7 @@ Cox Enterprises:wdR202683156,Cox Enterprises,Vehicle Photographer I (Manheim),20
 Cox Enterprises:wdR202683355,Cox Enterprises,Vehicle Photographer I (Manheim),2026-10-02,2026-10-14
 Cox Enterprises:wdR202683406,Cox Enterprises,Vehicle Photographer I (Manheim),2026-10-06,2026-10-14
 Cox Enterprises:wdR202683365,Cox Enterprises,Vehicle Title Specialist II (Manheim),2026-10-02,2026-10-14
+Cox Enterprises:wdR202683153,Cox Enterprises,"Vice President, Communications & Public Relations",2026-10-19,2026-10-19
 Cox Enterprises:wdR202682138,Cox Enterprises,Zone Administrator (Manheim),,2026-10-14
 Cox Enterprises:wdR202683356,Cox Enterprises,Zone Administrator (Manheim),2026-10-02,2026-10-14
 Cox Enterprises:wdR202683652,Cox Enterprises,Zone Administrator (Manheim),2026-10-14,2026-10-14
@@ -7584,6 +7601,7 @@ Crowe:wdR-52455,Crowe,Audit India Assistant- Fixed Term Employee,2026-10-14,2026
 Crowe:wdR-51071,Crowe,Audit Intern Summer 2027,2026-09-30,2026-10-14
 Crowe:wdR-47588,Crowe,Audit Intern Winter 2027,2026-09-23,2026-10-14
 Crowe:wdR-51518,Crowe,Audit Intern Winter 2028,,2026-10-14
+Crowe:wdR-52493,Crowe,Audit Learning Director,2026-10-19,2026-10-19
 Crowe:wdR-52379,Crowe,Audit Manager - Banking,2026-09-29,2026-10-14
 Crowe:wdR-51127,Crowe,Audit Manager - Broker Dealer,2026-09-29,2026-10-14
 Crowe:wdR-51092,Crowe,Audit Manager - Commercial Services,,2026-10-14
@@ -7640,6 +7658,7 @@ Crowe:wdR-51425,Crowe,Forensic Accounting Senior Consultant,2026-10-08,2026-10-1
 Crowe:wdR-52002,Crowe,GRC Technology Senior Workiva Consultant,2026-09-29,2026-10-14
 Crowe:wdR-51720,Crowe,HCM Payroll Business Analyst and Systems Implementation Lead,2026-09-30,2026-10-14
 Crowe:wdR-51744,Crowe,HCM Payroll Business and Systems Implementation Senior Analyst,2026-09-29,2026-10-14
+Crowe:wdR-51018,Crowe,HR Compliance Senior Associate,2026-10-19,2026-10-19
 Crowe:wdR-52061,Crowe,"HR Compliance Senior Associate, Contractor Management",2026-10-16,2026-10-16
 Crowe:wdR-52074,Crowe,Head of Global Resource Management,2026-10-02,2026-10-14
 Crowe:wdR-52077,Crowe,Head of Pricing,,2026-10-14
@@ -8261,6 +8280,7 @@ Fictiv:gh8783500002,Fictiv,Director of Demand Generation,2026-09-04,2026-10-14
 Fictiv:gh8783501002,Fictiv,Director of Product Management,2026-09-04,2026-10-14
 Fictiv:gh8750482002,Fictiv,Document Control Specialist (US Shift),2026-09-01,2026-10-14
 Fictiv:gh8394224002,Fictiv,Engineering Manager- Software,2026-01-29,2026-10-14
+Fictiv:gh8899569002,Fictiv,Engineering Manager- Software,2026-10-19,2026-10-19
 Fictiv:gh8878567002,Fictiv,Engineering Manager-Salesforce,2026-10-08,2026-10-14
 Fictiv:gh8783502002,Fictiv,Executive Assistant to Founder,2026-09-04,2026-10-14
 Fictiv:gh8750229002,Fictiv,Facilities Operations Manager - GCC (Night Shift),2026-09-22,2026-10-14
@@ -8411,6 +8431,7 @@ Flexport:gh8046640,Flexport,Head of Data Center Logistics Practice,2026-07-07,20
 Flexport:gh8193637,Flexport,Human Resources Manager,2026-09-10,2026-10-14
 Flexport:gh8084124,Flexport,Inbound Sales Development Representative,2026-07-24,2026-10-14
 Flexport:gh5850324,Flexport,Inbound Sales Development Representative - New Grad,2024-03-27,2026-10-14
+Flexport:gh8260171,Flexport,Integration Support Engineer,2026-10-19,2026-10-19
 Flexport:gh7971621,Flexport,"Manager, Account Management",2026-06-01,2026-10-14
 Flexport:gh8201897,Flexport,"Manager, Account Management",2026-09-16,2026-10-14
 Flexport:gh8265974,Flexport,"Manager, Freight Audit Services",2026-10-09,2026-10-14
@@ -8484,6 +8505,7 @@ Flexport:gh7981626,Flexport,"Senior Business Development Manager, Omnichannel",2
 Flexport:gh8258468,Flexport,Senior Cloud Infrastructure Security Engineer,2026-10-12,2026-10-14
 Flexport:gh8025116,Flexport,"Senior Financial Analyst, North America Sales & Operations Finance",2026-07-06,2026-10-14
 Flexport:gh8043416,Flexport,Senior Global Operations Associate,2026-08-07,2026-10-14
+Flexport:gh8300314,Flexport,Senior Global Operations Associate - Air freight,2026-10-19,2026-10-19
 Flexport:gh8213953,Flexport,Senior IT Systems Engineer,2026-09-18,2026-10-14
 Flexport:gh8213955,Flexport,Senior IT Systems Engineer,2026-09-18,2026-10-14
 Flexport:gh8146839,Flexport,"Senior Manager, Accounts Payable & Freight Audit",2026-08-24,2026-10-14
@@ -8902,7 +8924,9 @@ Fortune Brands:sr744000155101638,Fortune Brands,Territory Sales Manager,2026-10-
 Fortune Brands:sr744000155820149,Fortune Brands,Territory Sales Manager,2026-10-15,2026-10-16
 Fortune Brands:sr744000154189587,Fortune Brands,Upgrade Assembly Trainer-SHWS 2nd shift,2026-10-07,2026-10-14
 Google:go133483799211057862,Google,"AI Activation Lead, Google Cloud",2026-10-12,2026-10-15
+Google:go119297474987729606,Google,AI Infrastructure Customer Office Lead,2026-10-19,2026-10-19
 Google:go116236769623450310,Google,AI Infrastructure Global Channel Sales Lead,2026-10-15,2026-10-15
+Google:go97479590879863494,Google,AI Transformation Solutions Consultant,2026-10-19,2026-10-19
 Google:go102809190027666118,Google,"AI and Automation Solutions Architect, Finance Operations",2026-10-14,2026-10-15
 Google:go127875564059927238,Google,"ASIC Design Verification Manager, Google Cloud",2026-10-15,2026-10-16
 Google:go130932206385144518,Google,"ASIC Power Engineer, ML Accelerators",2026-10-15,2026-10-16
@@ -8949,9 +8973,11 @@ Google:go82194240360063686,Google,"Cyber Defense Detection Engineer, Mandiant, G
 Google:go87068925161808582,Google,"Cyber Defense Detection Engineer, Mandiant, Google Cloud",2026-10-15,2026-10-15
 Google:go85143495617979078,Google,Data Center Controls Engineer Lead,2026-10-12,2026-10-15
 Google:go81454509552739014,Google,"Data Center Facilities Technician III, Controls",2026-10-14,2026-10-15
+Google:go106789430710149830,Google,"Data Center Facilities Technician, Electrical",2026-10-19,2026-10-19
 Google:go101049267048587974,Google,"Data Center Facilities Technician, Generators",2026-10-15,2026-10-16
 Google:go88918544237896390,Google,Data Center Mechanical Design Engineer,2026-10-14,2026-10-15
 Google:go139973851277599430,Google,"Data Center Operations Manager, Global Server Ops People Management, Hardware Operations",2026-10-15,2026-10-15
+Google:go131785178300195526,Google,"Data Center Operations Manager, Third Shift",2026-10-19,2026-10-19
 Google:go124722811104043718,Google,"Data Center Plant Engineer, Controls",2026-09-18,2026-10-15
 Google:go132997553078575814,Google,"Data Center Plant Engineer, Electrical",2026-10-13,2026-10-15
 Google:go89652554148782790,Google,"Data Center Plant Engineer, Mechanical",2026-10-15,2026-10-16
@@ -8994,6 +9020,7 @@ Google:go93882323841229510,Google,"Field Sales Manager III, Healthcare and Life 
 Google:go134839681731699398,Google,"Field Sales Representative II, Enterprise Greenfield, Google Cloud",2026-10-15,2026-10-15
 Google:go104374568168104646,Google,"Field Sales Representative II, Enterprise Growth, Google Cloud",2026-10-17,2026-10-17
 Google:go108454752739566278,Google,"Field Sales Representative II, Enterprise, Google Cloud",2026-10-15,2026-10-16
+Google:go97787729013547718,Google,"Field Sales Representative II, Growth, Startups, Google Cloud",2026-10-19,2026-10-19
 Google:go84012763872928454,Google,"Field Sales Representative III, Greenfield, Startups, Google Cloud",2026-10-14,2026-10-15
 Google:go117027559001989830,Google,"Field Sales Representative, Civilian, Google Public Sector",2026-10-14,2026-10-15
 Google:go80588644145865414,Google,"Field Sales Representative, Enterprise, Google Cloud",2026-10-14,2026-10-15
@@ -9006,6 +9033,7 @@ Google:go75258583289078470,Google,"Forward Deployed Engineer, National Security,
 Google:go74237989537882822,Google,"Founding Staff Software Engineer, Agentic Data Warehouse",2026-10-12,2026-10-15
 Google:go119592135514038982,Google,GSRS Global Destruction Program Manager,2026-10-14,2026-10-15
 Google:go89418392531804870,Google,"GTM Lead, AI Infrastructure, TPU/GPU, Google Cloud",2026-10-16,2026-10-16
+Google:go95102721618518726,Google,"GenAI Strategic Planning Manager, DeepMind",2026-10-19,2026-10-19
 Google:go129631995230593734,Google,"Global Analytics and AI Strategic Partner Development Manager, Google Cloud",2026-10-06,2026-10-16
 Google:go79032543134786246,Google,"Global Content Strategy Lead, YouTube Business",2026-10-16,2026-10-17
 Google:go91277374636597958,Google,"Global Product Lead, Product GTM, Sellside Apps Platforms",2026-10-14,2026-10-15
@@ -9046,6 +9074,7 @@ Google:go108776944006243014,Google,"Partner Solutions Engineer, gTech Ads Sellsi
 Google:go107001924217119430,Google,"Partner Solutions Manager, Google Cloud Marketplace",2026-10-12,2026-10-15
 Google:go103022667082146502,Google,"People Partner, Platform Infrastructure and Engineering and Infrastructure Supply Chain and Manufacturing Operations",2026-10-13,2026-10-15
 Google:go98810884712735430,Google,"Performance Specialist, Retail, Large Customer Sales",2026-10-15,2026-10-15
+Google:go133119160782594758,Google,"Post-Training Technical Program Manager, Data Governance, DeepMind",2026-10-19,2026-10-19
 Google:go142374428758418118,Google,"Power Electronics Engineer, Systems Modeling",2026-10-14,2026-10-15
 Google:go130752161356096198,Google,"Principal Analyst, Trust and Safety",2026-10-16,2026-10-16
 Google:go136698199980024518,Google,Principal Chipset Project Engineer II,2026-10-14,2026-10-15
@@ -9069,6 +9098,8 @@ Google:go74270747253449414,Google,"Product Manager, Advertiser Policy Experience
 Google:go118891609168192198,Google,"Product Manager, Agentic Systems",2026-10-14,2026-10-15
 Google:go120896585801310918,Google,"Product Manager, CBRNE, DeepMind",2026-10-16,2026-10-16
 Google:go88895029291950790,Google,"Product Manager, Media Effectiveness",2026-10-12,2026-10-15
+Google:go136073823404335814,Google,"Product Manager, aiEDU",2026-10-19,2026-10-19
+Google:go119466799778407110,Google,"Product Marketing Manager, Cloud AI, Gemini Enterprise",2026-10-19,2026-10-19
 Google:go96123334697067206,Google,"Product Solutions Lead, Agency Global Incentives",2026-10-14,2026-10-15
 Google:go142150579357917894,Google,"Product Strategy and Operations Principal, EarthAI and Weather Activation",2026-10-08,2026-10-16
 Google:go89053182872691398,Google,"Product Support Manager (AdSense), Creator and Consumer Experience Operations, YouTube",2026-10-16,2026-10-16
@@ -9076,6 +9107,7 @@ Google:go109845239811711686,Google,"Product Technology Manager, Universal Commer
 Google:go92838956025946822,Google,"Program Manager II, CMMS Planner, Google Data Center",2026-10-14,2026-10-15
 Google:go85000194034148038,Google,"Program Manager II, Logistics Planning, Technical Infrastructure",2026-10-15,2026-10-15
 Google:go115391520059597510,Google,"Program Manager II, Supply Chain Operations, Cloud",2026-10-15,2026-10-15
+Google:go115464577453302470,Google,"Program Manager III, NPI, Cloud Supply Chain",2026-10-19,2026-10-19
 Google:go92039868770591430,Google,"Program Manager III, Software Engineering, Platforms and Devices",2026-10-15,2026-10-16
 Google:go132629079244317382,Google,"Project Manager, Americas PMO, Mandiant Consulting",2026-10-14,2026-10-15
 Google:go118968574982136518,Google,"Public Affairs Subject Matter Expert, Economic and Environmental Impact",2026-10-14,2026-10-15
@@ -9110,9 +9142,11 @@ Google:go130540024331412166,Google,"Senior Incident Response Consultant, Mandian
 Google:go108913833203901126,Google,"Senior Interaction Designer, Meridian Studio, Google Ads",2026-10-16,2026-10-16
 Google:go79159725706355398,Google,"Senior Lead, External Research, Analysis, and Disclosures",2026-10-15,2026-10-15
 Google:go124090581180654278,Google,"Senior Leadership Technical Program Manager, Product Development Ecosystem",2026-10-15,2026-10-15
+Google:go119292389746451142,Google,Senior Learning Designer (Fixed-Term Contract),2026-10-19,2026-10-19
 Google:go87827124328506054,Google,"Senior Manager, Audience Engagement, Google Cloud",2026-10-16,2026-10-16
 Google:go137496582860743366,Google,"Senior Manager, Cloud Controllership",2026-10-14,2026-10-15
 Google:go79994186312360646,Google,"Senior Network Engineer, Google Global Infrastructure",2026-10-14,2026-10-15
+Google:go95313827851051718,Google,"Senior Optical Sensor Engineer, Sensor Roadmapping/Display Team Liason",2026-10-19,2026-10-19
 Google:go104767454596473542,Google,Senior Product Manager,2026-10-14,2026-10-15
 Google:go91444191166374598,Google,"Senior Product Manager, AI Data and Systems Platform",2026-10-13,2026-10-15
 Google:go103337900501803718,Google,"Senior Product Manager, AI Models and Agentic Platform, Google Distributed Cloud",2026-10-15,2026-10-16
@@ -9121,6 +9155,8 @@ Google:go84661063416455878,Google,"Senior Product Manager, Ads Privacy and Ident
 Google:go91010811786339014,Google,"Senior Product Manager, Ads Safety",2026-10-15,2026-10-15
 Google:go143941799763681990,Google,"Senior Product Manager, Agentic Applications",2026-10-16,2026-10-16
 Google:go142293545934299846,Google,"Senior Product Manager, Camera Platform and Experiences, Gemini for Home",2026-10-15,2026-10-15
+Google:go111076426546848454,Google,"Senior Product Manager, Child Safety",2026-10-19,2026-10-19
+Google:go86588634001482438,Google,"Senior Product Manager, Google Wallet, In-store Integrations",2026-09-29,2026-10-19
 Google:go100227769727623878,Google,"Senior Product Manager, Search",2026-08-06,2026-10-15
 Google:go80525130169492166,Google,"Senior Program Manager I, Operations, Trust and Safety",2026-10-16,2026-10-16
 Google:go75087787472102086,Google,"Senior Program Manager, Enterprise Data Governance",2026-10-14,2026-10-15
@@ -9132,20 +9168,26 @@ Google:go104683719914070726,Google,"Senior Security Engineer, Exploits, Google T
 Google:go96192616814518982,Google,"Senior Security Engineer, Frontline Intelligence Operations",2026-10-06,2026-10-15
 Google:go110151110202663622,Google,"Senior Security Manager, Senior Executive Services, Leadership Support Services",2026-10-15,2026-10-15
 Google:go138841543279551174,Google,Senior Social Video Account Executive,2026-10-16,2026-10-16
+Google:go88932262363439814,Google,"Senior Software Developer, Applied AI, Commerce AI",2026-10-19,2026-10-19
 Google:go82643562658702022,Google,"Senior Software Engineer, AI/ML Computer Vision, Google Cloud",2026-10-13,2026-10-15
 Google:go106561187558105798,Google,"Senior Software Engineer, AI/ML, Core",2026-10-16,2026-10-16
 Google:go104359381163745990,Google,"Senior Software Engineer, AI/ML, Google Labs",2026-10-16,2026-10-16
 Google:go112892793986130630,Google,"Senior Software Engineer, Cloud Service Mesh",2026-10-16,2026-10-16
 Google:go132395828160406214,Google,"Senior Software Engineer, Cloud Spanner Platform",2026-10-16,2026-10-16
 Google:go134263194041361094,Google,"Senior Software Engineer, D Management Layer",2026-10-14,2026-10-15
+Google:go111619860168876742,Google,"Senior Software Engineer, Data Cloud Agentic Experiences",2026-10-19,2026-10-19
+Google:go76801900330001094,Google,"Senior Software Engineer, Full Stack",2026-10-19,2026-10-19
 Google:go117867585885610694,Google,"Senior Software Engineer, Generative AI, Real World Journeys",2026-10-14,2026-10-15
 Google:go85162698416759494,Google,"Senior Software Engineer, Google Home, Energy Experiences",2026-10-15,2026-10-16
+Google:go99202250722681542,Google,"Senior Software Engineer, Home Infrastructure",2026-10-19,2026-10-19
 Google:go78607292685001414,Google,"Senior Software Engineer, Infrastructure, AI and Infrastructure",2025-11-06,2026-10-16
+Google:go139088538560799430,Google,"Senior Software Engineer, Infrastructure, Google Cloud Global Networking",2025-10-16,2026-10-19
 Google:go88823436482093766,Google,"Senior Software Engineer, Infrastructure, Google Distributed Cloud",2026-10-14,2026-10-15
 Google:go80799750378398406,Google,"Senior Software Engineer, Infrastructure, Kubernetes Networking",2026-10-14,2026-10-15
 Google:go120555015642194630,Google,"Senior Software Engineer, Infrastructure, Technical Infrastructure",2026-10-15,2026-10-16
 Google:go117792531332113094,Google,"Senior Software Engineer, K and I Search",2026-10-12,2026-10-15
 Google:go89053320311644870,Google,"Senior Software Engineering Manager, Agentic and UI Automation Experiences",2026-10-15,2026-10-16
+Google:go121840168641405638,Google,"Senior Software Engineering Manager, Google Cloud Storage Semantic Search",2026-10-07,2026-10-19
 Google:go106088260119208646,Google,Senior Staff AI Security Engineer,2026-10-16,2026-10-16
 Google:go72831898849551046,Google,"Senior Staff AI/ML Research Engineer, Cloud AI Research",2026-10-15,2026-10-15
 Google:go142175296894706374,Google,"Senior Staff Research Data Scientist, AI Data Research",2026-10-16,2026-10-17
@@ -9164,6 +9206,7 @@ Google:go142267827670131398,Google,"Senior Technical Program Manager II, AI/ML, 
 Google:go138494990958371526,Google,"Senior Technical Program Manager, Data Center PhysICS and OT Health",2026-10-16,2026-10-16
 Google:go81588615611589318,Google,"Senior Technical Program Manager, Geo Makers PMO Analytics, Geo",2026-10-14,2026-10-15
 Google:go121961909489410758,Google,"Senior Technical Program Manager, Modular Infrastructure, Global Data Centers",2026-10-16,2026-10-16
+Google:go141752468101833414,Google,"Senior Technical Program Manager, Pixel Devices",2026-09-21,2026-10-19
 Google:go83019664354878150,Google,"Senior Technical Program Manager, Silicon Engineering",2026-10-14,2026-10-15
 Google:go84068598447776454,Google,"Senior UX Designer, YouTube Premium",2026-10-14,2026-10-15
 Google:go127004080835830470,Google,"Senior UX Researcher, YouTube",2026-10-14,2026-10-15
@@ -9172,6 +9215,7 @@ Google:go115435036668240582,Google,"Site Lead, Data Center Operations",2026-10-1
 Google:go134132420877132486,Google,"Software Engineer III, AI Infrastructure, Core",2026-10-15,2026-10-15
 Google:go74886576844219078,Google,"Software Engineer III, AI/ML",2026-10-14,2026-10-15
 Google:go85552389389460166,Google,"Software Engineer III, AI/ML, Ads Quality",2026-10-14,2026-10-15
+Google:go87457161382109894,Google,"Software Engineer III, AI/ML, Google Cloud AI",2025-12-17,2026-10-19
 Google:go74685366216336070,Google,"Software Engineer III, AI/ML, Search Ads",2026-10-14,2026-10-15
 Google:go95357937165181638,Google,"Software Engineer III, Core Security",2026-10-14,2026-10-15
 Google:go141928645512831686,Google,"Software Engineer III, Engineering Productivity, Geo",2026-10-15,2026-10-15
@@ -9181,6 +9225,7 @@ Google:go94295386415342278,Google,"Software Engineer III, Infrastructure, Core",
 Google:go142366002468790982,Google,"Software Engineer III, Infrastructure, Google Ads",2026-05-29,2026-10-15
 Google:go78514089042551494,Google,"Software Engineer III, Infrastructure, Google Cloud Compute",2026-10-15,2026-10-16
 Google:go127083503371068102,Google,"Software Engineer III, Infrastructure, Google Cloud Data Management",2026-10-15,2026-10-16
+Google:go79605303951139526,Google,"Software Engineer III, Infrastructure, Google Cloud Platforms",2024-06-17,2026-10-19
 Google:go81332051445195462,Google,"Software Engineer III, Infrastructure, Google Distributed Cloud",2026-10-13,2026-10-15
 Google:go77977290071253702,Google,"Software Engineer III, Infrastructure, YouTube",2026-09-03,2026-10-16
 Google:go116553927188456134,Google,"Software Engineer III, Performance, Google Cloud Platforms",2026-10-16,2026-10-16
@@ -9191,10 +9236,13 @@ Google:go87097873241383622,Google,"Software Engineer Manager II, Managed Lustre 
 Google:go79299054445437638,Google,"Software Engineer, Agentic Infrastructure for Data Engineering",2026-10-13,2026-10-15
 Google:go109439829258707654,Google,"Software Engineer, DevAI",2026-10-14,2026-10-15
 Google:go117387923937993414,Google,"Software Engineer, Embedded Systems/Firmware, Pixel Bootloader",2026-10-14,2026-10-15
+Google:go110229252837647046,Google,"Software Engineer, IT Infrastructure",2026-10-19,2026-10-19
 Google:go107302756611433158,Google,"Software Engineer, ML Accelerators, DeepMind",2026-10-14,2026-10-15
 Google:go75727153483653830,Google,"Software Engineer, Mobile Performance",2026-10-14,2026-10-15
 Google:go80998761983025862,Google,"Software Engineer, Retrieval Engine",2026-10-14,2026-10-15
+Google:go102472198303687366,Google,"Software Engineering Manager II, Engineering Productivity, Google Cloud Platforms",2026-10-19,2026-10-19
 Google:go140719766837830342,Google,"Software Engineering Manager II, Infrastructure, Google Cloud Storage",2026-10-13,2026-10-15
+Google:go93564504851260102,Google,"Software Engineering Manager, App Observability and Performance Data",2026-10-19,2026-10-19
 Google:go76425188748468934,Google,"Software Engineering Manager, Business AI Agent",2026-10-16,2026-10-16
 Google:go98234397022397126,Google,"Software Engineering Manager, Kernel Development",2026-10-14,2026-10-15
 Google:go112022685151568582,Google,"Software Engineering Manager, Stubby C++",2026-10-14,2026-10-15
@@ -9218,20 +9266,27 @@ Google:go96413124730462918,Google,"Staff Security Engineer Manager, Cloud Abuse 
 Google:go124658169698755270,Google,"Staff Security Engineer, Silicon Software",2026-10-14,2026-10-15
 Google:go75633935513461446,Google,"Staff Software Engineer, AI/ML, Google Cloud",2026-10-14,2026-10-15
 Google:go143200643027215046,Google,"Staff Software Engineer, Android Kernel and Systems",2026-10-15,2026-10-15
+Google:go76815094469534406,Google,"Staff Software Engineer, App Observability and Performance Data",2026-10-19,2026-10-19
+Google:go139680084104487622,Google,"Staff Software Engineer, Application Specific Integrated Circuits Firmware",2026-10-19,2026-10-19
 Google:go122861584878838470,Google,"Staff Software Engineer, Chrome",2026-10-16,2026-10-16
 Google:go123855921347470022,Google,"Staff Software Engineer, Cloud Spanner Platform",2026-10-16,2026-10-16
 Google:go110097852608193222,Google,"Staff Software Engineer, DeepMind",2026-10-14,2026-10-15
+Google:go96611251571827398,Google,"Staff Software Engineer, Gemini Cloud Assist Experience",2026-10-19,2026-10-19
 Google:go96135164647613126,Google,"Staff Software Engineer, Google Cloud AI",2026-07-08,2026-10-16
 Google:go103758480879297222,Google,"Staff Software Engineer, Google Cloud Compute, Performance",2026-10-14,2026-10-15
 Google:go95937826469618374,Google,"Staff Software Engineer, Google Health",2026-10-14,2026-10-15
 Google:go109451955192898246,Google,"Staff Software Engineer, Infrastructure, Google Cloud Compute",2025-12-15,2026-10-16
 Google:go124481519841354438,Google,"Staff Software Engineer, Persistent Disk",2026-09-15,2026-10-16
+Google:go113663062010929862,Google,"Staff Software Engineer, Private Cloud Infrastructure",2026-10-19,2026-10-19
 Google:go86771764964532934,Google,"Staff Software Engineer, Reef Intent Engine",2026-10-16,2026-10-16
 Google:go73522587572806342,Google,"Staff Software Engineer, Search Abuse",2026-09-29,2026-10-16
 Google:go90299530842383046,Google,"Staff Software Engineer, Search Ads Budgeting",2026-10-14,2026-10-15
+Google:go98645897839026886,Google,"Staff Software Engineer, Site Reliability Engineering, Caching SRE",2026-10-19,2026-10-19
 Google:go99396443374002886,Google,"Staff Software Engineer, XR Ecosystem, AR/VR Graphics and Compositor",2026-10-14,2026-10-15
 Google:go80501353230541510,Google,"Staff Software Engineer, XR Ecosystem, AR/VR Multimedia and Datacommunication",2026-10-16,2026-10-16
 Google:go84915308300509894,Google,"Staff UX Writer and Content Designer, XR",2026-10-15,2026-10-16
+Google:go76643295777694406,Google,Staff Wireless Network Engineer,2026-10-19,2026-10-19
+Google:go84512637936640710,Google,Strategic Communications and Risk Manager,2026-10-19,2026-10-19
 Google:go104616392006738630,Google,"Strategic Negotiator, Data Center Leasing and Investments",2026-10-16,2026-10-16
 Google:go123354183267951302,Google,"Strategic Partner Development Lead, Social Impact",2026-10-15,2026-10-15
 Google:go85788616885707462,Google,"Strategic Partnerships Development Manager, SMB, Google Cloud",2026-10-09,2026-10-15
@@ -9242,27 +9297,36 @@ Google:go76231794961064646,Google,"Strategy and Operations Senior Manager, Centr
 Google:go132744631044448966,Google,"Supply Chain Manager, Data Center Equipment",2026-10-14,2026-10-15
 Google:go140925364774806214,Google,"Supply Chain Program Manager, Global Supply Planning",2026-09-30,2026-10-16
 Google:go124434728320148166,Google,"TV Field Partner Engineering Manager, YouTube",2026-10-15,2026-10-15
+Google:go138236013020357318,Google,"Tech Lead Manager, Ads Conversion Infrastructure",2026-10-19,2026-10-19
 Google:go94539900514116294,Google,"Tech Lead Manager, Search Ads Serving Infrastructure",2026-10-14,2026-10-15
 Google:go99677574753329862,Google,"Tech Lead, BigQuery Multimodal Strategy and Architecture",2026-10-15,2026-10-15
 Google:go133827014342648518,Google,"Technical Account Manager, Google Cloud Consulting",2026-10-16,2026-10-16
 Google:go81182500683948742,Google,"Technical Lead, Hardware/Software Codesign, TPU Inference",2026-10-16,2026-10-16
 Google:go93771273166824134,Google,"Technical Program Manager I, XR Demos, Platforms and Devices",2026-10-15,2026-10-15
+Google:go139505674072531654,Google,"Technical Program Manager II, Capacity Planning, Cloud",2026-10-19,2026-10-19
 Google:go101298168993325766,Google,"Technical Program Manager II, Datacenter Offsite Infrastructure Controls Manager",2026-10-15,2026-10-16
 Google:go115324174972396230,Google,"Technical Program Manager II, Global Network Solutions, Google Cloud",2026-10-15,2026-10-15
+Google:go107031323268260550,Google,"Technical Program Manager III, Advanced Analytics, Google Data Center",2026-10-19,2026-10-19
 Google:go85391070417822406,Google,"Technical Program Manager III, Capacity Planning, Google Data Centers",2026-10-15,2026-10-15
 Google:go143004981497078470,Google,"Technical Program Manager III, Infrastructure Capacity Planning, Global Infrastructure",2026-10-15,2026-10-16
 Google:go113404465251263174,Google,"Technical Program Manager III, Manufacturing Test Engineering, Cloud Infrastructure",2026-08-31,2026-10-16
+Google:go123719985632551622,Google,"Technical Program Manager, AI Enablement, Regional Portfolio Planning",2026-10-19,2026-10-19
 Google:go89433665435509446,Google,"Technical Program Manager, AI Foundations Context, Core",2026-10-14,2026-10-15
+Google:go84091799861109446,Google,"Technical Program Manager, AI2, TPU Software",2026-10-19,2026-10-19
 Google:go75177404112216774,Google,"Technical Program Manager, Data Center Capacity Delivery",2026-09-28,2026-10-16
 Google:go117996557311058630,Google,"Technical Program Manager, Data Center Development Planning and Pre-Construction",2026-09-21,2026-10-16
 Google:go137601912638710470,Google,"Technical Program Manager, Datacenter Power Efficiency for ML Capacity",2026-10-16,2026-10-16
+Google:go141936281964683974,Google,"Technical Program Manager, Gemini Post-Training, Consumer Agents, DeepMind",2026-10-19,2026-10-19
+Google:go128214789166899910,Google,"Technical Program Manager, Gemini Post-Training, Knowledge Work, DeepMind",2026-10-19,2026-10-19
 Google:go86717081440920262,Google,"Technical Program Manager, People Manager, Product Development and Insertion",2026-10-15,2026-10-15
 Google:go97190737149338310,Google,"Technical Program Manager, Search Intelligence, Search",2026-10-16,2026-10-16
 Google:go83859027666051782,Google,"Technical Program Manager, Sustainability, DeepMind",2026-09-29,2026-10-15
+Google:go94293393013646022,Google,"Technical Solutions Consultant, gTech Ads Sellside",2026-09-29,2026-10-19
 Google:go130090994090549958,Google,"Technical Success Account Management Lead, Google Cloud Consulting",2026-10-13,2026-10-15
 Google:go89317117202965190,Google,"Threat Modeling Lead, Harmful Manipulation, DeepMind",2026-10-14,2026-10-15
 Google:go140645189025702598,Google,"UX Designer, Industrial Prototyping Lead, Google Beam",2026-10-16,2026-10-16
 Google:go102439066925966022,Google,"UX Designer, Search Verticals",2026-10-14,2026-10-15
+Google:go137113136770491078,Google,"UX Program Manager, Payments Platform",2026-10-19,2026-10-19
 Google:go129120125323223750,Google,"UX Writer and Content Designer, Google Ads",2026-10-13,2026-10-15
 Google:go78518641707885254,Google,"Vice President, Strategic Alliances",2026-10-14,2026-10-15
 Google:go101055451801494214,Google,"Wholepage Optimization Software Engineer, Google Ads",2026-10-16,2026-10-16
@@ -9333,6 +9397,7 @@ ITW:wdJR9558,ITW,Automation Product Specialist,,2026-10-15
 ITW:wdJR10463,ITW,Automation Technician,2026-10-06,2026-10-15
 ITW:wdJR8816,ITW,Automation Technician,,2026-10-15
 ITW:wdJR10439,ITW,Automation Technician - 1st Shift,2026-10-06,2026-10-15
+ITW:wdJR10585,ITW,Automation Technician: 12hr Rotating Day Shift,2026-10-18,2026-10-19
 ITW:wdJR10369,ITW,Automotive Technical Applications Specialist,2026-09-29,2026-10-15
 ITW:wdJR9114,ITW,Batch Maker,,2026-10-15
 ITW:wdJR10049,ITW,Batcher I,2026-10-06,2026-10-15
@@ -10405,6 +10470,7 @@ Intuitive:sr744000155761879,Intuitive,Service Production Planner III,2026-10-15,
 Intuitive:sr744000146508649,Intuitive,Service Software QA Engineer 2,2026-08-31,2026-10-15
 Intuitive:sr744000155484869,Intuitive,Software Engineer,2026-10-14,2026-10-15
 Intuitive:sr744000147611499,Intuitive,Software Engineer - Systems Integration,2026-09-04,2026-10-15
+Intuitive:sr744000156223989,Intuitive,Software Engineer ML Platform,2026-10-19,2026-10-19
 Intuitive:sr744000156063954,Intuitive,Software Engineer – Simulation & ML Platform,2026-10-16,2026-10-16
 Intuitive:sr744000142010229,Intuitive,Solution Architect - Service Manufacturing,2026-08-06,2026-10-15
 Intuitive:sr744000149100949,Intuitive,"Sr Analyst, Supply Chain Risk & Network Visibility",2026-09-11,2026-10-15
@@ -10629,6 +10695,7 @@ Invenergy:wdR11279,Invenergy,Network Engineer,2026-10-06,2026-10-14
 Invenergy:wdR11302,Invenergy,O & M Manager,,2026-10-14
 Invenergy:wdR11285,Invenergy,O&M Manager,2026-10-12,2026-10-14
 Invenergy:wdR11582,Invenergy,O&M Manager - Solar,2026-10-07,2026-10-14
+Invenergy:wdR11672,Invenergy,O&M Manager - Solar,2026-10-19,2026-10-19
 Invenergy:wdR11076,Invenergy,O&M Manager - Wind,2026-09-25,2026-10-14
 Invenergy:wdR11168,Invenergy,O&M Technician,,2026-10-14
 Invenergy:wdR11318,Invenergy,Power Platform & Dynamics 365 Developer,2026-10-08,2026-10-14
@@ -10736,6 +10803,7 @@ Kraft Heinz:ef1970324837542126,Kraft Heinz,Packaging 2nd Shift,2026-10-15,2026-1
 Kraft Heinz:ef1970324837564306,Kraft Heinz,Plant Digital Technician,2026-10-14,2026-10-15
 Kraft Heinz:ef1970324837549885,Kraft Heinz,Processor 1,2026-10-15,2026-10-16
 Kraft Heinz:ef1970324837563616,Kraft Heinz,Production Manager,2026-10-13,2026-10-15
+Kraft Heinz:ef1970324837566667,Kraft Heinz,Production Supervisor- 2nd shift,2026-10-19,2026-10-19
 Kraft Heinz:ef1970324837564873,Kraft Heinz,Production Supervisor- 3rd shift,2026-10-15,2026-10-16
 Kraft Heinz:ef1970324837562491,Kraft Heinz,R&D Analytical Science Assistant,2026-10-12,2026-10-15
 Kraft Heinz:ef1970324837562490,Kraft Heinz,R&D Sweetener & Salt Lab Assistant,2026-10-12,2026-10-15
@@ -10932,6 +11000,7 @@ LEGO Group:wdMünchen,LEGO Group,Supervisor (m/w/d) – LEGO Store München Zent
 LEGO Group:wdQuebec,LEGO Group,Supervisor Carrefour Laval,,2026-10-14
 "LEGO Group:wdRetail Store Westfield Old Orchard, IL",LEGO Group,Team Leader,,2026-10-14
 LEGO Group:wdHuntsville,LEGO Group,Temporary Part Time Brick Specialist,2026-09-25,2026-10-14
+LEGO Group:wdBarcelona,LEGO Group,Temporary Sales Associate,2026-10-19,2026-10-19
 LEGO Group:wdLiverpool,LEGO Group,Temporary Sales Associate,2026-10-12,2026-10-14
 LEGO Group:wdMadrid,LEGO Group,Trade Marketing Manager,2026-10-02,2026-10-14
 LEGO Group:wdMonterrey,LEGO Group,Técnico en Ingeniería Industrial (TEMPORAL).,2026-10-01,2026-10-14
@@ -23754,6 +23823,7 @@ Mars:wdR170033,Mars,"Ajudante de Produção, Operador (a) I, Operador (a) II e O
 Mars:wdR170034,Mars,"Ajudante de Produção, Operador (a) I, Operador (a) II e Operador (a) III para Ponta Grossa/PR",2026-10-17,2026-10-18
 Mars:wdR157054,Mars,Ajudante de Produção|Abreu e Lima/PE - Exclusiva para Pessoas com Deficiência,,2026-10-14
 Mars:wdR157056,Mars,Ajudante de Produção|Ponta Grossa/PR - Exclusiva para Pessoas com Deficiência,,2026-10-14
+Mars:wdR161360,Mars,Alternance Royal Canin - – Modélisation Mathématique appliquée - Septembre 2026 - 24 mois,2026-10-19,2026-10-19
 Mars:wdR167311,Mars,Analista Sr. de Portfolio,2026-10-01,2026-10-14
 Mars:wdR168551,Mars,Analista de Logística,2026-10-09,2026-10-14
 Mars:wdR167057,Mars,Analyst Digital Systems Integration Accelerator,2026-10-16,2026-10-16
@@ -23773,6 +23843,7 @@ Mars:wdR165521,Mars,"Associate Director Ingredient Science - Flavors, Mint, Pota
 Mars:wdR158308,Mars,"Associate Director of Marketing, Global M&M’S Stores",2026-09-30,2026-10-14
 Mars:wdR166879,Mars,"Associate Director, Salty GTM Excellence",2026-10-14,2026-10-14
 Mars:wdR168934,Mars,Associate Engineer Technical Services,2026-10-09,2026-10-14
+Mars:wdR170066,Mars,Associate Marketing Director,2026-10-19,2026-10-19
 Mars:wdR169121,Mars,Associate Marketing Director of Respawn China,2026-10-15,2026-10-15
 Mars:wdR163967,Mars,Associate Relations Country Lead,2026-10-16,2026-10-16
 Mars:wdR168513,Mars,Associate Scientist External Manufacturing (FTC 1 year),2026-10-05,2026-10-14
@@ -23822,6 +23893,7 @@ Mars:wdR164110,Mars,CoE SAP QM Template Analyst,,2026-10-14
 Mars:wdR166922,Mars,Commercial Finance Director,2026-10-08,2026-10-14
 Mars:wdR167301,Mars,Commercial Operations Manager,2026-10-01,2026-10-14
 Mars:wdR166832,Mars,Commercial Operations Specialist,2026-09-16,2026-10-14
+Mars:wdR168221,Mars,Commodity Risk & Financial Analyst,2026-10-19,2026-10-19
 Mars:wdR168862,Mars,Conformance Technician (Bias),2026-10-06,2026-10-14
 Mars:wdR163771,Mars,Consumer Market Insight Manager,,2026-10-14
 Mars:wdR160352,Mars,Continuous Improvement Coordinator,2026-10-07,2026-10-14
@@ -23838,6 +23910,7 @@ Mars:wdR168590,Mars,Corporate Affairs & Sustainability Communications Manager,20
 Mars:wdR167256,Mars,Customer Activation Specialist- temporary role,2026-10-13,2026-10-14
 Mars:wdR165553,Mars,"Customer Analyst, CVS Team",2026-10-06,2026-10-14
 Mars:wdR164927,Mars,Customer Development Assistant Manager,,2026-10-14
+Mars:wdR166069,Mars,Customer Development Assistant Manager,2026-10-19,2026-10-19
 Mars:wdR142227,Mars,Customer Development Assistant manager,,2026-10-14
 Mars:wdR159776,Mars,Customer Development Manager (Dcom),,2026-10-14
 Mars:wdR169080,Mars,"Customer Manager, Wegmans",2026-10-12,2026-10-14
@@ -23905,6 +23978,8 @@ Mars:wdR164043,Mars,Executive Assistant - R&D,2026-10-12,2026-10-14
 Mars:wdR164038,Mars,Executive Assistant - Sales,,2026-10-14
 Mars:wdR167340,Mars,Executive Coordinator MEA,2026-09-22,2026-10-14
 Mars:wdR138100,Mars,Expressions of Interest - Apprenticeships,,2026-10-14
+Mars:wdR168899,Mars,External Manufacturing Principal Quality Technician,2026-10-19,2026-10-19
+Mars:wdR169541,Mars,External Manufacturing Quality Assurance Manager,2026-10-19,2026-10-19
 Mars:wdR167017,Mars,External Manufacturing Quality Assurance Technologist,2026-10-06,2026-10-14
 Mars:wdR168931,Mars,"Extruder Operator ($1,500 Sign-On Bonus!)",2026-10-06,2026-10-14
 Mars:wdR163649,Mars,"Extruder Operator (New Production Line) | Lewisburg, OH | $2,500 Sign-On Bonus",,2026-10-14
@@ -24160,6 +24235,7 @@ Mars:wdR168972,Mars,NA ESO Project Manager,2026-10-12,2026-10-14
 Mars:wdR167909,Mars,"NALT Finance Lead (North Africa, LEVANT, and Turkey)",2026-09-24,2026-10-14
 Mars:wdR161269,Mars,Near Infrared Senior Scientist,,2026-10-14
 Mars:wdR160040,Mars,Network Production Planner,2026-10-08,2026-10-14
+Mars:wdR169540,Mars,New Retail Development Manager,2026-10-19,2026-10-19
 Mars:wdR168893,Mars,O2C Team Manager,2026-10-13,2026-10-14
 Mars:wdR169037,Mars,Omni and Execution Excellence Manager,2026-10-08,2026-10-14
 Mars:wdR165713,Mars,Omnichannel Operations Manager,,2026-10-14
@@ -24191,6 +24267,7 @@ Mars:wdR168922,Mars,Packaging Machine Operator,2026-10-13,2026-10-14
 Mars:wdR163298,Mars,"Packaging Machine Operator (New Production Line) | Lewisburg, OH | $2,500 Sign-On Bonus",,2026-10-14
 Mars:wdR166294,Mars,Packaging Operator,2026-10-15,2026-10-16
 Mars:wdR165472,Mars,"Packaging Operator ($1,500 Sign-On Bonus!)",,2026-10-14
+Mars:wdR169869,Mars,Packaging Operator (Days),2026-10-18,2026-10-19
 Mars:wdR169181,Mars,Packaging Operator (Mason),2026-10-08,2026-10-14
 Mars:wdR169373,Mars,Packaging Operator - 12 HR Nights (,2026-10-13,2026-10-14
 Mars:wdR169353,Mars,Packaging Operator - 3rd Shift,2026-10-12,2026-10-14
@@ -24268,6 +24345,7 @@ Mars:wdR168467,Mars,Project Manager (24-month contract),2026-10-08,2026-10-14
 Mars:wdR166957,Mars,Project Manager Strategic Initiatives,2026-09-21,2026-10-14
 Mars:wdR152885,Mars,Promoteur des Ventes - Rodez - CDD (F/H/X),2026-09-29,2026-10-14
 Mars:wdR166863,Mars,Przedstawiciel/ka handlowy/a -  Gdańsk i okolice,2026-09-18,2026-10-14
+Mars:wdR169807,Mars,Przedstawiciel/ka handlowy/a -  Lublin i okolice,2026-10-19,2026-10-19
 Mars:wdR160473,Mars,Q&FS Coordinator,,2026-10-14
 Mars:wdR160032,Mars,Q&FS Technologist - Wet Products,,2026-10-14
 Mars:wdR161958,Mars,QA Technician,,2026-10-14
@@ -24368,6 +24446,7 @@ Mars:wdR164635,Mars,Senior Customer Manager - Demand Platforms,,2026-10-14
 Mars:wdR139226,Mars,Senior Data Scientist,,2026-10-14
 Mars:wdR168335,Mars,"Senior Ecommerce Manager, Canada",2026-09-30,2026-10-14
 Mars:wdR166758,Mars,Senior Electrical Maintenance Technician (Nature's Bakery),,2026-10-14
+Mars:wdR164245,Mars,Senior Finance Manager,2026-10-19,2026-10-19
 Mars:wdR167474,Mars,Senior Flavor Analytical Scientist,2026-09-30,2026-10-14
 Mars:wdR165087,Mars,Senior Lead - AI Engineering,2026-09-23,2026-10-14
 Mars:wdR164095,Mars,"Senior Legal Counsel, Sustainability (EMEA)",,2026-10-14
@@ -24410,6 +24489,7 @@ Mars:wdR159274,Mars,Site Project Engineer,2026-09-30,2026-10-14
 Mars:wdR167566,Mars,Site Sterilization Expert - Q&FS,2026-10-01,2026-10-14
 Mars:wdR169009,Mars,Social Commerce Platform Manager,2026-10-08,2026-10-14
 Mars:wdR161845,Mars,Solution Engineer,,2026-10-14
+Mars:wdR164820,Mars,"Sourcing Manager - Flavors & Colors, Gum Ingredients, Essentials",2026-10-19,2026-10-19
 Mars:wdR164765,Mars,"Sourcing Manager - Oils, Wheats and Grains",2026-09-21,2026-10-14
 Mars:wdR164416,Mars,Specialist SRA BFY,2026-09-16,2026-10-14
 Mars:wdR164647,Mars,"Specialist, Commercial Operations - Raws Accelerator",2026-10-02,2026-10-14
@@ -24473,6 +24553,7 @@ Mars:wdR167344,Mars,Stage Mars Wrigley - Assistant(e) Marketing & Gestion de Cat
 Mars:wdR167441,Mars,Stage Mars Wrigley - Category Manager Enseignes (H/F/X) – Janvier 2027 – Paris France – 6 mois,2026-10-06,2026-10-14
 Mars:wdR167004,Mars,Stage Mars Wrigley - Technicien.ne Q&FS (H/F/X) – Janvier 2027– Steinbourg France – 6 mois,2026-09-21,2026-10-14
 Mars:wdR166979,Mars,Stage Petcare - Assistant.e Stratégie & Études consommateurs et marché (H/F/X) – Janvier 2027 – Saint-Denis-de-l'Hôtel – France – 6 mois,2026-09-21,2026-10-14
+Mars:wdR169941,Mars,Stage Petcare - Manager activation et trade marketing (H/F/X) – Janvier 2027 – Paris France – 6 mois,2026-10-19,2026-10-19
 Mars:wdR166984,Mars,Stage Petcare - Public Affairs (H/F/X) – Janvier 2027 – Paris – France – 6 mois,2026-10-08,2026-10-14
 Mars:wdR169207,Mars,Stage Royal Canin - Analyste du Comportement Animal / Pet Behavior Understanding (H/F/X) – Janvier 2027 – Aimargues France – 6 mois,2026-10-13,2026-10-14
 Mars:wdR169558,Mars,Stage Royal Canin - Assistant chef de projet digital et marketing (H/F/X) – Janvier 2027 – Aimargues – 6 mois,2026-10-16,2026-10-16
@@ -24496,6 +24577,7 @@ Mars:wdR163389,Mars,Store Coördinator,,2026-10-14
 Mars:wdR169470,Mars,Storekeeper,2026-10-16,2026-10-16
 Mars:wdR167070,Mars,Strategic Revenue Management,2026-10-13,2026-10-14
 Mars:wdR165690,Mars,"Strategic Revenue Management (SRM) Lead, North America",2026-10-10,2026-10-14
+Mars:wdR169543,Mars,Strategic Revenue Management Leader,2026-10-19,2026-10-19
 Mars:wdR166755,Mars,"Strategic Sourcing Manager, Business Partnerships",2026-10-08,2026-10-14
 Mars:wdR166754,Mars,"Strategic Sourcing Manager, Category Partnerships",2026-10-08,2026-10-14
 Mars:wdR168115,Mars,Student Worker,2026-10-12,2026-10-14
@@ -24580,6 +24662,7 @@ Mars:wdR169955,Mars,Veterinary Business Manager - Royal Canin,2026-10-16,2026-10
 Mars:wdR169958,Mars,Veterinary Business Manager - Royal Canin,2026-10-16,2026-10-16
 Mars:wdR169049,Mars,Veterinary District Sales Manager - Austin South (Royal Canin),2026-10-07,2026-10-14
 Mars:wdR169238,Mars,"Veterinary District Sales Manager – Fountain Valley, CA (Royal Canin)",2026-10-08,2026-10-14
+Mars:wdR165854,Mars,Veterinary District Sales Manager- Des Moines,2026-10-19,2026-10-19
 Mars:wdR168029,Mars,Veterinary District Sales Manager- Fort Wayne,2026-09-28,2026-10-14
 Mars:wdR166752,Mars,Vice President Strategic Revenue Management,2026-09-14,2026-10-14
 Mars:wdR159042,Mars,Warehouse Coordinator,,2026-10-14
@@ -24615,6 +24698,7 @@ Mars:wdR164494,Mars,外部仓库管理专员-天津,,2026-10-14
 Mars:wdR169787,Mars,玛氏休闲食品-区域销售助理经理-苏州,2026-10-15,2026-10-15
 Mars:wdR169783,Mars,玛氏休闲食品-区域销售助理经理-连云港,2026-10-15,2026-10-15
 Mars:wdR167214,Mars,玛氏休闲食品-区域销售助理经理（MT）-长沙,2026-09-17,2026-10-14
+Mars:wdR170043,Mars,玛氏休闲食品-区域销售经理-皖中,2026-10-19,2026-10-19
 Mars:wdR167488,Mars,玛氏休闲食品-地区销售助理经理（MT）-中山,2026-09-23,2026-10-14
 Mars:wdR157564,Mars,玛氏休闲食品-地区销售高级主管-南昌,2026-10-15,2026-10-15
 Mars:wdR169802,Mars,玛氏休闲食品-地区销售高级主管-吉安,2026-10-15,2026-10-15
@@ -24654,11 +24738,14 @@ Mars:wdR169386,Mars,玛氏休闲食品-地区销售高级代表（雏鹰）-广�
 Mars:wdR163740,Mars,玛氏休闲食品-地区销售高级代表（雏鹰）-温州,,2026-10-14
 Mars:wdR167213,Mars,玛氏休闲食品-地区销售高级代表（雏鹰）-长沙,2026-09-17,2026-10-14
 Mars:wdR169925,Mars,玛氏休闲食品-大客户管理助理经理-合肥,2026-10-16,2026-10-16
+Mars:wdR169903,Mars,玛氏休闲食品-客户发展助理经理-长沙,2026-10-19,2026-10-19
 Mars:wdR166218,Mars,玛氏休闲食品-岗位操作员-松江,,2026-10-14
 Mars:wdR167094,Mars,玛氏休闲食品-岗位操作员-松江,2026-10-08,2026-10-14
 Mars:wdR169385,Mars,玛氏休闲食品-岗位操作员-松江,2026-10-15,2026-10-15
+Mars:wdR169914,Mars,玛氏休闲食品-市场通路发展高级经理-广州,2026-10-19,2026-10-19
 Mars:wdR161426,Mars,玛氏休闲食品-特渠客户发展助理经理-上海,2026-10-08,2026-10-14
 Mars:wdR167872,Mars,玛氏休闲食品-特渠客户发展经理-安徽,2026-09-24,2026-10-14
+Mars:wdR170069,Mars,玛氏休闲食品-特渠客户发展经理-广州,2026-10-19,2026-10-19
 Mars:wdR161187,Mars,玛氏休闲食品-特渠客户发展高级主管-福建,,2026-10-14
 Mars:wdR160501,Mars,玛氏休食-区域销售经理-辽中,,2026-10-14
 Mars:wdR167211,Mars,玛氏休食-城市群经理-豫中,2026-09-17,2026-10-14
@@ -24675,8 +24762,11 @@ Mars:wdR142616,Mars,玛氏箭牌-地区销售高级代表-长治,,2026-10-14
 Mars:wdR166206,Mars,皇家宠物 - APAC QiD Manager - North Asia,2026-09-16,2026-10-14
 Mars:wdR164648,Mars,皇家宠物- Sales Supervisor (SPT)-深圳,,2026-10-14
 Mars:wdR169772,Mars,皇家宠物-EKA Assistant Manager-Shanghai,2026-10-15,2026-10-15
+Mars:wdR169567,Mars,皇家宠物-EKA(E-Marketing) Assistant Manager-Beijing,2026-10-19,2026-10-19
+Mars:wdR169775,Mars,皇家宠物-EKA(E-Marketing) Assistant Manager-Shanghai,2026-10-19,2026-10-19
 Mars:wdR164213,Mars,皇家宠物-Regional QiD Manager,,2026-10-14
 Mars:wdR169410,Mars,皇家宠物食品- Sales Supervisor-VET)- 武汉,2026-10-13,2026-10-14
+Mars:wdR169938,Mars,门店主管 Store Supervisor,2026-10-19,2026-10-19
 Microsoft:ef1970393557037651,Microsoft,AI Ops Engineering Manager,2026-10-17,2026-10-17
 Microsoft:ef1970393557024792,Microsoft,Account Executive,2026-10-14,2026-10-15
 Microsoft:ef1970393557022789,Microsoft,Account Manager,2026-10-16,2026-10-16
@@ -24729,6 +24819,7 @@ Microsoft:ef1970393557001502,Microsoft,Digital Cloud Solution Architect,2026-10-
 Microsoft:ef1970393557041043,Microsoft,Digital Cloud Solution Architecture IC2,2026-10-14,2026-10-15
 Microsoft:ef1970393557027239,Microsoft,"Digital Solution Engineer, Azure Platform",2026-10-14,2026-10-15
 Microsoft:ef1970393557024803,Microsoft,Digital Solution Security Specialists,2026-10-14,2026-10-15
+Microsoft:ef1970393556992026,Microsoft,Digital Specialist-AI Biz Process-State & Local Government,2026-10-19,2026-10-19
 Microsoft:ef1970393557025709,Microsoft,Director - Events & Experiences Marketing,2026-10-15,2026-10-16
 Microsoft:ef1970393557040462,Microsoft,Director AI Operations,2026-10-15,2026-10-16
 Microsoft:ef1970393557027478,Microsoft,Director Business Planning,2026-10-15,2026-10-16
@@ -24858,6 +24949,7 @@ Microsoft:ef1970393557037838,Microsoft,Sales Strategy Enablement,2026-10-14,2026
 Microsoft:ef1970393557004929,Microsoft,Security Engineer,2026-10-14,2026-10-15
 Microsoft:ef1970393557026728,Microsoft,Security Researcher,2026-10-15,2026-10-16
 Microsoft:ef1970393557040925,Microsoft,"Senior / Principal Software Engineers (AI), Commerce Platforms",2026-10-15,2026-10-16
+Microsoft:ef1970393557007964,Microsoft,Senior Adtech Publisher and Signal Lead,2026-10-19,2026-10-19
 Microsoft:ef1970393557027320,Microsoft,Senior Applied Scientist,2026-10-14,2026-10-15
 Microsoft:ef1970393556999978,Microsoft,Senior Applied Scientist - Outlook Science Team,2026-10-16,2026-10-16
 Microsoft:ef1970393557039244,Microsoft,"Senior Business Administrator, Microsoft Security",2026-10-16,2026-10-16
@@ -24865,6 +24957,7 @@ Microsoft:ef1970393556999304,Microsoft,Senior Business Program Manager - Securit
 Microsoft:ef1970393556943662,Microsoft,Senior Category Manager,2026-10-14,2026-10-15
 Microsoft:ef1970393557040543,Microsoft,"Senior Cloud Solution Architect - Cloud & AI Infrastructure, Azure Government Cloud",2026-10-15,2026-10-16
 Microsoft:ef1970393557008152,Microsoft,Senior Cloud Solution Architect - Cybersecurity Exercises - CTJ - TS/SCI,2026-10-14,2026-10-15
+Microsoft:ef1970393556992236,Microsoft,Senior Cloud Solution Architect-CTJ-Secret,2026-10-19,2026-10-19
 Microsoft:ef1970393557007487,Microsoft,Senior Commercial Executive,2026-10-14,2026-10-15
 Microsoft:ef1970393557026757,Microsoft,Senior Commercial Executive,2026-10-14,2026-10-15
 Microsoft:ef1970393557024782,Microsoft,"Senior Communications Manager, Executive Communications",2026-10-13,2026-10-15
@@ -24906,6 +24999,7 @@ Microsoft:ef1970393557026166,Microsoft,Senior Product Designer,2026-10-13,2026-1
 Microsoft:ef1970393557018898,Microsoft,Senior Product Manager,2026-10-14,2026-10-15
 Microsoft:ef1970393557021521,Microsoft,Senior Product Manager,2026-10-13,2026-10-15
 Microsoft:ef1970393557023273,Microsoft,Senior Product Manager,2026-10-15,2026-10-16
+Microsoft:ef1970393557022314,Microsoft,Senior Product Manager - Excel Team,2026-10-19,2026-10-19
 Microsoft:ef1970393557041535,Microsoft,Senior Product Manager - Minecraft,2026-10-15,2026-10-16
 Microsoft:ef1970393557021804,Microsoft,Senior Product Manager - Security & Compliance,2026-10-15,2026-10-16
 Microsoft:ef1970393556983125,Microsoft,"Senior Product Manager, Gameplay Systems - Minecraft",2026-10-14,2026-10-15
@@ -27156,6 +27250,7 @@ OpenAI:abeacbd123-83fb-42c6-a5d5-e914b8e135b8,OpenAI,"Applied AI Engineer, Start
 OpenAI:ab840963bb-7b1a-4021-91a0-40baf71b7e20,OpenAI,"Applied AI Engineer, Startups (Codex)",2026-09-24,2026-10-14
 OpenAI:abd801f26e-951e-452c-9924-9449b55edc5a,OpenAI,"Applied AI Engineer, Startups (Codex)",2026-09-24,2026-10-14
 OpenAI:abe522c734-6e4e-4d69-80c1-d09d5144eab4,OpenAI,"Applied AI Engineer, Startups (Codex)",2026-09-24,2026-10-14
+OpenAI:ab502fcf97-75b2-4e54-9957-a29cee8eb1ca,OpenAI,"Applied AI Engineer, Startups (Mandarin-speaking)",2026-10-19,2026-10-19
 OpenAI:ab38e3c4bf-a632-405e-9619-b87382ca2472,OpenAI,"Applied AI Software Engineer, GTM Growth Engineering",2026-07-25,2026-10-14
 OpenAI:ab93f558c1-c944-4ddc-b102-addc9446de3d,OpenAI,Applied Data Science & Insights Leader - GTM Intelligence Solutions and Technical Success,2026-06-11,2026-10-14
 OpenAI:ab74b9aa04-0b9d-459a-9e2d-0e43fae67a79,OpenAI,Applied Risk Standards Architect,2026-09-23,2026-10-14
@@ -27938,6 +28033,7 @@ Pure Storage:gh8001588,Pure Storage,AI/HPC/NeoCloud Pre-Sales System Engineer UA
 Pure Storage:gh8273996,Pure Storage,Account Executive Enterprise Germany (Financial services),2026-10-12,2026-10-14
 Pure Storage:gh8088895,Pure Storage,"Account Executive, AI/HPC, Neo / Sovereign Cloud (EMEA)",2026-08-07,2026-10-14
 Pure Storage:gh8222531,Pure Storage,"Account Executive, Commercial",2026-09-24,2026-10-14
+Pure Storage:gh8261284,Pure Storage,"Account Executive, Commercial",2026-10-19,2026-10-19
 Pure Storage:gh8260286,Pure Storage,"Account Executive, Commercial (Houston)",2026-10-09,2026-10-14
 Pure Storage:gh8279370,Pure Storage,"Account Executive, Commercial (NYC)",2026-10-14,2026-10-15
 Pure Storage:gh8145906,Pure Storage,"Account Executive, Commercial (Upstate New York)",2026-08-24,2026-10-14
@@ -28079,6 +28175,7 @@ Pure Storage:gh8190929,Pure Storage,"Manager, Commercial Operations & Governance
 Pure Storage:gh8131813,Pure Storage,"Manager, Technical Services",2026-10-07,2026-10-14
 Pure Storage:gh8120049,Pure Storage,Manufacturing Engineering Manager,2026-09-01,2026-10-14
 Pure Storage:gh8169024,Pure Storage,Member of Technical Staff,2026-09-02,2026-10-14
+Pure Storage:gh8169086,Pure Storage,Member of Technical Staff,2026-10-19,2026-10-19
 Pure Storage:gh8172712,Pure Storage,Member of Technical Staff,2026-10-13,2026-10-14
 Pure Storage:gh8210546,Pure Storage,Member of Technical Staff - DevOps,2026-10-16,2026-10-16
 Pure Storage:gh8170836,Pure Storage,Member of Technical Staff - FlashArray,2026-09-15,2026-10-14
@@ -28088,9 +28185,11 @@ Pure Storage:gh8226182,Pure Storage,Member of Technical Staff - FlashArray,2026-
 Pure Storage:gh8212843,Pure Storage,Member of Technical Staff - Fullstack,2026-09-21,2026-10-14
 Pure Storage:gh8184679,Pure Storage,Member of Technical Staff - Lead Release Engineer (Production Engineering),2026-09-09,2026-10-14
 Pure Storage:gh7899072,Pure Storage,Member of Technical Staff - Linux Kernel - FlashArray,2026-05-06,2026-10-14
+Pure Storage:gh8276105,Pure Storage,Member of Technical Staff - Platform Engineering,2026-10-19,2026-10-19
 Pure Storage:gh8027838,Pure Storage,Member of Technical Staff - Portworx,2026-06-30,2026-10-14
 Pure Storage:gh8124408,Pure Storage,Member of Technical Staff - Portworx Enterprise,2026-08-24,2026-10-14
 Pure Storage:gh8121047,Pure Storage,Member of Technical Staff - SSD Firmware Development Engineer,2026-08-12,2026-10-14
+Pure Storage:gh8300135,Pure Storage,"Member of Technical Staff, Backend Engineering (Go, Kubernetes) - Portworx Enterprise",2026-10-19,2026-10-19
 Pure Storage:gh8121891,Pure Storage,"Member of Technical Staff, Backend Engineering Lead - Portworx Enterprise",2026-08-11,2026-10-14
 Pure Storage:gh8210205,Pure Storage,"Member of Technical Staff, DFS",2026-09-28,2026-10-14
 Pure Storage:gh8141215,Pure Storage,"Member of Technical Staff, FlashBlade",2026-10-16,2026-10-16
@@ -28273,6 +28372,7 @@ Pure Storage:gh8018597,Pure Storage,"Software Engineering Manager, Hyperscale Li
 Pure Storage:gh7948256,Pure Storage,"Software Engineering Manager, Platform",2026-06-23,2026-10-14
 Pure Storage:gh8168627,Pure Storage,"Software Quality Engineer, Hyperscale Line of Business",2026-10-14,2026-10-14
 Pure Storage:gh8054497,Pure Storage,Solution Architect SCM - SAP S/4HANA Supply Chain Management (SCM),2026-07-14,2026-10-14
+Pure Storage:gh8225833,Pure Storage,"Sr. Business Partner, Sales Operations",2026-10-19,2026-10-19
 Pure Storage:gh8113757,Pure Storage,Sr. Escalation Engineer,2026-08-26,2026-10-14
 Pure Storage:gh8170808,Pure Storage,"Sr. Java SW Engineer, Data Management team",2026-09-01,2026-10-14
 Pure Storage:gh8170335,Pure Storage,"Sr. Java/Kotlin Software Engineer, Everpure Resilience",2026-09-01,2026-10-14
@@ -28558,6 +28658,7 @@ PwC:wd746062WD,PwC,Forward Deployed Software Engineering - Manager,,2026-10-14
 PwC:wd746069WD,PwC,Forward Deployed Software Engineering - Senior Associate,,2026-10-14
 PwC:wd746059WD,PwC,Forward Deployed Software Engineering - Senior Manager,,2026-10-14
 PwC:wd762077WD,PwC,Fraud Analytics - Data Scientist - Manager,2026-09-23,2026-10-14
+PwC:wd762081WD,PwC,Fraud Analytics- Data Scientist - Senior Associate,2026-10-18,2026-10-19
 PwC:wd754702WD,PwC,Fraud Solutions - Data Analytics - Risk Detect - Senior Manager,,2026-10-14
 PwC:wd762909WD,PwC,Front Office Strategy Consulting - Customer Analytics - Director,2026-09-18,2026-10-14
 PwC:wd755300WD,PwC,Front Office Strategy Consulting - Pharma Life Sciences Customer Analytics - Manager,,2026-10-14
@@ -29253,6 +29354,7 @@ Rivian:jb34219,Rivian,Service Advisor,2026-10-06,2026-10-15
 Rivian:jb34582,Rivian,"Service Advisor - Caledonia, MI",2026-10-15,2026-10-16
 Rivian:jb34563,Rivian,"Service Advisor - Colma, CA",2026-10-15,2026-10-16
 Rivian:jb34270,Rivian,"Service Advisor - Franklin, TN",2026-10-08,2026-10-15
+Rivian:jb34784,Rivian,"Service Advisor - Malvern, PA",2026-10-18,2026-10-19
 Rivian:jb31800,Rivian,"Service Advisor - Portland, OR",2026-10-15,2026-10-16
 Rivian:jb32525,Rivian,"Service Advisor - San Jose, CA",2026-10-07,2026-10-15
 Rivian:jb34420,Rivian,Service Advisor - South San Francisco,2026-10-13,2026-10-15
@@ -29842,7 +29944,9 @@ Starbucks:ef481081306332,Starbucks,"barista - Store# 00751, SQUIRREL HILL FORBES
 Starbucks:ef481081329923,Starbucks,"barista - Store# 00753, 16TH & WALNUT",2026-10-14,2026-10-16
 Starbucks:ef481081306306,Starbucks,"barista - Store# 00776, MCKNIGHT-SIEBERT",2026-10-13,2026-10-15
 Starbucks:ef481081349155,Starbucks,"barista - Store# 02448, LAKE ZURICH DRIVE THRU",2026-10-15,2026-10-17
+Starbucks:ef481081363842,Starbucks,"barista - Store# 02486, DOWNTOWN NORTHVILLE",2026-10-17,2026-10-19
 Starbucks:ef481081329904,Starbucks,"barista - Store# 02490, WEST 39TH STREET",2026-10-14,2026-10-16
+Starbucks:ef481081363916,Starbucks,"barista - Store# 02562, Paddock Shops",2026-10-17,2026-10-19
 Starbucks:ef481081349052,Starbucks,"barista - Store# 02663, HOLIDAY MANOR",2026-10-15,2026-10-17
 Starbucks:ef481081349078,Starbucks,"barista - Store# 02664, SR 32 & SR 37",2026-10-15,2026-10-17
 Starbucks:ef481081349101,Starbucks,"barista - Store# 03393, SE 27TH & 76TH- MERCER ISLAND",2026-10-15,2026-10-17
@@ -29853,15 +29957,21 @@ Starbucks:ef481081349174,Starbucks,"barista - Store# 05876, HERNDON & FOWLER",20
 Starbucks:ef481081329934,Starbucks,"barista - Store# 06376, Nolen Center",2026-10-14,2026-10-16
 Starbucks:ef481081349107,Starbucks,"barista - Store# 06489, KETTLEMAN & LOWER SACRAMENTO - LODI",2026-10-15,2026-10-17
 Starbucks:ef481081329863,Starbucks,"barista - Store# 06511, I-35 & LOOP 340",2026-10-14,2026-10-16
+Starbucks:ef481081363819,Starbucks,"barista - Store# 06667, HULEN & DONNELLY",2026-10-17,2026-10-19
+Starbucks:ef481081363826,Starbucks,"barista - Store# 06769, CAPITOL & TIMBERLOOP",2026-10-17,2026-10-19
 Starbucks:ef481081329899,Starbucks,"barista - Store# 07534, B'WAY & 114 STREET (NEW WORLD)",2026-10-14,2026-10-16
 Starbucks:ef481081349085,Starbucks,"barista - Store# 08428, WESTSHORE & KENNEDY",2026-10-15,2026-10-17
 Starbucks:ef481081329907,Starbucks,"barista - Store# 09787, MORGANTOWN",2026-10-14,2026-10-16
+Starbucks:ef481081363851,Starbucks,"barista - Store# 09848, TRAIL LAKE",2026-10-17,2026-10-19
 Starbucks:ef481081348986,Starbucks,"barista - Store# 09951, 21ST & SHADELAND",2026-10-15,2026-10-17
 Starbucks:ef481081348952,Starbucks,"barista - Store# 10654, WOODLANDS & KUYKENDAHL",2026-10-15,2026-10-17
 Starbucks:ef481081348953,Starbucks,"barista - Store# 10991, I 30 & ALCOA",2026-10-15,2026-10-17
+Starbucks:ef481081363872,Starbucks,"barista - Store# 11916, NOTTINGHAM SQUARE II",2026-10-17,2026-10-19
+Starbucks:ef481081363864,Starbucks,"barista - Store# 13782, SONOMA MTN PKWY & RIESLING - PETALUMA",2026-10-17,2026-10-19
 Starbucks:ef481081329927,Starbucks,"barista - Store# 19871, SR 520 & GOODWIN",2026-10-14,2026-10-16
 Starbucks:ef481081329908,Starbucks,"barista - Store# 29453, WADE HAMPTON & ARTILLERY RD - GREENVILLE",2026-10-14,2026-10-16
 Starbucks:ef481081329861,Starbucks,"barista - Store# 50808, WENDOVER & I-40, EXIT 214 A",2026-10-14,2026-10-16
+Starbucks:ef481081363814,Starbucks,"barista - Store# 54435, US17 & PLOOF RD",2026-10-17,2026-10-19
 Starbucks:ef481081329941,Starbucks,"barista - Store# 58419, 5473 URBANA PIKE, RIVERVIEW PLAZA",2026-10-14,2026-10-16
 Starbucks:ef481081329929,Starbucks,"barista - Store# 60635, GRAND & KORT - ROTHSCHILD",2026-10-14,2026-10-16
 Starbucks:ef481081329930,Starbucks,"barista - Store# 65356, FULTON ST & HWY 10 - WAUPACA",2026-10-14,2026-10-16
@@ -29895,6 +30005,8 @@ Starbucks:ef481081348923,Starbucks,"shift manager - Store# 00801, BOSTON COMMON"
 Starbucks:ef481081306322,Starbucks,"shift manager - Store# 00802, SWAMPSCOTT MALL",2026-10-13,2026-10-15
 Starbucks:ef481081348916,Starbucks,"shift manager - Store# 03434, PITTSFIELD",2026-10-15,2026-10-17
 Starbucks:ef481081306319,Starbucks,"shift supervisor - Store# 00367, SKAGIT VALLEY",2026-10-13,2026-10-15
+Starbucks:ef481081363868,Starbucks,"shift supervisor - Store# 02873, 23 MILE RD & M-53",2026-10-17,2026-10-19
+Starbucks:ef481081363896,Starbucks,"shift supervisor - Store# 06434, MANHATTAN AND WESTBANK",2026-10-17,2026-10-19
 Starbucks:ef481081349044,Starbucks,"shift supervisor - Store# 06489, KETTLEMAN & LOWER SACRAMENTO - LODI",2026-10-15,2026-10-17
 Starbucks:ef481081329906,Starbucks,"shift supervisor - Store# 07286, 3300 OLD BRIDGE ROAD",2026-10-14,2026-10-16
 Starbucks:ef481081306340,Starbucks,"shift supervisor - Store# 07636, GRANARY",2026-10-13,2026-10-15
@@ -30145,6 +30257,7 @@ Stripe:gh8190416,Stripe,"Account Executive, Product Sales - Currency Management"
 Stripe:gh8190057,Stripe,"Account Executive, Product Sales - Open Issuance",2026-10-08,2026-10-14
 Stripe:gh8191708,Stripe,"Account Executive, Product Sales - Open Issuance",2026-10-09,2026-10-14
 Stripe:gh8040940,Stripe,"Account Executive, Product Sales - Optimised Checkout",2026-07-17,2026-10-14
+Stripe:gh8258697,Stripe,"Account Executive, Product Sales - Payouts",2026-10-19,2026-10-19
 Stripe:gh8273743,Stripe,"Account Executive, Product Sales - Payouts",2026-10-15,2026-10-15
 Stripe:gh7456716,Stripe,"Account Executive, Product Sales - Stablecoin Issuing",2025-12-12,2026-10-14
 Stripe:gh8190048,Stripe,"Account Executive, Product Sales - Tax",2026-09-11,2026-10-14
@@ -30683,6 +30796,7 @@ Stripe:gh8089353,Stripe,"Software Engineer, Vulnerability Management",2026-08-04
 Stripe:gh8153331,Stripe,Software Quality Assurance Engineer,2026-08-25,2026-10-14
 Stripe:gh8144223,Stripe,Solutions Architect (Greater China),2026-08-21,2026-10-14
 Stripe:gh8042913,Stripe,Solutions Architect (India),2026-08-11,2026-10-14
+Stripe:gh8064171,Stripe,"Solutions Architect Manager, Platforms (APAC)",2026-10-19,2026-10-19
 Stripe:gh8144233,Stripe,"Solutions Architect, (Italian fluency)",2026-09-21,2026-10-14
 Stripe:gh8248509,Stripe,"Solutions Architect, AI",2026-10-08,2026-10-14
 Stripe:gh8144264,Stripe,"Solutions Architect, Commercial, UK/I",2026-09-09,2026-10-14
@@ -31003,6 +31117,7 @@ UL Solutions:or11246,UL Solutions,"Field Engineer -  Tampa, FL",2026-10-15,2026-
 UL Solutions:or11143,UL Solutions,GMP Lead Auditor,2026-10-16,2026-10-16
 UL Solutions:or10202,UL Solutions,HR Operations Specialist,2026-10-15,2026-10-15
 UL Solutions:or11187,UL Solutions,"Inside Sales Executive, TIC",2026-10-14,2026-10-15
+UL Solutions:or10550,UL Solutions,Inspector CRS,2026-10-19,2026-10-19
 UL Solutions:or10901,UL Solutions,Inspector CRS,2026-10-13,2026-10-15
 UL Solutions:or10902,UL Solutions,Inspector CRS,2026-10-13,2026-10-15
 UL Solutions:or10903,UL Solutions,Inspector CRS,2026-10-13,2026-10-15
@@ -31014,6 +31129,7 @@ UL Solutions:or10574,UL Solutions,Laboratory Technician,2026-10-15,2026-10-15
 UL Solutions:or11188,UL Solutions,Laboratory Technician,2026-10-12,2026-10-15
 UL Solutions:or11215,UL Solutions,Laboratory Technician,2026-10-15,2026-10-16
 UL Solutions:or11218,UL Solutions,Laboratory Technician,2026-10-14,2026-10-15
+UL Solutions:or11001,UL Solutions,Lead Consultant,2026-10-19,2026-10-19
 UL Solutions:or11000,UL Solutions,Lead Consultant (SPICE專長),2026-10-11,2026-10-15
 UL Solutions:or10459,UL Solutions,Lead Development Representative,2026-10-13,2026-10-15
 UL Solutions:or11149,UL Solutions,Lead Finance Data Analyst - Enterprise Reporting,2026-10-12,2026-10-15
@@ -31021,9 +31137,11 @@ UL Solutions:or11182,UL Solutions,Mechanical Engineering Intern,2026-10-12,2026-
 UL Solutions:or11194,UL Solutions,"Principal R&D Engineer - Fire Hazards, Investigations, and Failure Analyses",2026-10-15,2026-10-16
 UL Solutions:or11087,UL Solutions,Project Engineer,2026-10-12,2026-10-15
 UL Solutions:or11228,UL Solutions,Project Engineer,2026-10-14,2026-10-15
+UL Solutions:or11242,UL Solutions,Project Engineer (输配电）,2026-10-19,2026-10-19
 UL Solutions:or10034,UL Solutions,Project Engineer - Electronic Controls (UL/IEC 61010),2026-10-14,2026-10-15
 UL Solutions:or10887,UL Solutions,"Project Engineer - Power Electronics, Testing and Compliance",2026-10-12,2026-10-15
 UL Solutions:or10985,UL Solutions,Project Handler III (Demko CO),2026-10-11,2026-10-15
+UL Solutions:or11273,UL Solutions,Project Manager,2026-10-19,2026-10-19
 UL Solutions:or11195,UL Solutions,R&D Laboratory Technician - Fire Safety,2026-10-15,2026-10-16
 UL Solutions:or11161,UL Solutions,"Research Analyst, GMA (Electronics and Electrical Engineer)",2026-10-12,2026-10-15
 UL Solutions:or11213,UL Solutions,Sales Development Representative,2026-10-14,2026-10-15
@@ -31042,6 +31160,7 @@ UL Solutions:or11208,UL Solutions,Senior Laboratory Assistant,2026-10-13,2026-10
 UL Solutions:or11209,UL Solutions,Senior Laboratory Assistant,2026-10-13,2026-10-15
 UL Solutions:or11210,UL Solutions,Senior Laboratory Assistant,2026-10-13,2026-10-15
 UL Solutions:or11211,UL Solutions,Senior Laboratory Assistant,2026-10-13,2026-10-15
+UL Solutions:or11220,UL Solutions,Senior Laboratory Assistant (Hazloc Lab),2026-10-18,2026-10-19
 UL Solutions:or11189,UL Solutions,Senior Laboratory Technician,2026-10-12,2026-10-15
 UL Solutions:or10751,UL Solutions,Senior Paralegal,2026-10-16,2026-10-16
 UL Solutions:or11021,UL Solutions,Senior Product/Service Specialist,2026-10-09,2026-10-16
@@ -31505,6 +31624,7 @@ bp:wdRQ116045,bp,Brazil Commodity Risk Manager,2026-10-13,2026-10-14
 bp:wdRQ116246,bp,Business Analyst,2026-10-13,2026-10-14
 bp:wdRQ116193,bp,Business Support Specialist – Retail Operations - German speaking,2026-09-28,2026-10-14
 bp:wdRQ115529,bp,CAT Field Maintenance Technician,2026-10-05,2026-10-14
+bp:wdRQ116950,bp,Carbonate Reservoir Sedimentologist,2026-10-19,2026-10-19
 bp:wdRQ107352,bp,Card Acceptance Specialist,,2026-10-14
 bp:wdRQ116153,bp,Castrol Agency relationships & Capability Manager,2026-10-15,2026-10-15
 bp:wdRQ115053,bp,Castrol Digital Staff Enterprise Engineer (GSC + Data),,2026-10-14
@@ -31648,6 +31768,7 @@ bp:wdRQ115396,bp,Intelligence & Optimisation Lead - GFR,2026-10-05,2026-10-14
 bp:wdRQ115389,bp,"Intelligence & Optimisation Lead - Payments, Marketing & Loyalty",2026-10-05,2026-10-14
 bp:wdRQ115384,bp,Intelligence & Optimisation Manager - Assets,2026-10-05,2026-10-14
 bp:wdRQ115392,bp,Intelligence & Optimisation Manager - Upstream,2026-10-05,2026-10-14
+bp:wdRQ117078,bp,Inventory Accounting Analyst,2026-10-19,2026-10-19
 bp:wdRQ117045,bp,Kerja Praktek Internship - Tangguh Future - Indonesia,2026-10-15,2026-10-15
 bp:wdRQ116673,bp,Kerja Praktek Internship - Wells and HSE&C - Indonesia,2026-10-12,2026-10-14
 bp:wdRQ113448,bp,Key Account Manager,,2026-10-14
@@ -31680,6 +31801,7 @@ bp:wdRQ111414,bp,Marketing Communication Specialist,2026-09-25,2026-10-14
 bp:wdRQ114695,bp,Marketing Global Category Manager -CASTROL,,2026-10-14
 bp:wdRQ116896,bp,Marketing Lead - M&C,2026-10-15,2026-10-16
 bp:wdRQ107704,bp,Mechanical Engineer - Refinery - TSI,2026-10-05,2026-10-14
+bp:wdRQ116184,bp,Mechanical Engineer - Static,2026-10-19,2026-10-19
 bp:wdRQ114923,bp,"Media, Influencer and E-comm Marketing Manager",2026-09-30,2026-10-14
 bp:wdRQ116309,bp,Micro Space Planner,2026-10-05,2026-10-14
 bp:wdRQ108979,bp,Occupational Health & Industrial Hygiene Advisor - Americas,2026-10-13,2026-10-14
@@ -31711,12 +31833,14 @@ bp:wdRQ115581,bp,Principal Electrical Engineer,,2026-10-14
 bp:wdRQ114757,bp,Process Operator,,2026-10-14
 bp:wdRQ115393,bp,Procurement Category Advisor Downstream Aviation,2026-09-14,2026-10-14
 bp:wdRQ113375,bp,Production Engineer,,2026-10-14
+bp:wdRQ116913,bp,Production Technician,2026-10-19,2026-10-19
 bp:wdRQ113664,bp,Project Engineer,2026-10-01,2026-10-14
 bp:wdRQ116499,bp,Project Maintenance Planner - TSI,2026-10-05,2026-10-14
 bp:wdRQ116859,bp,Project Manager,2026-10-14,2026-10-14
 bp:wdRQ114898,bp,Real Time Trader / Scheduler,2026-10-09,2026-10-14
 bp:wdRQ116485,bp,Records & Compliance Advisor,2026-10-12,2026-10-14
 bp:wdRQ116156,bp,Regional General Manager - B2C West,2026-09-30,2026-10-14
+bp:wdRQ116947,bp,Regional HSE Manager (Aspac & India Upstream),2026-10-19,2026-10-19
 bp:wdRQ116770,bp,Retail AP Accountant -Spanish speaking - Fixed-term until 2028 January,2026-10-16,2026-10-16
 bp:wdRQ116700,bp,"Reward Senior Specialist, Mobility Operations",2026-10-12,2026-10-14
 bp:wdRQ113024,bp,Sales Manager - Japan,,2026-10-14
@@ -31748,6 +31872,7 @@ bp:wdRQ117036,bp,Senior Enterprise Technology Engineer,2026-10-14,2026-10-14
 bp:wdRQ116710,bp,Senior Environmental Engineer,2026-10-02,2026-10-14
 bp:wdRQ115962,bp,Senior Facilities Engineer,2026-10-05,2026-10-14
 bp:wdRQ112117,bp,Senior Finance Manager (m/f/d),2026-10-09,2026-10-14
+bp:wdRQ116983,bp,Senior Fleet Finance Representative - Fixed-Term Part-Time,2026-10-19,2026-10-19
 bp:wdRQ116817,bp,Senior Fleet Finance Representative - German speaking,2026-10-09,2026-10-14
 bp:wdRQ116719,bp,Senior Intercompany Analyst (fixed term until 2029 February),2026-10-12,2026-10-14
 bp:wdRQ115908,bp,Senior Land Negotiator,2026-10-15,2026-10-16
@@ -31768,6 +31893,7 @@ bp:wdRQ110362,bp,Senior Solution Architect,2026-10-15,2026-10-16
 bp:wdRQ112637,bp,Senior Team Leader Supply Chain ANZ CASTROL,2026-09-30,2026-10-14
 bp:wdRQ115062,bp,"Senior Technologist, Analytical",,2026-10-14
 bp:wdRQ107265,bp,Senior Trade Support Supervisor,,2026-10-14
+bp:wdRQ117127,bp,Senior Wells Project Engineer,2026-10-19,2026-10-19
 bp:wdRQ116502,bp,Senior data engineer,2026-10-07,2026-10-14
 bp:wdRQ108231,bp,Senior enterprise technology engineer,2026-10-05,2026-10-14
 bp:wdRQ115823,bp,Senior enterprise technology engineer,2026-10-05,2026-10-14
