@@ -537,6 +537,7 @@ AbbVie:sr3743990015730886,AbbVie,"Director, Head of Molecular Discovery Technolo
 AbbVie:sr3743990015730926,AbbVie,"Director, Head of Protein Sciences",2026-09-28,2026-10-14
 AbbVie:sr3743990015561657,AbbVie,"Director, Health Economics & Outcomes Research (HEOR), Specialty",2026-09-22,2026-10-14
 AbbVie:sr3743990015573766,AbbVie,"Director, Immunology & Oncology Price Forecasting",2026-09-22,2026-10-14
+AbbVie:sr3743990016394186,AbbVie,"Director, Immunology Public Affairs- Dermatology",2026-10-25,2026-10-25
 AbbVie:sr3743990014816324,AbbVie,"Director, International Market Access, Neuroscience",2026-08-24,2026-10-14
 AbbVie:sr3743990016032166,AbbVie,"Director, Market Access Trade Strategy & Marketing - Immunology",2026-10-09,2026-10-14
 AbbVie:sr3743990013658496,AbbVie,"Director, Marketing - Multiple Myeloma",2026-06-17,2026-10-14
@@ -4795,6 +4796,7 @@ Apple:ap200688862,Apple,Battery Thermal Engineer,2026-10-16,2026-10-16
 Apple:ap200685948,Apple,Business Development Partner Manager - Apple Services,2026-10-14,2026-10-15
 Apple:ap200689857,Apple,"Business Insights Analyst, Apple Store Online Operations",2026-10-16,2026-10-16
 Apple:ap200690779,Apple,CNC Machinist-Mill Turn,2026-10-21,2026-10-22
+Apple:ap200691123,Apple,CRM Campaign Operations Specialist,2026-10-24,2026-10-25
 Apple:ap200688522,Apple,Cellular Power Systems Engineer,2026-10-16,2026-10-17
 Apple:ap200689311,Apple,Cellular Power Systems Engineer,2026-10-16,2026-10-17
 Apple:ap200690575,Apple,"Clean Energy Expert, Global Energy and Sustainability",2026-10-22,2026-10-22
@@ -4802,6 +4804,7 @@ Apple:ap200689787,Apple,"Client Partner Global Enterprise Accounts, Apple Ads",2
 Apple:ap200689739,Apple,"Client Partner, Apple News Ad Sales",2026-10-16,2026-10-16
 Apple:ap200689205,Apple,Cloud Infrastructure Engineer,2026-10-15,2026-10-16
 Apple:ap200690868,Apple,CoRL (Conference on Robotic Learning) Event 2026,2026-10-22,2026-10-23
+Apple:ap200690596,Apple,"Commissioning Engineer, Data Center Engineering",2026-10-24,2026-10-25
 Apple:ap200689165,Apple,"Community Specialist, Channel Retail",2026-10-14,2026-10-15
 Apple:ap200690585,Apple,Computer Vision and Inertial Sensing Engineer,2026-10-21,2026-10-22
 Apple:ap200689830,Apple,Computer Vision/Deep Learning Engineer,2026-10-21,2026-10-22
@@ -4976,6 +4979,7 @@ Apple:ap200689209,Apple,"Senior ML Research Engineer, Post-Training for Personal
 Apple:ap200651071,Apple,"Senior Machine Learning Engineer, NLP,  Input Experience",2026-10-16,2026-10-16
 Apple:ap200689900,Apple,"Senior Manager, Partner Communications Lead, US",2026-10-16,2026-10-16
 Apple:ap200689961,Apple,Senior Mechanical Prototyper & Lead,2026-10-23,2026-10-24
+Apple:ap200690976,Apple,"Senior Network Engineer, Infrastructure Services",2026-10-24,2026-10-25
 Apple:ap200684956,Apple,Senior People Business Partner,2026-10-21,2026-10-22
 Apple:ap200683772,Apple,"Senior Producer, Interactive Experiences",2026-10-16,2026-10-16
 Apple:ap200689990,Apple,"Senior Product Manager, Apple Store Online",2026-10-17,2026-10-17
@@ -7816,6 +7820,7 @@ Cox Enterprises:wdR202684021,Cox Enterprises,"Manheim Mobile Vehicle Condition I
 Cox Enterprises:wdR202684030,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Brooklyn North, NY",2026-10-23,2026-10-24
 Cox Enterprises:wdR202684029,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Brooklyn South, NY",2026-10-23,2026-10-24
 Cox Enterprises:wdR202683731,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Broward County, FL",2026-10-13,2026-10-14
+Cox Enterprises:wdR202682100,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Buffalo, NY",2026-10-24,2026-10-25
 Cox Enterprises:wdR202680334,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Carrollton/Lewisville, TX",2026-10-09,2026-10-14
 Cox Enterprises:wdR202683678,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Central Massachusetts",2026-10-12,2026-10-14
 Cox Enterprises:wdR202684080,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Danbury, CT",2026-10-22,2026-10-23
@@ -7829,8 +7834,10 @@ Cox Enterprises:wdR202681986,Cox Enterprises,"Manheim Mobile Vehicle Condition I
 Cox Enterprises:wdR202684064,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Livonia, MI",2026-10-22,2026-10-23
 Cox Enterprises:wdR202681987,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Macon, GA",2026-09-24,2026-10-14
 Cox Enterprises:wdR202684074,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Manchester, CT",2026-10-22,2026-10-23
+Cox Enterprises:wdR202684047,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Miami Metro West, FL",2026-10-24,2026-10-25
 Cox Enterprises:wdR202682267,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Middlesex County, NJ ($2,000 sign on bonus)",2026-10-13,2026-10-14
 Cox Enterprises:wdR202684063,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Monroe, MI",2026-10-22,2026-10-23
+Cox Enterprises:wdR202684037,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Nashville Southwest, TN",2026-10-24,2026-10-25
 Cox Enterprises:wdR202684036,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Newark, NJ",2026-10-22,2026-10-23
 Cox Enterprises:wdR202683650,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Newburgh South, NY",2026-10-12,2026-10-14
 Cox Enterprises:wdR202680682,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Northeast Dallas, TX - $2,000 Sign On Bonus",2026-10-08,2026-10-14
@@ -7847,8 +7854,10 @@ Cox Enterprises:wdR202682854,Cox Enterprises,"Manheim Mobile Vehicle Condition I
 Cox Enterprises:wdR202684098,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Utica, NY",2026-10-23,2026-10-24
 Cox Enterprises:wdR202683397,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Wayne, NJ ($2,000 sign on bonus)",2026-10-13,2026-10-14
 Cox Enterprises:wdR202684020,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, West Palm Beach South, FL",2026-10-23,2026-10-24
+Cox Enterprises:wdR202684044,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, West Palm Beach, FL",2026-10-24,2026-10-25
 Cox Enterprises:wdR202683756,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Westbury, NY",2026-10-15,2026-10-16
 Cox Enterprises:wdR202684072,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Windsor, CT",2026-10-22,2026-10-23
+Cox Enterprises:wdR202684034,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Wytheville, VA",2026-10-24,2026-10-25
 Cox Enterprises:wdR202684043,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector, Bridgewater Township, NJ",2026-10-22,2026-10-23
 Cox Enterprises:wdR202684049,Cox Enterprises,"Manheim Mobile Vehicle Condition Inspector , Cherry Hill, NJ",2026-10-22,2026-10-23
 Cox Enterprises:wdR202681244,Cox Enterprises,"Manheim Mobile Vehicle Inspector $2,000 Sign On Bonus Midland or Lubbock, TX",2026-09-17,2026-10-14
@@ -8175,6 +8184,7 @@ Cox Enterprises:wdR202683495,Cox Enterprises,Portfolio Manager III - NextGear Ca
 Cox Enterprises:wdR202680661,Cox Enterprises,Principal Database Administrator,,2026-10-14
 Cox Enterprises:wdR202681372,Cox Enterprises,"Privacy Governance, Senior Manager",,2026-10-14
 Cox Enterprises:wdR202682174,Cox Enterprises,"Product Management Intern - Summer 2027 (Atlanta, GA)",2026-10-16,2026-10-16
+Cox Enterprises:wdR202682189,Cox Enterprises,"Product Management Intern - Summer 2027 (Austin, TX)",2026-10-24,2026-10-25
 Cox Enterprises:wdR202680516,Cox Enterprises,Product Operations Senior Lead Product Manager,,2026-10-14
 Cox Enterprises:wdR202683550,Cox Enterprises,Quality Department Intern (Electric Vehicle Battery Solutions),2026-10-23,2026-10-24
 Cox Enterprises:wdR202683855,Cox Enterprises,Quality Inspector Trainer,2026-10-19,2026-10-20
@@ -8261,6 +8271,7 @@ Cox Enterprises:wdR202682695,Cox Enterprises,Shop Trailer Mechanic II Mon - Fri 
 Cox Enterprises:wdR202680392,Cox Enterprises,Shop Trailer Repair Mechanic II,,2026-10-14
 Cox Enterprises:wdR202681101,Cox Enterprises,Software Engineer II,,2026-10-14
 Cox Enterprises:wdR202682166,Cox Enterprises,"Software Engineering Intern - Summer 2027 (Atlanta, GA)",,2026-10-14
+Cox Enterprises:wdR202682168,Cox Enterprises,"Software Engineering Intern - Summer 2027 (Austin, TX)",2026-10-24,2026-10-25
 Cox Enterprises:wdR202683732,Cox Enterprises,"Sr Automotive Technician, Manheim",2026-10-14,2026-10-15
 Cox Enterprises:wdR202682483,Cox Enterprises,Sr Body Shop Painter,2026-09-14,2026-10-14
 Cox Enterprises:wdR202682858,Cox Enterprises,Sr Customer Care Specialist (Manheim),2026-09-23,2026-10-14
@@ -12570,6 +12581,7 @@ LEGO Group:wdGrand Rapids,LEGO Group,Seasonal Brick Specialist,2026-09-15,2026-1
 LEGO Group:wdRetail Store Burlington Mall,LEGO Group,Seasonal Brick Specialist (Burlington Mall),,2026-10-14
 LEGO Group:wdFreehold,LEGO Group,Seasonal Brick Specialist - Freehold Raceway NJ,2026-09-19,2026-10-14
 LEGO Group:wdRogers,LEGO Group,Seasonal Brick Specialist- Pinnacle Hills AR,2026-10-14,2026-10-14
+LEGO Group:wdRetail Store Polo Park,LEGO Group,Seasonal Brick Specialist- Polo Park Winnipeg,2026-10-24,2026-10-25
 LEGO Group:wdNatick,LEGO Group,Seasonal Brick Specialist-Natick Massachusetts,2026-09-14,2026-10-14
 LEGO Group:wdElizabeth,LEGO Group,Seasonal Part Time Brick Specialist Jersey Gardens,2026-10-08,2026-10-14
 LEGO Group:wdAnaheim,LEGO Group,Seasonal Part Time Brick Specialist- Downtown Disney Flagship- Anaheim,2026-09-23,2026-10-14
@@ -25964,6 +25976,7 @@ Mars:wdR169143,Mars,Operador (a) I Empacotamento – Mars Petcare – Abreu e Li
 Mars:wdR165754,Mars,Operador (a) I – Mars Petcare – Mogi Mirim/SP,2026-10-15,2026-10-16
 Mars:wdR169145,Mars,Operador (a) II Extrusão – Mars Petcare – Abreu e Lima/PE,2026-10-14,2026-10-14
 Mars:wdR170037,Mars,"Operador (a) de Ensaque, Operador (a) de Moagem, Operador (a) de Extrusão para Descalvado/SP",2026-10-17,2026-10-18
+Mars:wdR164247,Mars,Operador de Sanitización,2026-10-24,2026-10-25
 Mars:wdR165155,Mars,Operador l,2026-10-09,2026-10-14
 Mars:wdR168587,Mars,Operador(a) I,2026-10-09,2026-10-14
 Mars:wdR168768,Mars,Operador(a) Júnior,2026-10-16,2026-10-16
@@ -26621,6 +26634,7 @@ Microsoft:ef1970393557039385,Microsoft,Business Manager,2026-10-16,2026-10-16
 Microsoft:ef1970393557040316,Microsoft,Business Manager,2026-10-19,2026-10-20
 Microsoft:ef1970393557039374,Microsoft,Business Manager - Enterprise Partner Sales,2026-10-20,2026-10-20
 Microsoft:ef1970393557025626,Microsoft,Business Operations Manager,2026-10-16,2026-10-16
+Microsoft:ef1970393557043782,Microsoft,Business Operations Program Manager,2026-10-24,2026-10-25
 Microsoft:ef1970393557027482,Microsoft,Business Planner,2026-10-16,2026-10-16
 Microsoft:ef1970393557044717,Microsoft,Business Program Management,2026-10-22,2026-10-23
 Microsoft:ef1970393556999329,Microsoft,Business Program Management INTERN,2026-10-19,2026-10-20
@@ -26784,6 +26798,7 @@ Microsoft:ef1970393557041742,Microsoft,"Global Datacenter Engineering Senior Dir
 Microsoft:ef1970393557023102,Microsoft,Global Land Development Cost Functional Lead,2026-10-19,2026-10-20
 Microsoft:ef1970393557042060,Microsoft,Global Manager of Quality Assurance - Construction,2026-10-20,2026-10-21
 Microsoft:ef1970393556984004,Microsoft,Global Partner Development Manager,2026-10-22,2026-10-23
+Microsoft:ef1970393557039020,Microsoft,Global Partner Development Manager,2026-10-24,2026-10-25
 Microsoft:ef1970393557044616,Microsoft,"Go-To-Market Director, Cloud & AI Platform Programs",2026-10-22,2026-10-23
 Microsoft:ef1970393557023184,Microsoft,Graphics Software Engineer II,2026-10-14,2026-10-15
 Microsoft:ef1970393557040803,Microsoft,"HR Director, Microsoft AI",2026-10-20,2026-10-21
@@ -31515,6 +31530,7 @@ Quince:gh5208680008,Quince,"Manager, Sourcing -  Men's Sweaters (CN)",2026-05-04
 Quince:gh5208678008,Quince,"Manager, Sourcing - Denim",2026-05-04,2026-10-14
 Quince:gh5264205008,Quince,"Materials Production Manager, Linen",2026-06-16,2026-10-14
 Quince:gh5451385008,Quince,"Materials Sourcing Manager, Wool",2026-10-16,2026-10-16
+Quince:gh5453813008,Quince,Materials Sourcing/Production Manager - Linen (India),2026-10-25,2026-10-25
 Quince:gh5143228008,Quince,"Merchandise Manager, Men's Outerwear and Suiting",2026-03-06,2026-10-14
 Quince:gh5426369008,Quince,Merchandising Manager - Women's Denim,2026-09-16,2026-10-14
 Quince:gh5366941008,Quince,"Merchandising Manager, Accessories",2026-07-30,2026-10-14
@@ -33980,6 +33996,7 @@ Tyba:ab211c8576-b8d8-463b-8d8b-84e21c6b32f7,Tyba,People Operations Manager,2026-
 Tyba:abefd553f6-0e29-4827-af95-0fc41f063042,Tyba,Senior Product Software Engineer (Clojurescript),2026-01-22,2026-10-14
 Tyba:ab6bf9a202-0b83-44c8-b06f-8f258fa8057e,Tyba,Senior Product Software Engineer (Python),2026-06-08,2026-10-14
 UL Solutions:or11204,UL Solutions,(Junior) Engineer (m/f/i) - Security Services,2026-10-13,2026-10-15
+UL Solutions:or11259,UL Solutions,(Senior) Sales Process Specialist,2026-10-25,2026-10-25
 UL Solutions:or11186,UL Solutions,2027 Summer Intern: Cyber Security Intern,2026-10-12,2026-10-15
 UL Solutions:or11164,UL Solutions,Accounting Manager,2026-10-20,2026-10-20
 UL Solutions:or11165,UL Solutions,Analista de Certificação,2026-10-15,2026-10-15
@@ -34011,6 +34028,7 @@ UL Solutions:or10226,UL Solutions,Engineer - Power Distribution/Circuit Protecti
 UL Solutions:or11123,UL Solutions,Engineer - Wiring Devices,2026-10-23,2026-10-24
 UL Solutions:or11281,UL Solutions,Engineer Project Associate,2026-10-20,2026-10-21
 UL Solutions:or11219,UL Solutions,Engineer Project Associate - IT/AV,2026-10-13,2026-10-15
+UL Solutions:or11278,UL Solutions,Engineer Project Associate/Engineer (控制器),2026-10-24,2026-10-25
 UL Solutions:or11271,UL Solutions,Engineer – Construction Equipment and Physical Security,2026-10-20,2026-10-21
 UL Solutions:or11119,UL Solutions,Engineering Leader (m/f/i) – Renewables / Battery,2026-10-16,2026-10-16
 UL Solutions:or11016,UL Solutions,Engineering Leader - Security & Detection,2026-10-09,2026-10-16
@@ -34020,6 +34038,7 @@ UL Solutions:or11282,UL Solutions,"Executive Assistant - supporting the EVP, Chi
 UL Solutions:or11252,UL Solutions,Facilities Engineer - Northbrook,2026-10-16,2026-10-16
 UL Solutions:or11249,UL Solutions,Field Engineer,2026-10-20,2026-10-20
 UL Solutions:or11246,UL Solutions,"Field Engineer -  Tampa, FL",2026-10-15,2026-10-16
+UL Solutions:or11326,UL Solutions,Field Engineer Fire Equipment -  North Carolina,2026-10-24,2026-10-25
 UL Solutions:or11272,UL Solutions,Field Evaluation Inspector - Fuel Burning Equipment - Alberta,2026-10-21,2026-10-22
 UL Solutions:or11279,UL Solutions,"Field Evaluations Engineer - Chicago, IL",2026-10-21,2026-10-22
 UL Solutions:or11143,UL Solutions,GMP Lead Auditor,2026-10-16,2026-10-16
@@ -34088,6 +34107,8 @@ UL Solutions:or11209,UL Solutions,Senior Laboratory Assistant,2026-10-13,2026-10
 UL Solutions:or11210,UL Solutions,Senior Laboratory Assistant,2026-10-13,2026-10-15
 UL Solutions:or11211,UL Solutions,Senior Laboratory Assistant,2026-10-13,2026-10-15
 UL Solutions:or11220,UL Solutions,Senior Laboratory Assistant (Hazloc Lab),2026-10-18,2026-10-19
+UL Solutions:or11240,UL Solutions,Senior Laboratory Assistant (Small Appliances),2026-10-25,2026-10-25
+UL Solutions:or11241,UL Solutions,Senior Laboratory Assistant (Small Appliances)),2026-10-24,2026-10-25
 UL Solutions:or11189,UL Solutions,Senior Laboratory Technician,2026-10-12,2026-10-15
 UL Solutions:or10751,UL Solutions,Senior Paralegal,2026-10-16,2026-10-16
 UL Solutions:or11021,UL Solutions,Senior Product/Service Specialist,2026-10-09,2026-10-16
