@@ -7628,6 +7628,7 @@ Apple:ap200692622,Apple,"Senior Manager, Global Strategic Alliances (Global)",20
 Apple:ap200692975,Apple,"Senior Manager, Global Strategic Alliances (US)",2026-11-05,2026-11-06
 Apple:ap200689900,Apple,"Senior Manager, Partner Communications Lead, US",2026-10-16,2026-10-16
 Apple:ap200664353,Apple,"Senior Manager, Retail Technology Special Projects",2026-11-04,2026-11-05
+Apple:ap200694552,Apple,"Senior Manager, Support Experience Readiness",2026-11-22,2026-11-22
 Apple:ap200677725,Apple,"Senior Marketing Program Manager, Claris",2026-10-30,2026-10-31
 Apple:ap200689961,Apple,Senior Mechanical Prototyper & Lead,2026-10-23,2026-10-24
 Apple:ap200694593,Apple,Senior Motion Scientist - Sensing & Connectivity,2026-11-11,2026-11-12
@@ -7655,6 +7656,7 @@ Apple:ap200685003,Apple,Senior Search Engineer - Services Special Projects,2026-
 Apple:ap200691424,Apple,Senior Security Engineer,2026-11-05,2026-11-05
 Apple:ap200691428,Apple,Senior Security Engineer,2026-10-26,2026-10-27
 Apple:ap200685551,Apple,Senior Security Engineer - Security Assurance Scaling,2026-11-10,2026-11-11
+Apple:ap200689632,Apple,Senior Security Engineer - Strategic Risk,2026-11-22,2026-11-22
 Apple:ap200689634,Apple,Senior Security Engineer - Strategic Risk,2026-10-16,2026-10-17
 Apple:ap200690219,Apple,Senior Security Engineering Manager - Agentic Detection & Threat Hunting,2026-10-21,2026-10-21
 Apple:ap200690235,Apple,Senior Security Software Engineer EDR,2026-10-21,2026-10-21
@@ -8002,6 +8004,7 @@ Apple:ap200691455,Apple,Strategic Sourcing Manager,2026-11-05,2026-11-06
 Apple:ap200691699,Apple,Strategic Sourcing Specialist,2026-11-05,2026-11-06
 Apple:ap200693775,Apple,Strategic Space Planner,2026-11-11,2026-11-11
 Apple:ap200692273,Apple,Substrate Technologist,2026-10-28,2026-10-29
+Apple:ap200695752,Apple,Supply Chain Planning Engineer,2026-11-22,2026-11-22
 Apple:ap200692529,Apple,Supply Chain Program Manager,2026-11-03,2026-11-03
 Apple:ap200691295,Apple,Supply Demand Planner,2026-11-05,2026-11-06
 Apple:ap200695382,Apple,"Supply Demand Planner, Infrastructure Services",2026-11-19,2026-11-20
@@ -38983,9 +38986,13 @@ OpenAI:abcec9ba9a-0b2d-4e90-8482-01ccc72234fb,OpenAI,Research Communications Man
 OpenAI:ab240d459b-696d-43eb-8497-fab3e56ecd9b,OpenAI,Research Engineer,2025-04-05,2026-10-14
 OpenAI:ab29074a51-9cb3-47c9-a8a7-f283cd14fa6c,OpenAI,"Research Engineer / Research Scientist - Personal AGI, Memory",2026-08-03,2026-10-14
 OpenAI:ab1bf678c5-1058-45ca-b9bd-b0029fccd60e,OpenAI,"Research Engineer / Research Scientist - Personal AGI, Personalization",2026-08-03,2026-10-14
+OpenAI:abecfe655c-1369-4bcd-aae0-4a3b75fdf61b,OpenAI,"Research Engineer / Research Scientist - Post Training, Memory",2026-11-22,2026-11-22
 OpenAI:ab7243bdb7-7f75-4dff-a10f-18bd7296f632,OpenAI,"Research Engineer / Research Scientist / AI Systems Engineer, RSI",2026-08-05,2026-10-14
+OpenAI:ab6785d983-8831-46d0-9c81-443f83664948,OpenAI,"Research Engineer / Research Scientist, Health",2026-11-22,2026-11-22
 OpenAI:ab719cc0f6-ed38-41db-8870-299b4d336f37,OpenAI,"Research Engineer / Research Scientist, Health",2026-08-21,2026-10-14
 OpenAI:ab0f600ed1-d70a-4648-820f-a1d1da3f7617,OpenAI,"Research Engineer / Research Scientist, Human Flourishing",2026-10-28,2026-10-29
+OpenAI:ab740b5d1b-f63d-49bb-962d-8e2778e925ef,OpenAI,"Research Engineer / Research Scientist, Human Flourishing",2026-11-22,2026-11-22
+OpenAI:abce15d226-65db-43f1-98ec-078e96a3a281,OpenAI,"Research Engineer / Research Scientist, Post-Training — Collective Alignment (User Signals)",2026-11-22,2026-11-22
 OpenAI:ab1c516e9f-c97d-4a40-8529-9871dac615a5,OpenAI,Research Engineer / Research Scientist- Personal AGI (Post Training),2025-12-01,2026-10-14
 OpenAI:abbd2b8228-bb0f-42e0-94bd-c853cdd56140,OpenAI,"Research Engineer, AI for Chip Design",2026-09-11,2026-10-14
 OpenAI:ab793964ae-d40b-45e3-9798-84f4b6da48c5,OpenAI,"Research Engineer, Codex",2025-08-05,2026-10-14
@@ -38995,6 +39002,8 @@ OpenAI:ab7322d344-9325-4a92-8445-0a2c4e9272f8,OpenAI,"Research Engineer, Retriev
 OpenAI:ab171ebca6-de53-4d6e-a312-30332f353957,OpenAI,"Research Engineer/Research Scientist - Personal AGI, North Stars",2026-06-25,2026-10-14
 OpenAI:ab7e198d81-34e0-48b6-b64e-a501a75f9d53,OpenAI,"Research Engineer/Research Scientist, RL/Reasoning",2025-05-14,2026-10-14
 OpenAI:ab872ca3d0-c8c0-4585-9a34-7f9ed6b4dbf9,OpenAI,"Research Engineer/Research Scientist- Personal AGI, Model Experience",2026-07-22,2026-10-14
+OpenAI:abbc85c1a9-0f75-4c3a-807b-6d2bb26c8445,OpenAI,"Research Engineer/Research Scientist- Post Training, Model Experience",2026-11-22,2026-11-22
+OpenAI:abd1906ab2-b829-4a13-b1f2-f4af97d699fa,OpenAI,"Research Engineer/Research Scientist-Post Training, Proactivity",2026-11-22,2026-11-22
 OpenAI:ab0320cd25-ede1-4d25-8a61-65d801f1726e,OpenAI,"Research Lead, Policy Communications",2026-09-28,2026-10-14
 OpenAI:abb65e5399-5bbc-4d1f-9148-9c122428dd94,OpenAI,Research Product Marketing Manager,2026-11-09,2026-11-10
 OpenAI:abc7c5ef17-af83-483c-a825-f461f9f63b17,OpenAI,Research Program Manager,2026-08-31,2026-10-14
@@ -42999,6 +43008,7 @@ Starbucks:ef481081688686,Starbucks,"barista - Store# 00266, DOWNERS GROVE",2026-
 Starbucks:ef481081738746,Starbucks,"barista - Store# 00275, WINNETKA",2026-11-05,2026-11-06
 Starbucks:ef481081348966,Starbucks,"barista - Store# 00281, LAKE ZURICH",2026-10-15,2026-10-17
 Starbucks:ef481081349024,Starbucks,"barista - Store# 00312, TACOMA PLACE",2026-10-15,2026-10-17
+Starbucks:ef481082012734,Starbucks,"barista - Store# 00348, MAGNOLIA",2026-11-21,2026-11-22
 Starbucks:ef481081738944,Starbucks,"barista - Store# 00371, 10705 SILVERDALE WAY",2026-11-05,2026-11-06
 Starbucks:ef481081738691,Starbucks,"barista - Store# 00374, RENTON VILLAGE         (FRESH)",2026-11-05,2026-11-06
 Starbucks:ef481081931979,Starbucks,"barista - Store# 00383, SLEATER KINNEY & ROYAL",2026-11-17,2026-11-18
@@ -43048,6 +43058,7 @@ Starbucks:ef481081852740,Starbucks,"barista - Store# 02478, STATE & BROWN - WEST
 Starbucks:ef481081363842,Starbucks,"barista - Store# 02486, DOWNTOWN NORTHVILLE",2026-10-17,2026-10-19
 Starbucks:ef481081329904,Starbucks,"barista - Store# 02490, WEST 39TH STREET",2026-10-14,2026-10-16
 Starbucks:ef481081721818,Starbucks,"barista - Store# 02509, BROOKLN",2026-11-04,2026-11-06
+Starbucks:ef481082012727,Starbucks,"barista - Store# 02517, Telegraph & Maple",2026-11-21,2026-11-22
 Starbucks:ef481081688728,Starbucks,"barista - Store# 02529, RADIO DRIVE AND VALLEY CREEK ROAD",2026-11-03,2026-11-04
 Starbucks:ef481081738800,Starbucks,"barista - Store# 02531, ROCKSIDE CORNERS",2026-11-05,2026-11-06
 Starbucks:ef481081761438,Starbucks,"barista - Store# 02541, SHELBYVILLE & HURSTBOURNE",2026-11-07,2026-11-08
@@ -43122,6 +43133,7 @@ Starbucks:ef481081469397,Starbucks,"barista - Store# 05537, KIETZKE & S. VIRGINI
 Starbucks:ef481081738991,Starbucks,"barista - Store# 05547, TATUM & BELL",2026-11-05,2026-11-06
 Starbucks:ef481081739044,Starbucks,"barista - Store# 05590, SAN PEDRO & MONTGOMERY",2026-11-05,2026-11-06
 Starbucks:ef481081697216,Starbucks,"barista - Store# 05622, 83RD & BELL",2026-11-03,2026-11-05
+Starbucks:ef481082012681,Starbucks,"barista - Store# 05631, WHITTIER & BEACH",2026-11-21,2026-11-22
 Starbucks:ef481081738728,Starbucks,"barista - Store# 05632, LINDA MAR",2026-11-05,2026-11-06
 Starbucks:ef481081739091,Starbucks,"barista - Store# 05641, SAN MARCOS BLVD",2026-11-05,2026-11-06
 Starbucks:ef481081932073,Starbucks,"barista - Store# 05643, CHATSWORTH & LINDLEY",2026-11-17,2026-11-18
@@ -43182,6 +43194,7 @@ Starbucks:ef481081363819,Starbucks,"barista - Store# 06667, HULEN & DONNELLY",20
 Starbucks:ef481081812146,Starbucks,"barista - Store# 06668, TEXAS & HOLLEMAN DRIVE",2026-11-10,2026-11-11
 Starbucks:ef481081877370,Starbucks,"barista - Store# 06689, LAVAL & I-5",2026-11-14,2026-11-15
 Starbucks:ef481081372241,Starbucks,"barista - Store# 06696, HILLSDALE & CAMDEN",2026-10-18,2026-10-20
+Starbucks:ef481082012673,Starbucks,"barista - Store# 06702, MERIDIAN & WILLOW",2026-11-21,2026-11-22
 Starbucks:ef481081560484,Starbucks,"barista - Store# 06704, EUCLID ST & CRESCENT AVE",2026-10-27,2026-10-29
 Starbucks:ef481081792890,Starbucks,"barista - Store# 06714, GATEWAY OAKS & EL CAMINO",2026-11-09,2026-11-10
 Starbucks:ef481081932009,Starbucks,"barista - Store# 06746, LAS TUNAS & ROSEMEAD",2026-11-17,2026-11-18
@@ -43252,6 +43265,7 @@ Starbucks:ef481081611969,Starbucks,"barista - Store# 07885, COHASSET",2026-10-29
 Starbucks:ef481081688695,Starbucks,"barista - Store# 07888, FOREST & BARD",2026-11-03,2026-11-04
 Starbucks:ef481081852938,Starbucks,"barista - Store# 07889, POUGHKEEPSIE - SOUTH ROAD",2026-11-12,2026-11-13
 Starbucks:ef481081645386,Starbucks,"barista - Store# 07910, TOWER SQUARE",2026-11-01,2026-11-03
+Starbucks:ef481082012880,Starbucks,"barista - Store# 07925, RANCHO PENASQUITOS 7 I-15, SAN DIEGO",2026-11-21,2026-11-22
 Starbucks:ef481081852824,Starbucks,"barista - Store# 07945, KINGS & CHIPPEWA",2026-11-12,2026-11-13
 Starbucks:ef481081738915,Starbucks,"barista - Store# 07964, 95TH ST & 2ND AVE",2026-11-05,2026-11-06
 Starbucks:ef481081761522,Starbucks,"barista - Store# 07980, STEVENSON & BALENTINE",2026-11-07,2026-11-08
@@ -43277,6 +43291,7 @@ Starbucks:ef481081588667,Starbucks,"barista - Store# 08354, GLADES PLAZA II",202
 Starbucks:ef481081469387,Starbucks,"barista - Store# 08372, DOCTORS INLET RD & E. WEST PKWY",2026-10-24,2026-10-26
 Starbucks:ef481081738926,Starbucks,"barista - Store# 08374, W FRIENDLY AVE & DOLLEY MADISON RD",2026-11-05,2026-11-06
 Starbucks:ef481081769397,Starbucks,"barista - Store# 08375, ORANGE & PINELOCH",2026-11-08,2026-11-09
+Starbucks:ef481082012725,Starbucks,"barista - Store# 08410, JAY BIRD ALLEY",2026-11-21,2026-11-22
 Starbucks:ef481081761529,Starbucks,"barista - Store# 08417, 1800 NORTH FEDERAL HWY",2026-11-07,2026-11-08
 Starbucks:ef481081892386,Starbucks,"barista - Store# 08425, SAN JOSE & ST AUGUSTINE",2026-11-15,2026-11-16
 Starbucks:ef481081349085,Starbucks,"barista - Store# 08428, WESTSHORE & KENNEDY",2026-10-15,2026-10-17
@@ -43323,6 +43338,7 @@ Starbucks:ef481081931896,Starbucks,"barista - Store# 08840, ISLAND PARK-AUSTIN B
 Starbucks:ef481081395390,Starbucks,"barista - Store# 08844, MILLCREEK PLAZA",2026-10-20,2026-10-22
 Starbucks:ef481081877374,Starbucks,"barista - Store# 08929, I-24 & SAM RIDLEY PKWY",2026-11-14,2026-11-15
 Starbucks:ef481081421420,Starbucks,"barista - Store# 08951, CEDAR FALLS-UNIVERSITY AVE.",2026-10-21,2026-10-23
+Starbucks:ef481082012720,Starbucks,"barista - Store# 09213, 565 CLAY ST (MONTGOMERY)",2026-11-21,2026-11-22
 Starbucks:ef481081982343,Starbucks,"barista - Store# 09274, CRAIG & LOSEE",2026-11-19,2026-11-20
 Starbucks:ef481081739100,Starbucks,"barista - Store# 09280, BRADLICK SHOPPING CENTER",2026-11-05,2026-11-06
 Starbucks:ef481081688717,Starbucks,"barista - Store# 09303, 1ST AND WALKER",2026-11-03,2026-11-04
@@ -43330,6 +43346,7 @@ Starbucks:ef481081958249,Starbucks,"barista - Store# 09316, OYSTER POINT SHOPPES
 Starbucks:ef481081421439,Starbucks,"barista - Store# 09330, HWY 4 & CAROL - OAKLEY",2026-10-21,2026-10-23
 Starbucks:ef481081421433,Starbucks,"barista - Store# 09334, 200 CRANDON BLVD",2026-10-21,2026-10-23
 Starbucks:ef481081892506,Starbucks,"barista - Store# 09375, LOOP 820 & RUFE SNOW",2026-11-15,2026-11-16
+Starbucks:ef481082012828,Starbucks,"barista - Store# 09397, ELMHURST-NORTH&RTE 83",2026-11-21,2026-11-22
 Starbucks:ef481081721872,Starbucks,"barista - Store# 09399, STATE & COLISEUM",2026-11-04,2026-11-06
 Starbucks:ef481081629609,Starbucks,"barista - Store# 09401, NM 6 & EMILO LOPEZ",2026-10-31,2026-11-02
 Starbucks:ef481081852739,Starbucks,"barista - Store# 09406, I-20 & HWY. 377",2026-11-12,2026-11-13
@@ -43347,6 +43364,7 @@ Starbucks:ef481081830907,Starbucks,"barista - Store# 09571, CENTERVILLE",2026-11
 Starbucks:ef481081645392,Starbucks,"barista - Store# 09582, CENTRAL & THE 91 FWY",2026-11-01,2026-11-03
 Starbucks:ef481081792858,Starbucks,"barista - Store# 09593, PALM DR. & TWO BUNCH PALMS",2026-11-09,2026-11-10
 Starbucks:ef481081588592,Starbucks,"barista - Store# 09608, FARGO-32ND & 25TH",2026-10-28,2026-10-30
+Starbucks:ef481082012873,Starbucks,"barista - Store# 09671, I-45 & WEST",2026-11-21,2026-11-22
 Starbucks:ef481081877406,Starbucks,"barista - Store# 09688, OCEANSIDE & I-5",2026-11-14,2026-11-15
 Starbucks:ef481081792852,Starbucks,"barista - Store# 09700, PINE RIDGE & GOODLETTE",2026-11-09,2026-11-10
 Starbucks:ef481081877347,Starbucks,"barista - Store# 09701, SAWGRASS RD & LYONS RD",2026-11-14,2026-11-15
@@ -43446,6 +43464,7 @@ Starbucks:ef481081738880,Starbucks,"barista - Store# 11690, FRANKLIN, NJ",2026-1
 Starbucks:ef481081469350,Starbucks,"barista - Store# 11709, MAUMELLE & AUDUBON",2026-10-24,2026-10-26
 Starbucks:ef481081982295,Starbucks,"barista - Store# 11736, 50TH & MADISON",2026-11-19,2026-11-20
 Starbucks:ef481081852826,Starbucks,"barista - Store# 11804, SR-N & HAWK RIDGE",2026-11-12,2026-11-13
+Starbucks:ef481082012730,Starbucks,"barista - Store# 11829, VISTA CHINO & LANDAU, CATHEDRAL CITY",2026-11-21,2026-11-22
 Starbucks:ef481081958331,Starbucks,"barista - Store# 11875, VETERANS BLVD & KINGMAN ST",2026-11-18,2026-11-19
 Starbucks:ef481081830896,Starbucks,"barista - Store# 11899, ALUM ROCK & WHITE - SAN JOSE",2026-11-11,2026-11-12
 Starbucks:ef481081363872,Starbucks,"barista - Store# 11916, NOTTINGHAM SQUARE II",2026-10-17,2026-10-19
@@ -43495,6 +43514,7 @@ Starbucks:ef481081910115,Starbucks,"barista - Store# 14226, BLACKHAWK & CAMINO T
 Starbucks:ef481081852932,Starbucks,"barista - Store# 14259, WINCHESTER RD & ELKHORN",2026-11-12,2026-11-13
 Starbucks:ef481081738949,Starbucks,"barista - Store# 14266, FREEHOLD RACEWAY MALL",2026-11-05,2026-11-06
 Starbucks:ef481081982304,Starbucks,"barista - Store# 14285, SIXES RD & RIDGE RD",2026-11-19,2026-11-20
+Starbucks:ef481082012820,Starbucks,"barista - Store# 14451, I-25 & HWY 52, FREDERICK",2026-11-21,2026-11-22
 Starbucks:ef481081769377,Starbucks,"barista - Store# 14476, LINCOLN PARK, SOUTHFIELD RD.",2026-11-08,2026-11-09
 Starbucks:ef481081688640,Starbucks,"barista - Store# 14478, WHITEHOUSE STATION",2026-11-03,2026-11-04
 Starbucks:ef481081982282,Starbucks,"barista - Store# 14593, 19TH AVE. & BASELINE, PHOENIX",2026-11-19,2026-11-20
@@ -43520,7 +43540,9 @@ Starbucks:ef481081931961,Starbucks,"barista - Store# 18833, COX RD & I-85",2026-
 Starbucks:ef481081697214,Starbucks,"barista - Store# 19024, 53RD & MAD",2026-11-03,2026-11-05
 Starbucks:ef481081761527,Starbucks,"barista - Store# 19296, PALOMINO DR & DANIELS PKWY",2026-11-07,2026-11-08
 Starbucks:ef481081761525,Starbucks,"barista - Store# 19357, BROADWAY & BALLANTYNE",2026-11-07,2026-11-08
+Starbucks:ef481082012621,Starbucks,"barista - Store# 19552, DERBY MARKETPLACE",2026-11-21,2026-11-22
 Starbucks:ef481081688642,Starbucks,"barista - Store# 19563, WESLEY COMMONS",2026-11-03,2026-11-04
+Starbucks:ef481082012696,Starbucks,"barista - Store# 19636, TANGER OUTLET AT CHARLESTON",2026-11-21,2026-11-22
 Starbucks:ef481081761533,Starbucks,"barista - Store# 19691, AINAMAKUA DRIVE THRU",2026-11-07,2026-11-08
 Starbucks:ef481081877388,Starbucks,"barista - Store# 19806, SALINA CENTRAL MALL",2026-11-14,2026-11-15
 Starbucks:ef481081982322,Starbucks,"barista - Store# 19853, KENSINGTON",2026-11-19,2026-11-20
@@ -43538,12 +43560,14 @@ Starbucks:ef481081812186,Starbucks,"barista - Store# 21022, MAUI-PIILANI CENTER"
 Starbucks:ef481081877411,Starbucks,"barista - Store# 21313, TOOELE",2026-11-14,2026-11-15
 Starbucks:ef481081792958,Starbucks,"barista - Store# 21505, ESMARK CENTER - SEWICKLEY",2026-11-09,2026-11-10
 Starbucks:ef481081932036,Starbucks,"barista - Store# 21514, 132-40 METROPOLITAN AVE",2026-11-17,2026-11-18
+Starbucks:ef481082012814,Starbucks,"barista - Store# 21751, GRAND & WABASH",2026-11-21,2026-11-22
 Starbucks:ef481081958292,Starbucks,"barista - Store# 21872, 288 & OYSTER CREEK",2026-11-18,2026-11-19
 Starbucks:ef481081892414,Starbucks,"barista - Store# 22118, HADLEY, RUSSELL ST.",2026-11-15,2026-11-16
 Starbucks:ef481081688696,Starbucks,"barista - Store# 22257, PALM & HARVARD",2026-11-03,2026-11-04
 Starbucks:ef481081812128,Starbucks,"barista - Store# 22301, 620 & O'CONNOR",2026-11-10,2026-11-11
 Starbucks:ef481081910149,Starbucks,"barista - Store# 22416, SPRING ROCK GREEN",2026-11-16,2026-11-17
 Starbucks:ef481081721835,Starbucks,"barista - Store# 22523, PORTAGE CROSSING",2026-11-04,2026-11-06
+Starbucks:ef481082012875,Starbucks,"barista - Store# 22566, FAN PIER",2026-11-21,2026-11-22
 Starbucks:ef481081812258,Starbucks,"barista - Store# 22635, BROOKHURST & WESTMINSTER",2026-11-10,2026-11-11
 Starbucks:ef481081738826,Starbucks,"barista - Store# 22637, BRISTOL & RED HILL, COSTA MESA",2026-11-05,2026-11-06
 Starbucks:ef481081421444,Starbucks,"barista - Store# 22655, FM1464 & BELLAIRE",2026-10-21,2026-10-23
@@ -43554,13 +43578,16 @@ Starbucks:ef481081739167,Starbucks,"barista - Store# 22912, STEEPLECHASE",2026-1
 Starbucks:ef481081421371,Starbucks,"barista - Store# 22949, 200 NORTH MICHIGAN AVENUE",2026-10-21,2026-10-23
 Starbucks:ef481081761536,Starbucks,"barista - Store# 22991, BOUNDARY ST & MARSH RD - BEAUFORT",2026-11-07,2026-11-08
 Starbucks:ef481081910135,Starbucks,"barista - Store# 23001, WOODWARD AND GUILFORD",2026-11-16,2026-11-17
+Starbucks:ef481082012688,Starbucks,"barista - Store# 23156, STATE AND WILDER BAY CITY",2026-11-21,2026-11-22
 Starbucks:ef481081688685,Starbucks,"barista - Store# 23163, Dayton - Miamisburg & Lyons Rd",2026-11-03,2026-11-04
 Starbucks:ef481081877345,Starbucks,"barista - Store# 23267, CAESARS BAY",2026-11-14,2026-11-15
 Starbucks:ef481081441497,Starbucks,"barista - Store# 23316, HARBOR & 91 FWY",2026-10-22,2026-10-24
 Starbucks:ef481081769419,Starbucks,"barista - Store# 23398, 2034 N HIGHLAND",2026-11-08,2026-11-09
+Starbucks:ef481082012869,Starbucks,"barista - Store# 23590, RUTHERFORD DRIVE THRU",2026-11-21,2026-11-22
 Starbucks:ef481081812223,Starbucks,"barista - Store# 23593, MAIN ST & 38TH AVE- FLUSHING",2026-11-10,2026-11-11
 Starbucks:ef481081761601,Starbucks,"barista - Store# 23634, 55TH ST & BROADWAY, TEMPE",2026-11-07,2026-11-08
 Starbucks:ef481081372223,Starbucks,"barista - Store# 23645, CROSSROADS & 60 FWY, CITY OF INDUSTRY",2026-10-18,2026-10-20
+Starbucks:ef481082012709,Starbucks,"barista - Store# 23737, ISLANDIA-495 & OLD NICHOLS RD",2026-11-21,2026-11-22
 Starbucks:ef481081688654,Starbucks,"barista - Store# 23759, SIERRA LAKES & CITRUS, FONTANA",2026-11-03,2026-11-04
 Starbucks:ef481081932032,Starbucks,"barista - Store# 23896, FM 685 & US 79",2026-11-17,2026-11-18
 Starbucks:ef481081892406,Starbucks,"barista - Store# 24182, MIDDLETOWN PLAZA",2026-11-15,2026-11-16
@@ -43578,6 +43605,7 @@ Starbucks:ef481081372219,Starbucks,"barista - Store# 25770, CIVIC CENTER & PHILL
 Starbucks:ef481081812247,Starbucks,"barista - Store# 25782, AUGUSTA JOURNAL SQUARE",2026-11-10,2026-11-11
 Starbucks:ef481081688656,Starbucks,"barista - Store# 25784, DIABLO PLAZA",2026-11-03,2026-11-04
 Starbucks:ef481081812180,Starbucks,"barista - Store# 26770, TORRANCE & WESTERN, LOS ANGELES",2026-11-10,2026-11-11
+Starbucks:ef481082012872,Starbucks,"barista - Store# 26800, 1183 N TAMIAMI TRAIL",2026-11-21,2026-11-22
 Starbucks:ef481081792939,Starbucks,"barista - Store# 26924, COLLIER & TRIANGLE - NAPLES",2026-11-09,2026-11-10
 Starbucks:ef481081877339,Starbucks,"barista - Store# 26928, TOPANGA CANYON & GAULT, CANOGA PARK",2026-11-14,2026-11-15
 Starbucks:ef481081761566,Starbucks,"barista - Store# 26974, COLLIER & IMMOKALEE - NAPLES",2026-11-07,2026-11-08
@@ -43661,6 +43689,7 @@ Starbucks:ef481081363814,Starbucks,"barista - Store# 54435, US17 & PLOOF RD",202
 Starbucks:ef481081792865,Starbucks,"barista - Store# 54501, 6TH & KENMORE (CHAPMAN MARKET)",2026-11-09,2026-11-10
 Starbucks:ef481081812140,Starbucks,"barista - Store# 54516, UNIVERSITY OF NEVADA",2026-11-10,2026-11-11
 Starbucks:ef481081958261,Starbucks,"barista - Store# 54600, S. JEFFERSON & ROBERT NANCE ROAD",2026-11-18,2026-11-19
+Starbucks:ef481082012694,Starbucks,"barista - Store# 54770, 43RD & STATE - BISMARCK",2026-11-21,2026-11-22
 Starbucks:ef481081688690,Starbucks,"barista - Store# 55143, SR 70 AND LAKEWOOD RANCH",2026-11-03,2026-11-04
 Starbucks:ef481081877375,Starbucks,"barista - Store# 55145, S. CLAIBORNE AND WASHINGTON",2026-11-14,2026-11-15
 Starbucks:ef481081892479,Starbucks,"barista - Store# 55233, MOONEY & RIGGIN",2026-11-15,2026-11-16
@@ -43704,6 +43733,7 @@ Starbucks:ef481081910145,Starbucks,"barista - Store# 59298, N 32ND AND SHAWNEE B
 Starbucks:ef481081877332,Starbucks,"barista - Store# 59327, MILLERSVILLE",2026-11-14,2026-11-15
 Starbucks:ef481081792860,Starbucks,"barista - Store# 59342, S. ELM & 101ST",2026-11-09,2026-11-10
 Starbucks:ef481081382098,Starbucks,"barista - Store# 59587, HWY 54 & CARRINGTON MILL",2026-10-19,2026-10-21
+Starbucks:ef481082012707,Starbucks,"barista - Store# 59624, DORRIS AVE. & I-5",2026-11-21,2026-11-22
 Starbucks:ef481081688712,Starbucks,"barista - Store# 60120, HWY 59 AND NORTHPARK",2026-11-03,2026-11-04
 Starbucks:ef481081792855,Starbucks,"barista - Store# 60164, SUNRISE & VISTA CHINO",2026-11-09,2026-11-10
 Starbucks:ef481081588631,Starbucks,"barista - Store# 60180, S. WITCHDUCK & PRINCESS ANNE ROAD",2026-10-28,2026-10-30
@@ -43765,6 +43795,7 @@ Starbucks:ef481081688699,Starbucks,"barista - Store# 65995, E CHURCH ST & HENDRI
 Starbucks:ef481081958260,Starbucks,"barista - Store# 66065, DE SOTO & ROSCOE",2026-11-18,2026-11-19
 Starbucks:ef481081892477,Starbucks,"barista - Store# 66120, LINDSEY & BERRY RD",2026-11-15,2026-11-16
 Starbucks:ef481081739092,Starbucks,"barista - Store# 66182, JOHN T. REID PKWY. & COUNTRY PARK R",2026-11-05,2026-11-06
+Starbucks:ef481082012684,Starbucks,"barista - Store# 66186, ATLANTIC HIGHLANDS",2026-11-21,2026-11-22
 Starbucks:ef481081812275,Starbucks,"barista - Store# 66256, GREENVILLE AND ALTA",2026-11-10,2026-11-11
 Starbucks:ef481081931998,Starbucks,"barista - Store# 66292, Saddle Brook DT",2026-11-17,2026-11-18
 Starbucks:ef481081982315,Starbucks,"barista - Store# 66387, GEYER SPRING & I-30",2026-11-19,2026-11-20
@@ -44171,11 +44202,15 @@ Starbucks:ef481081892395,Starbucks,"shift supervisor - Store# 02632, MENOMONEE F
 Starbucks:ef481081629608,Starbucks,"shift supervisor - Store# 02644, HENDERSON",2026-10-31,2026-11-02
 Starbucks:ef481081792907,Starbucks,"shift supervisor - Store# 02668, 173RD & CENTER",2026-11-09,2026-11-10
 Starbucks:ef481081688691,Starbucks,"shift supervisor - Store# 02711, SKOKIE SWIFT - DEMPSTER & NILES",2026-11-03,2026-11-04
+Starbucks:ef481082012670,Starbucks,"shift supervisor - Store# 02719, S. WASHINGTON AND W. ARBOR",2026-11-21,2026-11-22
+Starbucks:ef481082012699,Starbucks,"shift supervisor - Store# 02725, PENDLETON PIKE & SUNNYSIDE",2026-11-21,2026-11-22
 Starbucks:ef481081739184,Starbucks,"shift supervisor - Store# 02730, PROSPECT AND SANDERS",2026-11-05,2026-11-06
+Starbucks:ef481082012686,Starbucks,"shift supervisor - Store# 02742, TELEGRAPH & CHICAGO",2026-11-21,2026-11-22
 Starbucks:ef481081761453,Starbucks,"shift supervisor - Store# 02774, I-25 & LOHMAN",2026-11-07,2026-11-08
 Starbucks:ef481081812164,Starbucks,"shift supervisor - Store# 02866, CORNELL & STUCKI",2026-11-10,2026-11-11
 Starbucks:ef481081738918,Starbucks,"shift supervisor - Store# 02871, 50 W & INLET ISLE LANE, WEST OC",2026-11-05,2026-11-06
 Starbucks:ef481081363868,Starbucks,"shift supervisor - Store# 02873, 23 MILE RD & M-53",2026-10-17,2026-10-19
+Starbucks:ef481082012692,Starbucks,"shift supervisor - Store# 02878, HELENA-MAIN & NEIL",2026-11-21,2026-11-22
 Starbucks:ef481081738970,Starbucks,"shift supervisor - Store# 02920, 1140 W RIVERDALE RD",2026-11-05,2026-11-06
 Starbucks:ef481081629587,Starbucks,"shift supervisor - Store# 02975, DELTA & GREEN ACRES",2026-10-31,2026-11-02
 Starbucks:ef481081761554,Starbucks,"shift supervisor - Store# 02978, LEE TREVINO & MONTWOOD",2026-11-07,2026-11-08
@@ -44201,6 +44236,7 @@ Starbucks:ef481081738702,Starbucks,"shift supervisor - Store# 05892, BRADSHAW AN
 Starbucks:ef481081812165,Starbucks,"shift supervisor - Store# 05894, CHAPMAN AND SWIDLER",2026-11-10,2026-11-11
 Starbucks:ef481081395312,Starbucks,"shift supervisor - Store# 05954, LINCOLN HILLS TOWN CENTER",2026-10-20,2026-10-22
 Starbucks:ef481081932075,Starbucks,"shift supervisor - Store# 05975, OLD REDWOOD & NORTH MCDOWELL",2026-11-17,2026-11-18
+Starbucks:ef481082012712,Starbucks,"shift supervisor - Store# 06375, US HIGHWAY 67 & FM 1382",2026-11-21,2026-11-22
 Starbucks:ef481081629570,Starbucks,"shift supervisor - Store# 06410, BOSQUE & WOODED ACRES",2026-10-31,2026-11-02
 Starbucks:ef481081560490,Starbucks,"shift supervisor - Store# 06416, US 380 & US 75",2026-10-27,2026-10-29
 Starbucks:ef481081852829,Starbucks,"shift supervisor - Store# 06418, CHATEAU & ESPLANDE-DT",2026-11-12,2026-11-13
@@ -44213,13 +44249,18 @@ Starbucks:ef481081761520,Starbucks,"shift supervisor - Store# 06668, TEXAS & HOL
 Starbucks:ef481081761471,Starbucks,"shift supervisor - Store# 06933, WILLOWBROOK MALL",2026-11-07,2026-11-08
 Starbucks:ef481081560455,Starbucks,"shift supervisor - Store# 06964, HWY 150 & I-459 FLY",2026-10-27,2026-10-29
 Starbucks:ef481081982213,Starbucks,"shift supervisor - Store# 06977, ARLINGTON & 91 FWY",2026-11-19,2026-11-20
+Starbucks:ef481082012700,Starbucks,"shift supervisor - Store# 06996, BLOSSOM HILL & WINFIELD",2026-11-21,2026-11-22
 Starbucks:ef481081329906,Starbucks,"shift supervisor - Store# 07286, 3300 OLD BRIDGE ROAD",2026-10-14,2026-10-16
 Starbucks:ef481081892435,Starbucks,"shift supervisor - Store# 07340, WILLIAMSVILLE",2026-11-15,2026-11-16
 Starbucks:ef481081769370,Starbucks,"shift supervisor - Store# 07380, IRONDEQUOIT",2026-11-08,2026-11-09
 Starbucks:ef481081812287,Starbucks,"shift supervisor - Store# 07405, SEA GIRT",2026-11-10,2026-11-11
+Starbucks:ef481082012714,Starbucks,"shift supervisor - Store# 07580, WILTON-RIVER ROAD",2026-11-21,2026-11-22
 Starbucks:ef481081761541,Starbucks,"shift supervisor - Store# 07582, Closter -79 VerValen St",2026-11-07,2026-11-08
+Starbucks:ef481082012866,Starbucks,"shift supervisor - Store# 07627, GARDEN CITY-7TH & FRANKLIN",2026-11-21,2026-11-22
 Starbucks:ef481081306340,Starbucks,"shift supervisor - Store# 07636, GRANARY",2026-10-13,2026-10-15
+Starbucks:ef481082012717,Starbucks,"shift supervisor - Store# 07640, WASHINGTON HEIGHTS",2026-11-21,2026-11-22
 Starbucks:ef481081769356,Starbucks,"shift supervisor - Store# 07728, SYOSSET-JERICHO TPKE",2026-11-08,2026-11-09
+Starbucks:ef481082012868,Starbucks,"shift supervisor - Store# 07874, 2138 BROADWAY",2026-11-21,2026-11-22
 Starbucks:ef481081982302,Starbucks,"shift supervisor - Store# 07945, KINGS & CHIPPEWA",2026-11-19,2026-11-20
 Starbucks:ef481081395325,Starbucks,"shift supervisor - Store# 07980, STEVENSON & BALENTINE",2026-10-20,2026-10-22
 Starbucks:ef481081877391,Starbucks,"shift supervisor - Store# 08222, Battleground Ave at Edney Ridge Rd",2026-11-14,2026-11-15
@@ -44238,6 +44279,7 @@ Starbucks:ef481081892377,Starbucks,"shift supervisor - Store# 08632, OLTORF & I-
 Starbucks:ef481081892493,Starbucks,"shift supervisor - Store# 08691, 3RD ST & 46 BYPASS",2026-11-15,2026-11-16
 Starbucks:ef481081739148,Starbucks,"shift supervisor - Store# 08697, SYCAMORE COMMONS",2026-11-05,2026-11-06
 Starbucks:ef481081877452,Starbucks,"shift supervisor - Store# 08720, BROAD & JACKSON",2026-11-14,2026-11-15
+Starbucks:ef481082012830,Starbucks,"shift supervisor - Store# 08728, SUNSET & MERGANSER",2026-11-21,2026-11-22
 Starbucks:ef481081738819,Starbucks,"shift supervisor - Store# 08732, MLK JR BLVD & E23RD ST",2026-11-05,2026-11-06
 Starbucks:ef481081877350,Starbucks,"shift supervisor - Store# 08745, SPEEDWAY & WILMOT",2026-11-14,2026-11-15
 Starbucks:ef481081738924,Starbucks,"shift supervisor - Store# 08803, HENDRIX & WOODRUFF RD",2026-11-05,2026-11-06
@@ -44245,20 +44287,26 @@ Starbucks:ef481081739038,Starbucks,"shift supervisor - Store# 08824, HOBSONWAY &
 Starbucks:ef481081892454,Starbucks,"shift supervisor - Store# 08888, 31 OCEAN",2026-11-15,2026-11-16
 Starbucks:ef481081629638,Starbucks,"shift supervisor - Store# 08925, I-40 & MACARTHUR",2026-10-31,2026-11-02
 Starbucks:ef481081931922,Starbucks,"shift supervisor - Store# 08962, STANTON SQ & ARLINGTON DR",2026-11-17,2026-11-18
+Starbucks:ef481082012697,Starbucks,"shift supervisor - Store# 09305, NE CENTERPOINTE DR VANCOUVER",2026-11-21,2026-11-22
 Starbucks:ef481081931942,Starbucks,"shift supervisor - Store# 09314, COOPER & BARDIN",2026-11-17,2026-11-18
+Starbucks:ef481082012722,Starbucks,"shift supervisor - Store# 09506, PICO & SAN VICENTE-LOS ANGELES",2026-11-21,2026-11-22
 Starbucks:ef481081852853,Starbucks,"shift supervisor - Store# 09572, CARLISLE CROSSING",2026-11-12,2026-11-13
 Starbucks:ef481081877400,Starbucks,"shift supervisor - Store# 09700, PINE RIDGE & GOODLETTE",2026-11-14,2026-11-15
 Starbucks:ef481081892498,Starbucks,"shift supervisor - Store# 09875, LEE VISTA",2026-11-15,2026-11-16
 Starbucks:ef481081769386,Starbucks,"shift supervisor - Store# 09882, HWY 7 & I-70",2026-11-08,2026-11-09
+Starbucks:ef481082012833,Starbucks,"shift supervisor - Store# 09922, MEDFORD-495 & 112",2026-11-21,2026-11-22
+Starbucks:ef481082012723,Starbucks,"shift supervisor - Store# 09941, I-94 & HOLT",2026-11-21,2026-11-22
 Starbucks:ef481081982317,Starbucks,"shift supervisor - Store# 09983, VIRGINIA & BROADWAY",2026-11-19,2026-11-20
 Starbucks:ef481081761481,Starbucks,"shift supervisor - Store# 10028, HALSTED & RIDGE",2026-11-07,2026-11-08
 Starbucks:ef481081830914,Starbucks,"shift supervisor - Store# 10042, DURANGO & ELKHORN",2026-11-11,2026-11-12
 Starbucks:ef481081958255,Starbucks,"shift supervisor - Store# 10047, RANSLEY SQUARE",2026-11-18,2026-11-19
+Starbucks:ef481082012693,Starbucks,"shift supervisor - Store# 10114, PARKER & PEORIA ST",2026-11-21,2026-11-22
 Starbucks:ef481081611963,Starbucks,"shift supervisor - Store# 10178, 12101 MILL PLAIN BLVD",2026-10-29,2026-10-31
 Starbucks:ef481081877416,Starbucks,"shift supervisor - Store# 10509, DIXIE HWY & KERRICK",2026-11-14,2026-11-15
 Starbucks:ef481081910098,Starbucks,"shift supervisor - Store# 10515, KINGSTON, NY",2026-11-16,2026-11-17
 Starbucks:ef481081348967,Starbucks,"shift supervisor - Store# 10593, BOLINGBROOK-WEBER & LILLY CACHE",2026-10-15,2026-10-17
 Starbucks:ef481081812245,Starbucks,"shift supervisor - Store# 10618, I-35 & SLAUGHTER",2026-11-10,2026-11-11
+Starbucks:ef481082012679,Starbucks,"shift supervisor - Store# 10623, VANCOUVER PARK PLACE",2026-11-21,2026-11-22
 Starbucks:ef481081958336,Starbucks,"shift supervisor - Store# 10694, GRAND & MAY",2026-11-18,2026-11-19
 Starbucks:ef481081738762,Starbucks,"shift supervisor - Store# 10698, HWY 231 & INNSBROOKE",2026-11-05,2026-11-06
 Starbucks:ef481081877356,Starbucks,"shift supervisor - Store# 10990, HWY 99 & 185TH",2026-11-14,2026-11-15
@@ -44268,10 +44316,14 @@ Starbucks:ef481081877437,Starbucks,"shift supervisor - Store# 11252, ULMERTON & 
 Starbucks:ef481081852748,Starbucks,"shift supervisor - Store# 11596, HIDDEN VALLEY & THE 15 FWY, NORCO",2026-11-12,2026-11-13
 Starbucks:ef481081812139,Starbucks,"shift supervisor - Store# 11629, HIGHLAND RD & I-10",2026-11-10,2026-11-11
 Starbucks:ef481081931967,Starbucks,"shift supervisor - Store# 11784, 475 S DIXIE HWY",2026-11-17,2026-11-18
+Starbucks:ef481082012701,Starbucks,"shift supervisor - Store# 13295, VILLAGE AT BEDMINSTER",2026-11-21,2026-11-22
 Starbucks:ef481081910112,Starbucks,"shift supervisor - Store# 13306, MCKINLEY & GRIFFIN, CORONA",2026-11-16,2026-11-17
+Starbucks:ef481082012715,Starbucks,"shift supervisor - Store# 13342, OAK PARK-LAKE & EUCLID",2026-11-21,2026-11-22
 Starbucks:ef481081629632,Starbucks,"shift supervisor - Store# 13482, MCFARLAND BLVD & 15TH ST",2026-10-31,2026-11-02
 Starbucks:ef481081739000,Starbucks,"shift supervisor - Store# 13618, KESSLER & MICHIGAN",2026-11-05,2026-11-06
+Starbucks:ef481082012729,Starbucks,"shift supervisor - Store# 13935, YOSEMITE & CLAUS - MODESTO",2026-11-21,2026-11-22
 Starbucks:ef481081892456,Starbucks,"shift supervisor - Store# 13940, BLUE LAGOON & 57TH AVE",2026-11-15,2026-11-16
+Starbucks:ef481082012835,Starbucks,"shift supervisor - Store# 14070, BERNAL & VALLEY - PLEASANTON",2026-11-21,2026-11-22
 Starbucks:ef481081982297,Starbucks,"shift supervisor - Store# 14137, US HWY 441 & ROBERSON MILL RD",2026-11-19,2026-11-20
 Starbucks:ef481081852793,Starbucks,"shift supervisor - Store# 14270, 80TH & UNIVERSITY",2026-11-12,2026-11-13
 Starbucks:ef481081769420,Starbucks,"shift supervisor - Store# 14998, 2ND & MAIN - PORTLAND",2026-11-08,2026-11-09
@@ -44285,7 +44337,14 @@ Starbucks:ef481081769350,Starbucks,"shift supervisor - Store# 20167, CHATHAM",20
 Starbucks:ef481081877319,Starbucks,"shift supervisor - Store# 20178, THE AVENUES",2026-11-14,2026-11-15
 Starbucks:ef481081982284,Starbucks,"shift supervisor - Store# 21598, GREAT NECK & MILL DAM - VA BEACH",2026-11-19,2026-11-20
 Starbucks:ef481081792900,Starbucks,"shift supervisor - Store# 21751, GRAND & WABASH",2026-11-09,2026-11-10
+Starbucks:ef481082012675,Starbucks,"shift supervisor - Store# 22077, TOM SHORT RD & REA RD",2026-11-21,2026-11-22
+Starbucks:ef481082012811,Starbucks,"shift supervisor - Store# 22255, NUT TREE PLAZA",2026-11-21,2026-11-22
+Starbucks:ef481082012871,Starbucks,"shift supervisor - Store# 22477, OLYMPIC & SOTO",2026-11-21,2026-11-22
+Starbucks:ef481082012711,Starbucks,"shift supervisor - Store# 23156, STATE AND WILDER BAY CITY",2026-11-21,2026-11-22
+Starbucks:ef481082012689,Starbucks,"shift supervisor - Store# 23737, ISLANDIA-495 & OLD NICHOLS RD",2026-11-21,2026-11-22
+Starbucks:ef481082012735,Starbucks,"shift supervisor - Store# 24164, 7TH & HOPE - THE BLOC",2026-11-21,2026-11-22
 Starbucks:ef481081877368,Starbucks,"shift supervisor - Store# 24308, BANDERA & HUEBNER",2026-11-14,2026-11-15
+Starbucks:ef481082012878,Starbucks,"shift supervisor - Store# 24468, HWY 121 & PLANO PKWY",2026-11-21,2026-11-22
 Starbucks:ef481081982345,Starbucks,"shift supervisor - Store# 24938, PARKWAY & TERRY LANE - GRANTS PASS",2026-11-19,2026-11-20
 Starbucks:ef481081982320,Starbucks,"shift supervisor - Store# 25041, SEVEN HILLS - PARMA",2026-11-19,2026-11-20
 Starbucks:ef481081982347,Starbucks,"shift supervisor - Store# 25056, WAIALE & KUIKAHI, WAILUKU (WAILUKU WALGR",2026-11-19,2026-11-20
@@ -44307,6 +44366,8 @@ Starbucks:ef481081982252,Starbucks,"shift supervisor - Store# 47153, Main and Br
 Starbucks:ef481081812179,Starbucks,"shift supervisor - Store# 48148, CAVE CREEK & BELL",2026-11-10,2026-11-11
 Starbucks:ef481081932025,Starbucks,"shift supervisor - Store# 48179, FOREST HILLS AND RIVERSIDE",2026-11-17,2026-11-18
 Starbucks:ef481081932021,Starbucks,"shift supervisor - Store# 48249, GREECE, WEST RIDGE ROAD",2026-11-17,2026-11-18
+Starbucks:ef481082012698,Starbucks,"shift supervisor - Store# 48457, Mannheim Rd. & Grand Ave.",2026-11-21,2026-11-22
+Starbucks:ef481082012817,Starbucks,"shift supervisor - Store# 48613, FARMINGVILLE-495 & NORTH OCEAN",2026-11-21,2026-11-22
 Starbucks:ef481081688651,Starbucks,"shift supervisor - Store# 48830, Windsor - 16th and Main",2026-11-03,2026-11-04
 Starbucks:ef481081769348,Starbucks,"shift supervisor - Store# 48923, WASHINGTON & SCHULER",2026-11-08,2026-11-09
 Starbucks:ef481081738902,Starbucks,"shift supervisor - Store# 49081, ALTON TOWN CENTER",2026-11-05,2026-11-06
@@ -44317,8 +44378,10 @@ Starbucks:ef481081487204,Starbucks,"shift supervisor - Store# 49895, Skibo & Ric
 Starbucks:ef481081892409,Starbucks,"shift supervisor - Store# 50175, CYPRESS GARDENS BLVD & ROOSEVELT",2026-11-15,2026-11-16
 Starbucks:ef481081421377,Starbucks,"shift supervisor - Store# 50235, Hamburg Plaza",2026-10-21,2026-10-23
 Starbucks:ef481081852930,Starbucks,"shift supervisor - Store# 50314, US 41 & W HELEN AVE",2026-11-12,2026-11-13
+Starbucks:ef481082012677,Starbucks,"shift supervisor - Store# 50483, JACKSON AVE & 44TH DR- LIC",2026-11-21,2026-11-22
 Starbucks:ef481081932020,Starbucks,"shift supervisor - Store# 51179, GETWELL & GOODMAN- SOUTHAVEN",2026-11-17,2026-11-18
 Starbucks:ef481081738747,Starbucks,"shift supervisor - Store# 51209, DUSSEL & FORD",2026-11-05,2026-11-06
+Starbucks:ef481082012695,Starbucks,"shift supervisor - Store# 51519, MAYSVILLE ROAD",2026-11-21,2026-11-22
 Starbucks:ef481081932026,Starbucks,"shift supervisor - Store# 52857, BROAD & WASHINGTON",2026-11-17,2026-11-18
 Starbucks:ef481081892428,Starbucks,"shift supervisor - Store# 52953, WOLFENSBERGER AND I-25",2026-11-15,2026-11-16
 Starbucks:ef481081892380,Starbucks,"shift supervisor - Store# 53266, LEE HWY & I-75",2026-11-15,2026-11-16
@@ -44343,6 +44406,7 @@ Starbucks:ef481081721825,Starbucks,"shift supervisor - Store# 61317, EAST CUMBER
 Starbucks:ef481081688727,Starbucks,"shift supervisor - Store# 61746, SCAPPOOSE",2026-11-03,2026-11-04
 Starbucks:ef481081892391,Starbucks,"shift supervisor - Store# 61849, S. HAMILTON RD & WINCHESTER PIKE",2026-11-15,2026-11-16
 Starbucks:ef481081852909,Starbucks,"shift supervisor - Store# 63767, 7TH AND MILLS - LAS VEGAS, NM",2026-11-12,2026-11-13
+Starbucks:ef481082012736,Starbucks,"shift supervisor - Store# 64622, FLORIDA AVE & STANFORD ST., HEMET",2026-11-21,2026-11-22
 Starbucks:ef481081982326,Starbucks,"shift supervisor - Store# 64634, HWY 535 AND PALM PKWY",2026-11-19,2026-11-20
 Starbucks:ef481081739104,Starbucks,"shift supervisor - Store# 65085, WATERBURY, REIDVILLE DR",2026-11-05,2026-11-06
 Starbucks:ef481081738959,Starbucks,"shift supervisor - Store# 65191, LA VALE, NATIONAL HWY",2026-11-05,2026-11-06
@@ -44350,6 +44414,9 @@ Starbucks:ef481081645400,Starbucks,"shift supervisor - Store# 65252, DEL AMO & B
 Starbucks:ef481081892489,Starbucks,"shift supervisor - Store# 65516, ELLIOT AND ELLSWORTH",2026-11-15,2026-11-16
 Starbucks:ef481081761599,Starbucks,"shift supervisor - Store# 65531, MONUMENT & OAK GROVE",2026-11-07,2026-11-08
 Starbucks:ef481081761466,Starbucks,"shift supervisor - Store# 65622, WAR MEMORIAL & BIG HOLLOW",2026-11-07,2026-11-08
+Starbucks:ef481082012622,Starbucks,"shift supervisor - Store# 66069, WESTERN WAY & MAIN ST",2026-11-21,2026-11-22
+Starbucks:ef481082012732,Starbucks,"shift supervisor - Store# 66227, M-21 & ALDEN NASH",2026-11-21,2026-11-22
+Starbucks:ef481082012876,Starbucks,"shift supervisor - Store# 66254, HWY 110 AND ACKER TAP",2026-11-21,2026-11-22
 Starbucks:ef481081761518,Starbucks,"shift supervisor - Store# 66455, I-74 AND US 401",2026-11-07,2026-11-08
 Starbucks:ef481081761559,Starbucks,"shift supervisor - Store# 66562, ONEONTA, NY",2026-11-07,2026-11-08
 Starbucks:ef481081852751,Starbucks,"shift supervisor - Store# 66658, BULLARD & FIRST",2026-11-12,2026-11-13
@@ -44366,6 +44433,7 @@ Starbucks:ef481081588654,Starbucks,"shift supervisor - Store# 68157, 23RD AVE AN
 Starbucks:ef481081910106,Starbucks,"shift supervisor - Store# 68265, TAMIAMI & VIA RAPALLO",2026-11-16,2026-11-17
 Starbucks:ef481081688684,Starbucks,"shift supervisor - Store# 68419, HOMER ADAMS AND BUCKMASTER",2026-11-03,2026-11-04
 Starbucks:ef481081852994,Starbucks,"shift supervisor - Store# 68495, MASSAPEQUA- 5500 SUNRISE HWY",2026-11-12,2026-11-13
+Starbucks:ef481082012739,Starbucks,"shift supervisor - Store# 68632, LAKE MEAD AND JONES",2026-11-21,2026-11-22
 Starbucks:ef481081812205,Starbucks,"shift supervisor - Store# 68666, LITTLE CHUTE - FREEDOM & 41",2026-11-10,2026-11-11
 Starbucks:ef481081381993,Starbucks,"shift supervisor - Store# 68848, HWY 75 & 20TH STREET",2026-10-19,2026-10-21
 Starbucks:ef481081738963,Starbucks,"shift supervisor - Store# 68926, PEARL RD AND 130TH",2026-11-05,2026-11-06
@@ -44392,6 +44460,7 @@ Starbucks:ef481081982287,Starbucks,"shift supervisor - Store# 71794, US 41 & MUR
 Starbucks:ef481081611976,Starbucks,"shift supervisor - Store# 71831, NORTH RD & WILLINGTON DR",2026-10-29,2026-10-31
 Starbucks:ef481081792935,Starbucks,"shift supervisor - Store# 71893, GW HIGHWAY AND MOSES - DEEP CREEK",2026-11-09,2026-11-10
 Starbucks:ef481081852935,Starbucks,"shift supervisor - Store# 77716, ELLSWORTH AND WARNER",2026-11-12,2026-11-13
+Starbucks:ef481082012823,Starbucks,"shift supervisor - Store# 77907, SEABROOK, 570 LAFAYETTE ROAD",2026-11-21,2026-11-22
 Starbucks:ef481081970241,Starbucks,"shift supervisor - Store# 77911, RED BANK - NEWMAN SPRINGS RD",2026-11-19,2026-11-20
 Starbucks:ef481081892464,Starbucks,"shift supervisor - Store# 78363, PIEDMONT RD & TOWER PL DR",2026-11-15,2026-11-16
 Starbucks:ef481081892462,Starbucks,"shift supervisor - Store# 78786, US HWY 31 & PRYOR ST",2026-11-15,2026-11-16
